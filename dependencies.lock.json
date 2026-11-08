@@ -9,12 +9,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "shared/API.md",
-      "owner": "X-ExtShared",
-      "source": "shared/API.md",
-      "sha256": "9610b5a93db89e5247a2e72ab57eb2dc786a6ccc60855aa9ae0ad90002757bd0"
-    },
-    {
       "path": "shared/capture-menu/README.md",
       "owner": "X-ExtShared",
       "source": "shared/capture-menu/README.md",
@@ -37,18 +31,6 @@
       "owner": "X-ExtShared",
       "source": "shared/capture-menu/menu_settings_ui.js",
       "sha256": "23852f7f34abd3d0df5845b6544f85447e417b505782529ce2861b23fe894b2f"
-    },
-    {
-      "path": "shared/capture-route-service.js",
-      "owner": "X-ExtShared",
-      "source": "shared/capture-route-service.js",
-      "sha256": "b5c6495bf7e6b8e0bdaaeb97d56847cb2781caf4bd2a095dab4590fbb12937c0"
-    },
-    {
-      "path": "shared/capture-route.js",
-      "owner": "X-ExtShared",
-      "source": "shared/capture-route.js",
-      "sha256": "c4852877ac9f69967f22933b0aee3fd1c94976ebe421ca47c4261e64c5595c5e"
     },
     {
       "path": "shared/design/README.md",
@@ -295,24 +277,6 @@
       "owner": "X-ExtShared",
       "source": "shared/safari-host/SafariWebExtensionHandler.swift",
       "sha256": "f081f71db4d804a94a3ba8941e75b24c068eee2ac171f98d6bc439a406dd5f1a"
-    },
-    {
-      "path": "shared/use-target-copy.js",
-      "owner": "X-ExtShared",
-      "source": "shared/use-target-copy.js",
-      "sha256": "ca775b558e78756ebb0730540d6e1d73ee855c7b93c0cbc8e9a82c44ec658724"
-    },
-    {
-      "path": "shared/use-target-ui.js",
-      "owner": "X-ExtShared",
-      "source": "shared/use-target-ui.js",
-      "sha256": "5850e80f04ba21a73f8c91208477d03383b4985b2c2fcbae16404e68126e51d9"
-    },
-    {
-      "path": "shared/use-target.js",
-      "owner": "X-ExtShared",
-      "source": "shared/use-target.js",
-      "sha256": "74678483caa785445837fd64afc29e72e88b278f64056f0013f7374208e10b5b"
     },
     {
       "path": "vendor/prometheus/bookmark_intake.ts",
