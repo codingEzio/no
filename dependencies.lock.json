@@ -15,12 +15,6 @@
       "sha256": "9610b5a93db89e5247a2e72ab57eb2dc786a6ccc60855aa9ae0ad90002757bd0"
     },
     {
-      "path": "shared/USE-TARGET.md",
-      "owner": "X-ExtShared",
-      "source": "shared/USE-TARGET.md",
-      "sha256": "7d5cbe2b9f12fe21851b3b269694c79286f8ee69324188bbcdb59432cbabee99"
-    },
-    {
       "path": "shared/capture-menu/README.md",
       "owner": "X-ExtShared",
       "source": "shared/capture-menu/README.md",
@@ -243,12 +237,6 @@
       "sha256": "d42d4fa68753594b2d0221b1d267a0cd2eb81634b131b7ac6eb5024dd1097111"
     },
     {
-      "path": "shared/endpoint.js",
-      "owner": "X-ExtShared",
-      "source": "shared/endpoint.js",
-      "sha256": "3bc4bb7adba8821e585db6bbcae2ce09da35295c443286a7050ff0d6a2e78e20"
-    },
-    {
       "path": "shared/icon-assets.json",
       "owner": "X-ExtShared",
       "source": "shared/icon-assets.json",
@@ -325,12 +313,6 @@
       "owner": "X-ExtShared",
       "source": "shared/use-target.js",
       "sha256": "74678483caa785445837fd64afc29e72e88b278f64056f0013f7374208e10b5b"
-    },
-    {
-      "path": "shared/via/transfer-source.js",
-      "owner": "X-ExtShared",
-      "source": "shared/via/transfer-source.js",
-      "sha256": "1ca7275ae68e7d8f561e8b490dd31f64d6ecd61026f6a3d3fd276b6b58c94e30"
     },
     {
       "path": "vendor/prometheus/bookmark_intake.ts",
@@ -433,12 +415,6 @@
       "owner": "X-ExtShared",
       "source": "standalone/sync_dependencies.ts",
       "sha256": "54ed432fbcade83755419af9b5f4d6ffa8eab0e7e089a48e492f3d304ef70baa"
-    },
-    {
-      "path": "scripts/sync_endpoints.ts",
-      "owner": "X-ExtShared",
-      "source": "scripts/sync_endpoints.ts",
-      "sha256": "5ed9c9505d9d9b55c254fc9de9b2d9979b70be912ef85828d88572d252c22a68"
     },
     {
       "path": "scripts/sync_capture_menu.ts",

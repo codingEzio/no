@@ -661,20 +661,3 @@ Deno.test("prepared icons are copied byte-identically", async () => {
     );
   }
 });
-
-Deno.test("VIA requires a configured Mac origin and preserves saved routes", async () => {
-  await import("../shared/via/transfer-source.js");
-  const via = (globalThis as any).PrometheusViaTransfer;
-  let saved: string | undefined;
-  const store = via.createStore(() => Promise.resolve(saved), (value: string) => { saved = value; return Promise.resolve(); });
-  const initial = await store.load();
-  assertEquals(initial.profiles.mac.origin, "");
-  initial.selected = "mac";
-  saved = JSON.stringify(initial);
-  let failure = "";
-  try { await store.enqueue({ source: "via-bookmark", kind: "bookmark", payload: {} }); } catch (e) { failure = String(e); }
-  assert(failure.includes("Configure target origin first"), "missing Mac origin must fail explicitly");
-  const origin = "http://10.0.0.1:10012";
-  await store.configure("mac", { origin, scope: null });
-  assertEquals((await store.load()).profiles.mac.origin, origin);
-});
