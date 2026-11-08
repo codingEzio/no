@@ -76,6 +76,7 @@ for (const path of paths) {
   ) throw Error("Invalid selected source path");
   if (
     /^(?:Local|\.git|\.env|docs\/legacy)(?:\/|$)/.test(path) ||
+    path === "extension_chrome/private-defaults.json" ||
     /(?:^|\/)(?:AGENTS\.md|TASKS\.md|PLAN\.md|ERRORLOG\.txt|SOURCE-MANIFEST\.json)$/
       .test(path)
   ) throw Error(`Private source selection: ${path}`);

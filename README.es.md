@@ -32,3 +32,7 @@ Prepare los archivos revisados por nombre y ejecute deno task public:check y den
 ## Licencia
 
 El código propio de esta versión usa GNU GPL versión3 solamente, GPL-3.0-only. Las concesiones MIT de versiones anteriores siguen vigentes. Las fuentes y recursos ajenos conservan sus términos. Mantenga LICENSE, la concesión MIT anterior y todos los avisos. La revisión de derechos y contenido sigue siendo necesaria antes de publicar. Un candidato local no acredita publicación, instalación ni limpieza del historial completo.
+
+## Valores privados opcionales
+
+Al cargar `extension_chrome/`, cree el archivo ignorado `extension_chrome/private-defaults.json`, por ejemplo `{"domains":["example.com"]}`, y recargue la extensión. Es solo datos: se excluye de exportaciones y paquetes. Los ajustes guardados tienen prioridad; si faltan, se conservan y priorizan las reglas dinámicas existentes. Sin ambos, un archivo ausente o ilegible da una lista vacía; JSON inválido informa un error. Safari y Firefox no usan estos valores.

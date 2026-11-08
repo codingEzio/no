@@ -363,12 +363,6 @@
       "sha256": "5f5bdb6cbdfd82db668a19e341f23b388d2020556e75bca4866a2f9586edf643"
     },
     {
-      "path": "scripts/package.ts",
-      "owner": "X-ExtShared",
-      "source": "standalone/package.ts",
-      "sha256": "f272dde44ad6a3c12d9690330c25072b866304326c0ba3ad8418843b9b9a3fd7"
-    },
-    {
       "path": "scripts/paths.ts",
       "owner": "X-ExtShared",
       "source": "standalone/paths.ts",

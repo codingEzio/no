@@ -19,7 +19,8 @@ import {
 // Storage and dynamic-rule orchestration with every browser API injected, so
 // the Deno tests drive exactly this code. One queue serializes writes; reads
 // stay immediate and never wait for a rule rebuild.
-export function createController(api) {
+/** @param {() => Promise<string[] | null>} loadDefaults */
+export function createController(api, loadDefaults = async () => null, preserveMissingRules = false) {
   /** @type {Promise<unknown>} */
   let queue = Promise.resolve();
 
@@ -31,7 +32,25 @@ export function createController(api) {
   /** @returns {Promise<Settings>} */
   async function read() {
     const raw = await readRaw();
-    const settings = migrateSettings(raw);
+    if (preserveMissingRules && raw == null) {
+      // An existing dynamic policy is authoritative until the user saves a
+      // settings record. Never display unrelated defaults as active rules.
+      const existing = await api.declarativeNetRequest.getDynamicRules();
+      if (existing.length) {
+        const domains = existing.length === 1 ? existing[0]?.condition?.requestDomains : null;
+        if (!Array.isArray(domains)) throw new PolicyError("existing_rules");
+        let candidate;
+        try {
+          candidate = migrateSettings({ schemaVersion: 1, domains });
+        } catch { throw new PolicyError("existing_rules"); }
+        if (!rulesMatch(existing, rulesFor(candidate.domains))) throw new PolicyError("existing_rules");
+        return candidate;
+      }
+    }
+    const defaults = raw == null ? await loadDefaults() : null;
+    const settings = raw == null && defaults !== null
+      ? { ...migrateSettings(raw), domains: defaults.map((domain) => ({ domain, enabled: true })) }
+      : migrateSettings(raw);
     if (raw !== undefined && raw?.schemaVersion !== settings.schemaVersion) {
       // Explicit v1 -> v2 shape upgrade. Entries are unchanged, so the same
       // revision stays valid for a concurrent editor.
@@ -141,7 +160,13 @@ export function createController(api) {
     /** @returns {Promise<ControllerReply>} */
     reconcile() {
       return enqueue(async () => {
+        const raw = await readRaw();
         const settings = await read();
+        // A missing settings record cannot justify replacing existing rules.
+        if (preserveMissingRules && raw == null) {
+          const existing = await api.declarativeNetRequest.getDynamicRules();
+          if (existing.length || settings.domains.length === 0) return { settings };
+        }
         await apply(settings, true);
         return { settings };
       });

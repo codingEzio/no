@@ -48,4 +48,6 @@ Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作
 
 ## 可選私人預設值
 
+公開原始碼的預設封鎖清單為空。直接載入 `extension_chrome/` 時，可建立 Git 忽略的 `extension_chrome/private-defaults.json`，例如 `{"domains":["example.com"]}`，再重新載入擴充功能。檔案僅作資料，不執行，也不會納入原始碼匯出或建置套件。既有設定優先；設定缺失時既有動態規則優先並保留。兩者皆無時，預設檔缺失或無法讀取會使用空清單，JSON 無效則報錯。Safari 與 Firefox 不使用這些 Chrome 預設值。
+
 公開建置的預設封鎖清單為空。如需本機 Chrome 候選，建立 Git 忽略的 `Local/private-defaults.json`，內容例如 `{"domains":["example.com"]}`，再執行 `deno task private:build`。此命令驗證公開原始碼，並在 `Local/` 下產生獨立候選；設定檔與候選包含私人設定。預設值只在沒有已儲存設定時使用；既有清單（包括空清單）優先。命令不會安裝或重新載入擴充功能，也不適用於 Safari 或 Firefox。

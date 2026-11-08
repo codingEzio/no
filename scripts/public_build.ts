@@ -126,7 +126,8 @@ if (
 ) {
   throw Error("Pinned Chrome identity/version differs");
 }
-const chromeFiles = await filesAt(join(root, "extension_chrome"));
+const chromeFiles = (await filesAt(join(root, "extension_chrome")))
+  .filter((path) => path !== "private-defaults.json");
 const expected = [...selected].filter((path) =>
   path.startsWith("extension_chrome/")
 )
@@ -139,18 +140,37 @@ if (product.fontPolicy === "system") {
     throw Error("System-font-only extension must not bundle font files");
   }
 } else if (product.fontPolicy === "glyphgrove") {
-  const fontManifest = JSON.parse(await Deno.readTextFile(join(root, "extension_chrome/glyphgrove-assets.json")));
+  const fontManifest = JSON.parse(
+    await Deno.readTextFile(
+      join(root, "extension_chrome/glyphgrove-assets.json"),
+    ),
+  );
   const expectedFonts = new Set<string>();
-  for (const asset of fontManifest.assets as { path: string; sha256: string }[]) {
-    if (!asset.path.startsWith("glyphgrove/") || asset.path.includes("..") || !/^[a-f0-9]{64}$/u.test(asset.sha256)) throw Error("Invalid Glyphgrove asset");
-    const bytes = await Deno.readFile(join(root, "extension_chrome", asset.path));
-    if (await sha256(bytes) !== asset.sha256) throw Error(`Glyphgrove asset differs: ${asset.path}`);
+  for (
+    const asset of fontManifest.assets as { path: string; sha256: string }[]
+  ) {
+    if (
+      !asset.path.startsWith("glyphgrove/") || asset.path.includes("..") ||
+      !/^[a-f0-9]{64}$/u.test(asset.sha256)
+    ) throw Error("Invalid Glyphgrove asset");
+    const bytes = await Deno.readFile(
+      join(root, "extension_chrome", asset.path),
+    );
+    if (await sha256(bytes) !== asset.sha256) {
+      throw Error(`Glyphgrove asset differs: ${asset.path}`);
+    }
     if (asset.path.endsWith(".woff2")) {
-      if (new TextDecoder().decode(bytes.subarray(0, 4)) !== "wOF2") throw Error(`Invalid WOFF2: ${asset.path}`);
+      if (
+        new TextDecoder().decode(bytes.subarray(0, 4)) !== "wOF2"
+      ) throw Error(`Invalid WOFF2: ${asset.path}`);
       expectedFonts.add(asset.path);
     }
   }
-  if (chromeFiles.some((path) => /\.(?:woff2?|[ot]tf)$/iu.test(path) && !expectedFonts.has(path))) throw Error("Unexpected bundled font");
+  if (
+    chromeFiles.some((path) =>
+      /\.(?:woff2?|[ot]tf)$/iu.test(path) && !expectedFonts.has(path)
+    )
+  ) throw Error("Unexpected bundled font");
 } else {
   await checkBrowserFontPackage(
     new URL("../extension_chrome/", import.meta.url),

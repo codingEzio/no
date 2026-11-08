@@ -291,7 +291,7 @@
     "scripts/install_safari.sh",
     "scripts/open_safari_settings.sh",
     "scripts/package-firefox.sh",
-    "scripts/package.ts",
+    "scripts/package_local.ts",
     "scripts/paths.ts",
     "scripts/private_build.ts",
     "scripts/public_build.ts",

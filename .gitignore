@@ -9,3 +9,5 @@ extension_safari/host/**/Extension-Info.plist
 extension_safari/host/**/Host-Info.plist
 extension_safari/host/**/Bridge-Info.plist
 safari_identity.conf
+
+extension_chrome/private-defaults.json

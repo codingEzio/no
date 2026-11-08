@@ -21,7 +21,7 @@
     "verify": "deno run --allow-read scripts/verify.ts",
     "test": "deno test --allow-read --allow-net=127.0.0.1,localhost --ignore=tests/public_prepare_test.ts,tests/public_build_test.ts tests/",
     "check": "deno task verify && deno run --allow-read scripts/sync_capture_menu.ts --check && deno run --allow-read scripts/sync_bookmark_source_policy.ts --check && deno task test",
-    "build": "deno task check && deno run --allow-read --allow-write=Local scripts/package.ts",
+    "build": "deno task check && deno run --allow-read --allow-write=Local scripts/package_local.ts",
     "safari:sync": "deno run --allow-read --allow-write scripts/sync_safari.ts && deno run --allow-read --allow-write scripts/generate_safari_hosts.ts",
     "safari:check": "deno run --allow-read scripts/sync_safari.ts --check && deno run --allow-read scripts/generate_safari_hosts.ts --check",
     "build:firefox": "sh scripts/package-firefox.sh",

@@ -36,10 +36,15 @@
   async function enforce() {
     let domains = DEFAULT_DOMAINS;
     try {
-      const { settings } = await api.storage.local.get("settings");
-      domains = readDomains(settings);
+      const response = await api.runtime.sendMessage({ type: "get" });
+      if (!response?.ok) return false;
+      domains = readDomains(response.settings);
     } catch {
-      // Keep the known initial policy when storage is temporarily unavailable.
+      // The saved policy can still be used if the worker is unavailable.
+      try {
+        const { settings } = await api.storage.local.get("settings");
+        domains = readDomains(settings);
+      } catch { return false; }
     }
     if (
       !domains.some((domain) =>

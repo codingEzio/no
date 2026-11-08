@@ -47,24 +47,24 @@ for (const file of await filesAt(source)) {
   await Deno.mkdir(destination.slice(0, destination.lastIndexOf("/")), {
     recursive: true,
   });
-  let bytes = await Deno.readFile(join(source, file));
-  if (["src/core.js", "navigation.js"].includes(file)) {
-    const original = new TextDecoder().decode(bytes);
-    const needle = "const DEFAULT_DOMAINS = [];";
-    if (original.split(needle).length !== 2) {
-      throw Error(`Default marker differs: ${file}`);
-    }
-    bytes = new TextEncoder().encode(
-      original.replace(
-        needle,
-        `const DEFAULT_DOMAINS = ${JSON.stringify(domains)};`,
-      ),
-    );
-  }
+  const bytes = await Deno.readFile(join(source, file));
   await Deno.writeFile(destination, bytes, { createNew: true, mode: 0o600 });
   if (await sha256(await Deno.readFile(destination)) !== await sha256(bytes)) {
     throw Error(`Readback failed: ${file}`);
   }
+}
+const privateConfigPath = join(
+  output,
+  "extension_chrome",
+  "private-defaults.json",
+);
+const privateConfig = JSON.stringify({ domains });
+await Deno.writeTextFile(privateConfigPath, privateConfig, {
+  createNew: true,
+  mode: 0o600,
+});
+if (await Deno.readTextFile(privateConfigPath) !== privateConfig) {
+  throw Error("Private defaults readback mismatch");
 }
 console.log(
   JSON.stringify({

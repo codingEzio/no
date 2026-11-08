@@ -130,7 +130,11 @@ function fixture() {
 
 Deno.test("new installations start with no blocked domains", () => {
   assertEquals(DEFAULT_DOMAINS, []);
-  assertEquals(defaultSettings(), { schemaVersion: 2, revision: 0, domains: [] });
+  assertEquals(defaultSettings(), {
+    schemaVersion: 2,
+    revision: 0,
+    domains: [],
+  });
 });
 
 Deno.test("a saved empty list stays empty and never falls back to defaults", () => {
@@ -659,5 +663,76 @@ Deno.test("prepared icons are copied byte-identically", async () => {
       source.every((byte, index) => byte === target[index]),
       `${name} differs from the prepared icon`,
     );
+  }
+});
+
+Deno.test("missing settings preserve existing rules while private defaults apply only on a clean rule set", async () => {
+  const { state, api } = fixture();
+  const existing = rulesFor([{ domain: "old.example", enabled: true }]);
+  state.rules = structuredClone(existing);
+  const preserved = await createController(
+    api,
+    async () => ["new.example"],
+    true,
+  ).reconcile();
+  assertEquals(preserved.settings.domains, [{
+    domain: "old.example",
+    enabled: true,
+  }]);
+  assertEquals(state.rules, existing);
+  assertEquals(state.saved.settings, undefined);
+  state.rules = [];
+  const reply = await createController(api, async () => ["new.example"], true)
+    .reconcile();
+  assertEquals(reply.settings.domains, [{
+    domain: "new.example",
+    enabled: true,
+  }]);
+  assertEquals(state.rules, rulesFor(reply.settings.domains));
+  assertEquals(state.saved.settings, undefined);
+});
+
+Deno.test("missing or invalid private defaults never clear existing rules", async () => {
+  const { state, api } = fixture();
+  state.rules = rulesFor([{ domain: "old.example", enabled: true }]);
+  const existing = structuredClone(state.rules);
+  await createController(api, async () => null, true).reconcile();
+  assertEquals(state.rules, existing);
+  state.rules = [];
+  let failed = false;
+  try {
+    await createController(api, async () => {
+      throw new PolicyError("private_defaults");
+    }, true).reconcile();
+  } catch {
+    failed = true;
+  }
+  assert(failed, "invalid private defaults must be reported");
+  assertEquals(state.rules, []);
+});
+
+Deno.test("saved v1 and v2 settings always override private defaults across restarts", async () => {
+  for (
+    const settings of [
+      { schemaVersion: 1, revision: 2, domains: ["saved.example"] },
+      {
+        schemaVersion: 2,
+        revision: 2,
+        domains: [{ domain: "saved.example", enabled: true }],
+      },
+    ]
+  ) {
+    const { state, api } = fixture();
+    state.saved.settings = structuredClone(settings);
+    for (let n = 0; n < 2; n++) {
+      const result = await createController(api, async () => {
+        throw Error("must not read defaults");
+      }).reconcile();
+      assertEquals(result.settings.domains, [{
+        domain: "saved.example",
+        enabled: true,
+      }]);
+      assertEquals(state.rules, rulesFor(result.settings.domains));
+    }
   }
 });

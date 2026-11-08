@@ -1,7 +1,11 @@
+// Project-owned package path; the ignored private defaults are never included.
 // Reproducible Chrome packaging; no live browser, receiver or signing action.
 import { join } from "./paths.ts";
 import { filesAt, root, sha256, verify } from "./verify.ts";
 const receipt = await verify();
+receipt.files = receipt.files.filter((file) =>
+  file.path !== "private-defaults.json"
+);
 const seal = await sha256(
   new TextEncoder().encode(JSON.stringify(receipt.files)),
 );
