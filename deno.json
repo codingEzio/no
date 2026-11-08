@@ -31,6 +31,7 @@
     "public:test": "deno test --allow-read --allow-write --allow-run=git,deno tests/public_prepare_test.ts",
     "maintenance": "deno task check && deno task public:test && deno task public:build:test && deno task public:check && deno task public:build",
     "public:build": "deno run --allow-read --allow-write=Local scripts/public_prepare.ts --build",
-    "public:build:test": "deno test --allow-read --allow-write --allow-run=deno tests/public_build_test.ts"
+    "public:build:test": "deno test --allow-read --allow-write --allow-run=deno tests/public_build_test.ts",
+    "private:build": "deno run --allow-read --allow-write=Local --allow-run=deno scripts/private_build.ts"
   }
 }

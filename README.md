@@ -116,3 +116,7 @@ lock; source assets and license notices remain unchanged.
 
 New installations of this candidate start with an empty blocked-domain list.
 Users can add domains; existing saved rules are retained by the storage migration.
+
+### Optional private defaults
+
+The public build starts with an empty block list. To set defaults for a local Chrome candidate, create ignored `Local/private-defaults.json` containing `{"domains":["example.com"]}` and run `deno task private:build`. It verifies the public source and writes a separate candidate under `Local/`; the file and candidate contain private settings. Defaults apply only when settings are absent: existing saved lists, including empty lists, remain authoritative. This does not install or reload an extension. Safari and Firefox are not covered by this build.

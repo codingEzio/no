@@ -291,6 +291,7 @@
     "scripts/package-firefox.sh",
     "scripts/package.ts",
     "scripts/paths.ts",
+    "scripts/private_build.ts",
     "scripts/public_build.ts",
     "scripts/public_prepare.ts",
     "scripts/rename_public_font.py",
