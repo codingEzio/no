@@ -1,15 +1,17 @@
 # Dependencies
 
-- Deno 2.x and Git run source checks and Chrome packaging. The test source uses
-  synthetic data; no browser profile, receiver, account or device is needed.
-  macOS checks do not establish native Termux acceptance. There is no Node/npm
-  executable requirement. Deno's lockfile records imported dependencies; a first
-  cache fill can require network access.
+- Deno 2.x and Git run source checks and Chrome packaging on macOS. The test
+  source uses synthetic data; no browser profile, receiver, account or device is
+  needed. Native Termux builds are not supported or verified. There is no Node/npm
+  executable requirement; a first Deno cache fill can require network access.
 - `dependencies.lock.json` records generated input owners, paths and hashes.
   Normal builds use local pinned copies, without sibling checkout lookup or
   automatic download. `deps:sync` explicitly accepts `--owner` and
   `--workspace`; its omitted workspace defaults to the parent directory for that
   update command only. Change the owner first, then sync and verify.
+- The X-ExtShared-pinned Firefox packaging scripts retain an Android system-linker
+  path. This does not establish Termux build support; change the owner before
+  syncing the pinned copy. Firefox delivery remains paused.
 - Runtime fonts, icons, provenance and license notices are bundled locally.
   `scripts/calmly_package_guard.ts` verifies the existing browser manifest's
   exact font/notice asset hashes and sizes. The current catalog has seven text

@@ -10,7 +10,7 @@ no 是 Chrome 網域封鎖擴充，目前版本 0.99.1，以全視窗 NO ✋ 阻
 包含英文、簡體中文與繁體中文；保留既有擴充身分、金鑰及設定。
 
 Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作區或符號連結。
-安裝 Deno 2.x 與 Git，執行
+在 macOS 上安裝 Deno 2.x 與 Git，執行
 `deno task check`、`deno task build`。檢查使用合成資料； 建置只產生並讀回驗證
 `Local/candidates/` 中的候選，不安裝或開啟瀏覽器。 共用輸入由
 `dependencies.lock.json` 固定；日常建置不讀取相鄰專案。

@@ -18,7 +18,7 @@ Chrome es el destino actual. El código Safari de escritorio conserva 0.99.0 y e
 
 ## Código y compilación
 
-Instale Deno2.x y Git y ejecute estos comandos en el repositorio. Las pruebas usan ejemplos locales sintéticos. La compilación crea un candidato en Local/candidates, ignorado por Git, y verifica sus bytes exactos. No instala la extensión, abre el navegador ni accede a ajustes personales. Las comprobaciones normales usan dependencias locales fijadas, sin repositorios hermanos.
+En macOS, instale Deno 2.x y Git y ejecute estos comandos en el repositorio. Las pruebas usan ejemplos locales sintéticos. La compilación crea un candidato en Local/candidates, ignorado por Git, y verifica sus bytes exactos. No instala la extensión, abre el navegador ni accede a ajustes personales. Las comprobaciones normales usan dependencias locales fijadas, sin repositorios hermanos.
 
 ```sh
 deno task check

@@ -23,7 +23,7 @@ unpacked** action. No workspace hub or symbolic link is required. An existing
 installation should retain its extension identity and storage; do not replace
 its key or delete its saved settings to update it.
 
-Install Deno 2.x and Git, then run:
+On macOS, install Deno 2.x and Git, then run:
 
 ```sh
 deno task check

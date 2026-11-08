@@ -8,7 +8,7 @@ no 是 Chrome 域名拦截扩展，当前版本 0.99.1，以全窗口 NO ✋ 阻
 拦截页面默认使用系统字体；可在扩展选项中选择 GlyphgrovePixel 或 GlyphgroveDeparture。字型私用，重分发权利仍在审查。
 
 Chrome「加载已解压的扩展程序」直接选择 `extension_chrome/`，无需工作区或软链接。
-安装 Deno 2.x 与 Git，运行
+在 macOS 上安装 Deno 2.x 与 Git，运行
 `deno task check`、`deno task build`。检查使用合成数据； 构建只生成并读回验证
 `Local/candidates/` 中的候选，不安装或打开浏览器。 共享输入由
 `dependencies.lock.json` 固定；日常构建不读取相邻项目。

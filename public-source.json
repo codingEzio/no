@@ -8,7 +8,8 @@
     "Project-owned code in no 0.99.1 is GPL-3.0-only; prior MIT grants remain historical. Third-party assets retain their own terms and notices.",
     "Private operational records and Git history are excluded; pattern checks do not prove absence of secrets.",
     "Chrome source checks do not establish installed-browser acceptance. Firefox source and Safari functionality remain unverified.",
-    "Safari native host regeneration lacks selected icon inputs; signing, installation and site permissions remain unverified."
+    "Safari native host regeneration lacks selected icon inputs; signing, installation and site permissions remain unverified.",
+    "Native Termux builds are not supported or verified. The X-ExtShared-pinned Firefox packaging scripts retain an Android system-linker path; Firefox delivery remains paused."
   ],
   "files": [
     ".gitignore",
