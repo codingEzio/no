@@ -31,4 +31,8 @@ deno task build
 
 ## 许可
 
-本版自有代码使用 GNU GPL 第3版（仅限该版，GPL-3.0-only）。以前版本的 MIT 授权继续有效；字体与第三方素材保留原条款。保留 LICENSE、历史 MIT 授权及全部 notices。完整素材权利和内容审查仍是发布门槛；本机候选不代表已公开、已安装或完整历史已清理。
+本版自有代码使用 GNU GPL 第3版（仅限该版，GPL-3.0-only）。以前版本的 MIT 授权继续有效；字体与第三方素材保留原条款。保留 LICENSE、历史 MIT 授权及全部 notices。源码已公开；后续发布仍须审查素材权利和内容。本机候选不代表已安装或完整历史已清理。
+
+## 可选私人默认值
+
+公开构建的默认拦截列表为空。如需本地 Chrome 候选，创建 Git 忽略的 `Local/private-defaults.json`，内容例如 `{"domains":["example.com"]}`，再运行 `deno task private:build`。该命令验证公开源码，并在 `Local/` 下生成独立候选；配置和候选包含私人设置。默认值仅在没有已存设置时使用；已有列表（包括空列表）优先。命令不会安装或重新加载扩展，也不适用于 Safari 或 Firefox。

@@ -28,7 +28,7 @@ Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作
 著作權歸 2026 X-ExtNo contributors。[授權範圍](LICENSE-SCOPE.md) 保留先前 MIT
 授權的歷史事實。字型與第三方資產沿用其既有授權、聲明與作者。已移除的字型實驗
 字型檔不隨套件 散布，也不在來源候選內；提及該字型的固定 metadata
-不代表散布授權。 完整內容、資產權利與歷史審查仍待完成；本機候選不代表可公開。
+不代表散布授權。 原始碼已公開；後續發布仍須審查內容、資產權利與歷史。
 這些命令不會上傳、發布、安裝或改寫歷史。完整入口見 [README](README.md)。
 
 匯出的獨立來源候選排除兩個固定的 Firefox 私有操作文件。原 `check`／`build`
@@ -45,3 +45,7 @@ Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作
 獨立原生 host 生成還缺選定來源以外的圖示輸入。清單已宣告 DNR
 重新導向及主機權限； 實際網站授權、重新導向、網站 Service Worker
 後備處理與效能仍需獨立 Safari 驗收。
+
+## 可選私人預設值
+
+公開建置的預設封鎖清單為空。如需本機 Chrome 候選，建立 Git 忽略的 `Local/private-defaults.json`，內容例如 `{"domains":["example.com"]}`，再執行 `deno task private:build`。此命令驗證公開原始碼，並在 `Local/` 下產生獨立候選；設定檔與候選包含私人設定。預設值只在沒有已儲存設定時使用；既有清單（包括空清單）優先。命令不會安裝或重新載入擴充功能，也不適用於 Safari 或 Firefox。
