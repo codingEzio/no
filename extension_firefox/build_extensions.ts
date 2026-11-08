@@ -72,6 +72,19 @@ for (
   const fontPackage = product.slug === "calmly"
     ? await checkCalmlyFontPackage(source)
     : undefined;
+  try {
+    const existing = await Deno.lstat(target);
+    if (!existing.isDirectory || existing.isSymlink) {
+      throw new Error("Firefox target must be a fresh directory");
+    }
+    for await (const _entry of Deno.readDir(target)) {
+      throw new Error(
+        "Firefox target must be empty; existing files were retained",
+      );
+    }
+  } catch (error) {
+    if (!(error instanceof Deno.errors.NotFound)) throw error;
+  }
   await Deno.mkdir(target, { recursive: true });
   const original = JSON.parse(
     await Deno.readTextFile(new URL("manifest.json", source)),

@@ -138,6 +138,45 @@ Deno.test("Safari and Firefox source generation exclude private Chrome defaults"
       new TextDecoder().decode(result.stderr),
       /private defaults present/,
     );
+    await write(
+      "Local/stale-firefox/no/private-defaults.json",
+      "stale private sentinel",
+    );
+    result = await run([
+      "extension_firefox/build_extensions.ts",
+      "Local/stale-firefox",
+      "--only=no",
+    ]);
+    assert.notEqual(result.code, 0, "stale private file must reject the build");
+    assert.match(
+      new TextDecoder().decode(result.stderr),
+      /target must be empty/,
+    );
+    assert.equal(
+      await Deno.readTextFile(
+        join(fixture, "Local/stale-firefox/no/private-defaults.json"),
+      ),
+      "stale private sentinel",
+    );
+    await write("Local/interrupted-firefox/no/ordinary.txt", "retain me");
+    result = await run([
+      "extension_firefox/build_extensions.ts",
+      "Local/interrupted-firefox",
+      "--only=no",
+    ]);
+    assert.notEqual(
+      result.code,
+      0,
+      "an interrupted nonempty target must be retained",
+    );
+    assert.equal(
+      await Deno.readTextFile(
+        join(fixture, "Local/interrupted-firefox/no/ordinary.txt"),
+      ),
+      "retain me",
+    );
+    // An existing empty target is safe; completing it is a normal build.
+    await Deno.mkdir(join(fixture, "Local/firefox/no"), { recursive: true });
     result = await run([
       "extension_firefox/build_extensions.ts",
       "Local/firefox",
@@ -166,6 +205,19 @@ Deno.test("Safari and Firefox source generation exclude private Chrome defaults"
         "private-defaults.json",
       ),
     );
+    const xpi = join(fixture, "Local/firefox/no-1.0.0-unsigned.xpi");
+    const before = await Deno.readFile(xpi);
+    result = await run([
+      "extension_firefox/build_extensions.ts",
+      "Local/firefox",
+      "--only=no",
+    ]);
+    assert.notEqual(
+      result.code,
+      0,
+      "completed candidate must not be overwritten on retry",
+    );
+    assert.deepEqual(await Deno.readFile(xpi), before);
   } finally {
     await Deno.remove(fixture, { recursive: true });
   }
