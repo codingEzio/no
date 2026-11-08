@@ -1,0 +1,98 @@
+.menu-settings-body {
+  display: grid;
+  gap: 8px;
+  padding-top: 8px;
+}
+.menu-picker-row {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) 26px 26px 26px;
+  gap: 4px;
+}
+.menu-picker-row button {
+  padding: 0;
+  min-height: 28px;
+}
+.menu-item-picker {
+  width: 100%;
+  min-width: 0;
+}
+.menu-item-fields {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  gap: 8px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.menu-field {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  font-size: 11px;
+}
+.menu-field input:not([type=checkbox]),
+.menu-field select {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.menu-field:has([data-menu-field=visible]) {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  grid-column: 1/-1;
+}
+.menu-field:has([data-menu-field=label]),
+.menu-field:has([data-menu-field=tagName]),
+.menu-fixed {
+  grid-column: 1/-1;
+}
+.menu-field input[type=checkbox] {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+}
+.menu-config-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.menu-config-actions button {
+  font-size: 11px;
+  padding: 4px 7px;
+  min-height: 26px;
+}
+.menu-config-status:empty,
+.menu-target:empty {
+  display: none;
+}
+.menu-config-status,
+.menu-target {
+  overflow-wrap: anywhere;
+}
+
+/* The editor uses one bounded scroll area. The verified catalog origin remains
+   visible here; closing the editor restores the regular target/capture layout. */
+body:has(:is(#menu-settings,#journal-menu-settings)[open]) .popup {
+  height: 600px;
+  min-height: 600px;
+}
+body:has(:is(#menu-settings,#journal-menu-settings)[open]) .use-target-controls {
+  display: none!important;
+}
+body:has(:is(#menu-settings,#journal-menu-settings)[open]) #api-panel[open] {
+  max-height: 520px;
+  overflow: visible;
+}
+body:has(:is(#menu-settings,#journal-menu-settings)[open]) #api-panel > div {
+  max-height: 420px;
+  overflow: auto;
+}
+.menu-config-actions {
+  position: sticky;
+  bottom: 0;
+  background: var(--bg,Canvas);
+  padding: 5px 0;
+  z-index: 1;
+}

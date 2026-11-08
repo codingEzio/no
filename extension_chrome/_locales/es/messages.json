@@ -1,0 +1,62 @@
+{
+  "extName": {
+    "message": "no"
+  },
+  "extDescription": {
+    "message": "Bloquea dominios con un NO ✋ que ocupa toda la ventana."
+  },
+  "domains": {
+    "message": "Dominios bloqueados"
+  },
+  "site": {
+    "message": "Sitio"
+  },
+  "add": {
+    "message": "Añadir"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "saving": {
+    "message": "Guardando…"
+  },
+  "saved": {
+    "message": "Guardado y aplicado."
+  },
+  "pending": {
+    "message": "Guardado en el dispositivo. Las reglas están pendientes. Selecciona Guardar para reintentar."
+  },
+  "conflict": {
+    "message": "La lista cambió en otro lugar. Selecciona Guardar de nuevo para sobrescribirla."
+  },
+  "storage": {
+    "message": "No se pudo guardar. Inténtalo de nuevo."
+  },
+  "settings": {
+    "message": "Configuración no válida. Vuelve a abrir este panel."
+  },
+  "loading": {
+    "message": "Cargando…"
+  },
+  "domain": {
+    "message": "Dominio no válido: $1"
+  },
+  "row": {
+    "message": "Fila $1: $2"
+  },
+  "limit": {
+    "message": "Usa un máximo de $1 dominios."
+  },
+  "access": {
+    "message": "Permite el acceso a los sitios en la configuración de la extensión para activar el bloqueo."
+  },
+  "blocked": {
+    "message": "Bloqueado"
+  },
+  "fontLabel": {
+    "message": "Fuente"
+  },
+  "fontDefault": {
+    "message": "Predeterminada"
+  }
+}

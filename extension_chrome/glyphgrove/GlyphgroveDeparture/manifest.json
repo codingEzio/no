@@ -1,0 +1,193 @@
+{
+  "family": "GlyphgroveDeparture",
+  "recipe": {
+    "family": "GlyphgroveDeparture",
+    "version": "0.1.0-experiment",
+    "base": "DeparturePixelZh Compact 0.1.1",
+    "baseSha256": "3e75e623b1ba2c8d7eb52f2ac3ee71c3fbb5c4e0f1426bd34b3c1e071738288b",
+    "coverageSha256": "66b1491736cc528573b3bd7fc42d5cdb5510746c2693bfaa1f2348b135962b41",
+    "emojiSha256": "5fd2c8efc2a26704e7f6b505aa504d0c43dd1a6d2aa61b9eaa63465b0cabb55c",
+    "emojiPpem": 28,
+    "cell": 650,
+    "hanCell": 1300,
+    "boldStroke": 40,
+    "italicShear": 0.16,
+    "stylePolicy": "Experimentally synthesize text bold and italic while retaining source advances; Nerd glyphs and emoji shapes are not styled.",
+    "styles": [
+      {
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "bold": false
+      },
+      {
+        "style": "Italic",
+        "weight": 400,
+        "italic": true,
+        "bold": false
+      },
+      {
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "bold": true
+      },
+      {
+        "style": "Bold Italic",
+        "weight": 700,
+        "italic": true,
+        "bold": true
+      }
+    ]
+  },
+  "files": {
+    "NOTICE.md": {
+      "sha256": "d4acb82295d34b86c156d02846db41cc22bcb121aa2c73bafc68fe6cd7c60322",
+      "bytes": 444
+    },
+    "README.md": {
+      "sha256": "12c9b7836ce759173833f6639d26ec02a149086938ce1c23cebd516cbef4558c",
+      "bytes": 446
+    },
+    "README.zh-Hans.md": {
+      "sha256": "205b2a49c27200dcebcdac47e2fb05d1ddbc76d73a4f3d2ba49951e362c16947",
+      "bytes": 507
+    },
+    "README.zh-Hant.md": {
+      "sha256": "281dd5c087b16b49a0a9dc1fbd96ed7d195fe55626ed81f7e158e2ba2d8e9650",
+      "bytes": 513
+    },
+    "example.html": {
+      "sha256": "acb9ace703c3517de022dd44927f4ff9b0c39735ffb561af7933cd29ead6e520",
+      "bytes": 699
+    },
+    "fonts/Emoji3D.woff2": {
+      "sha256": "a69b1a1d806f21736558511d5293d9fb592f971d8550cd97edd52345bfd34233",
+      "bytes": 2932964
+    },
+    "fonts/GlyphgroveDeparture-Bold.woff2": {
+      "sha256": "23b49d03ca6eae4096250543a3ddeae6aa665ccba6deb184aedfdda18cbc411f",
+      "bytes": 1443668
+    },
+    "fonts/GlyphgroveDeparture-BoldItalic.woff2": {
+      "sha256": "6889895b10ef700369c271c8db49fa55a4321f6a5fad95482d8152c91f5348d3",
+      "bytes": 1488756
+    },
+    "fonts/GlyphgroveDeparture-Italic.woff2": {
+      "sha256": "5229180b538795a364ecf5cc232d9b1ddab2d5a639180525185148dcb88a380c",
+      "bytes": 1523252
+    },
+    "fonts/GlyphgroveDeparture-Regular.woff2": {
+      "sha256": "ba93a0882c08d47f2cbc63028be9c23e8da34d54c8e23a15ea1f81d28696f141",
+      "bytes": 1402816
+    },
+    "fonts.css": {
+      "sha256": "662ea2dcc75706e8f60e818bf98e0331883e3e468ee0851a137a5fd811c808fc",
+      "bytes": 8301
+    },
+    "licenses/Departure/Apache2.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "licenses/Departure/Codicons.txt": {
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f",
+      "bytes": 19047
+    },
+    "licenses/Departure/Cubic11.txt": {
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188",
+      "bytes": 5364
+    },
+    "licenses/Departure/Cubic11Naming.txt": {
+      "sha256": "7d8de3293fbde3c0be92b41496d7129ca1cf2397856cf3bf8df83007c9978755",
+      "bytes": 2481
+    },
+    "licenses/Departure/DepartureMono.txt": {
+      "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83",
+      "bytes": 4357
+    },
+    "licenses/Departure/Devicons.txt": {
+      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664",
+      "bytes": 1072
+    },
+    "licenses/Departure/DeviconsLegacy.txt": {
+      "sha256": "d0c1eccf6379e2d4a702d15c8ab1bca43320edc63126ebd51f3907b8e879ee29",
+      "bytes": 3527
+    },
+    "licenses/Departure/FontAwesome.txt": {
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d",
+      "bytes": 7427
+    },
+    "licenses/Departure/FontAwesome7.txt": {
+      "sha256": "20c6f40715a567c97b80f6944beb8bb325835cab47ea7dcab89ee3b8e077eced",
+      "bytes": 7427
+    },
+    "licenses/Departure/FontAwesomeExtension.txt": {
+      "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5",
+      "bytes": 1073
+    },
+    "licenses/Departure/FontLogos.txt": {
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+      "bytes": 1210
+    },
+    "licenses/Departure/HackExtraGlyphs.txt": {
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623",
+      "bytes": 3744
+    },
+    "licenses/Departure/MaterialDesign.txt": {
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829",
+      "bytes": 992
+    },
+    "licenses/Departure/NerdFonts.txt": {
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160",
+      "bytes": 6200
+    },
+    "licenses/Departure/NerdFontsAudit.txt": {
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f",
+      "bytes": 8470
+    },
+    "licenses/Departure/NerdSymbols.txt": {
+      "sha256": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847",
+      "bytes": 1082
+    },
+    "licenses/Departure/NerdSymbolsReadme.txt": {
+      "sha256": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b",
+      "bytes": 4095
+    },
+    "licenses/Departure/Octicons.txt": {
+      "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63",
+      "bytes": 1068
+    },
+    "licenses/Departure/Pomicons.txt": {
+      "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce",
+      "bytes": 4395
+    },
+    "licenses/Departure/PowerSymbolsIEC.txt": {
+      "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d",
+      "bytes": 1078
+    },
+    "licenses/Departure/PowerlineExtra.txt": {
+      "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a",
+      "bytes": 1072
+    },
+    "licenses/Departure/PowerlineSymbols.txt": {
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be",
+      "bytes": 1132
+    },
+    "licenses/Departure/Seti.txt": {
+      "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88",
+      "bytes": 1054
+    },
+    "licenses/Departure/WeatherIcons.txt": {
+      "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790",
+      "bytes": 4692
+    },
+    "licenses/Departure/WeatherIconsCredit.txt": {
+      "sha256": "1854ba6df3083a336c6e951ed0e2c61bbf862cf4930b7861592331ce8d041159",
+      "bytes": 2965
+    },
+    "licenses/Noto3D-OFL.txt": {
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    }
+  }
+}

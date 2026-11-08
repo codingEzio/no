@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-27",
+  "scope": "proposal assets and staging; not installed toolbar acceptance",
+  "originalRuntimeFiles": 63,
+  "candidatePNGs": 270,
+  "svgSources": 54,
+  "allOriginalRuntimeBytesUnchanged": true,
+  "allSavedHashesMatch": true,
+  "allDimensionsAndTransparencyPass": true,
+  "legacyStageReadbackPass": true,
+  "signalStageReadbackPass": true,
+  "noRuntimeSourceChanges": true,
+  "renderer": "rsvg-convert 2.63.2",
+  "checks": [
+    "Deno type check and lint for staging/compiler",
+    "official Setup skill validator passed",
+    "stage all 9 legacy identities: 63 exact files",
+    "stage all 9 Signal light identities: 63 exact files",
+    "compiler produced all five PNG sizes",
+    "refused existing staging destination",
+    "refused destination within module source",
+    "refused unknown style",
+    "refused existing compiler output"
+  ],
+  "limits": [
+    "User has not selected a replacement",
+    "Native browser toolbars not changed or inspected",
+    "Themed artwork does not implement host theme detection",
+    "Matrix trades semantic detail for dot texture"
+  ]
+}

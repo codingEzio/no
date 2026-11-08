@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "mode": "browser-v1",
+  "catalogVersion": "final-20261017",
+  "defaults": {
+    "sans": "system",
+    "mono": "geist",
+    "emoji": "system"
+  },
+  "fonts": [
+    {
+      "id": "geist-pixel-square",
+      "key": "sansPixel",
+      "family": "GeistMixUI_NerdAndZhAndEmoji3D",
+      "file": "GeistMixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1552196,
+      "sha256": "f47293da8758f8cb39402da67b00208a012b8287367b73063ec2f0db15a3408c",
+      "heightAxis": null,
+      "weight": "400",
+      "role": "sans"
+    },
+    {
+      "id": "geist-code",
+      "key": "monoGeist",
+      "family": "GeistMixCode_NerdAndZhAndEmoji3D",
+      "file": "GeistMixCode_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1592320,
+      "sha256": "906a78e49394149a9b85c71e3b6af19a50ef0ab1bc9d8da86006f77f15af0a0e",
+      "heightAxis": null,
+      "weight": "100 900",
+      "role": "mono"
+    },
+    {
+      "id": "doto-500",
+      "key": "doto500",
+      "family": "Doto500MixUI_NerdAndZhAndEmoji3D",
+      "file": "Doto500MixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1536968,
+      "sha256": "b01a09cf6cf04bdea83eaaec005ae0ca4b02b9a1b433f7619698268be312c9f3",
+      "heightAxis": {
+        "tag": "HGHT",
+        "values": [
+          105,
+          110,
+          115,
+          120
+        ],
+        "default": 110
+      },
+      "weight": "400",
+      "role": "doto-500"
+    },
+    {
+      "id": "doto-700",
+      "key": "doto700",
+      "family": "Doto700MixUI_NerdAndZhAndEmoji3D",
+      "file": "Doto700MixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1537680,
+      "sha256": "84cbd889d9e44a71db5ed1e1ce920a06ae87e8fa5557f735c1256a2cbb225c9c",
+      "heightAxis": {
+        "tag": "HGHT",
+        "values": [
+          105,
+          110,
+          115,
+          120
+        ],
+        "default": 110
+      },
+      "weight": "400",
+      "role": "doto-700"
+    },
+    {
+      "id": "doto-900",
+      "key": "doto900",
+      "family": "Doto900MixUI_NerdAndZhAndEmoji3D",
+      "file": "Doto900MixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1537596,
+      "sha256": "7c06e9fe4f51cc0fee771554a5f55d2ebfae4f85522c57a9b09123a1f6785faf",
+      "heightAxis": {
+        "tag": "HGHT",
+        "values": [
+          105,
+          110,
+          115,
+          120
+        ],
+        "default": 110
+      },
+      "weight": "400",
+      "role": "doto-900"
+    },
+    {
+      "id": "departure",
+      "key": "departure",
+      "family": "DeparturePixelZh",
+      "file": "DeparturePixelZh-Regular.woff2",
+      "bytes": 1390160,
+      "sha256": "43b3d4dd811b376e360ce28275ab3e41d68b7e4f61dab60e44933608da62fe23",
+      "weight": "400",
+      "role": "departure"
+    },
+    {
+      "id": "departure-compact",
+      "key": "departureCompact",
+      "family": "DeparturePixelZh Compact",
+      "file": "DeparturePixelZhCompact-Regular.woff2",
+      "bytes": 1389344,
+      "sha256": "2b46974c046bc8d9b1f4f195d5fe848ae17ebb41ed2a99f3784cb60ad65c13eb",
+      "weight": "400",
+      "role": "departure-compact"
+    }
+  ],
+  "assets": [
+    {
+      "id": "geist-pixel-square",
+      "key": "sansPixel",
+      "family": "GeistMixUI_NerdAndZhAndEmoji3D",
+      "file": "GeistMixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1552196,
+      "sha256": "f47293da8758f8cb39402da67b00208a012b8287367b73063ec2f0db15a3408c",
+      "heightAxis": null,
+      "weight": "400",
+      "role": "sans"
+    },
+    {
+      "id": "geist-code",
+      "key": "monoGeist",
+      "family": "GeistMixCode_NerdAndZhAndEmoji3D",
+      "file": "GeistMixCode_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1592320,
+      "sha256": "906a78e49394149a9b85c71e3b6af19a50ef0ab1bc9d8da86006f77f15af0a0e",
+      "heightAxis": null,
+      "weight": "100 900",
+      "role": "mono"
+    },
+    {
+      "id": "doto-500",
+      "key": "doto500",
+      "family": "Doto500MixUI_NerdAndZhAndEmoji3D",
+      "file": "Doto500MixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1536968,
+      "sha256": "b01a09cf6cf04bdea83eaaec005ae0ca4b02b9a1b433f7619698268be312c9f3",
+      "heightAxis": {
+        "tag": "HGHT",
+        "values": [
+          105,
+          110,
+          115,
+          120
+        ],
+        "default": 110
+      },
+      "weight": "400",
+      "role": "doto-500"
+    },
+    {
+      "id": "doto-700",
+      "key": "doto700",
+      "family": "Doto700MixUI_NerdAndZhAndEmoji3D",
+      "file": "Doto700MixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1537680,
+      "sha256": "84cbd889d9e44a71db5ed1e1ce920a06ae87e8fa5557f735c1256a2cbb225c9c",
+      "heightAxis": {
+        "tag": "HGHT",
+        "values": [
+          105,
+          110,
+          115,
+          120
+        ],
+        "default": 110
+      },
+      "weight": "400",
+      "role": "doto-700"
+    },
+    {
+      "id": "doto-900",
+      "key": "doto900",
+      "family": "Doto900MixUI_NerdAndZhAndEmoji3D",
+      "file": "Doto900MixUI_NerdAndZhAndEmoji3D.woff2",
+      "bytes": 1537596,
+      "sha256": "7c06e9fe4f51cc0fee771554a5f55d2ebfae4f85522c57a9b09123a1f6785faf",
+      "heightAxis": {
+        "tag": "HGHT",
+        "values": [
+          105,
+          110,
+          115,
+          120
+        ],
+        "default": 110
+      },
+      "weight": "400",
+      "role": "doto-900"
+    },
+    {
+      "id": "departure",
+      "key": "departure",
+      "family": "DeparturePixelZh",
+      "file": "DeparturePixelZh-Regular.woff2",
+      "bytes": 1390160,
+      "sha256": "43b3d4dd811b376e360ce28275ab3e41d68b7e4f61dab60e44933608da62fe23",
+      "weight": "400",
+      "role": "departure"
+    },
+    {
+      "id": "departure-compact",
+      "key": "departureCompact",
+      "family": "DeparturePixelZh Compact",
+      "file": "DeparturePixelZhCompact-Regular.woff2",
+      "bytes": 1389344,
+      "sha256": "2b46974c046bc8d9b1f4f195d5fe848ae17ebb41ed2a99f3784cb60ad65c13eb",
+      "weight": "400",
+      "role": "departure-compact"
+    },
+    {
+      "file": "Emoji3D.woff2",
+      "bytes": 4540092,
+      "sha256": "574d0763c549c1d0c281f692f64a11d56ee8cfb054c9f64f5872b76380f396c7"
+    },
+    {
+      "file": "Emoji3D-Android.woff2",
+      "bytes": 4551184,
+      "sha256": "9d339473c30e0b8919c38b7c45d6c95d97ee4ad220253a3b8e201cbae0c889d8"
+    },
+    {
+      "file": "emoji-sequences.json",
+      "bytes": 453327,
+      "sha256": "4567e00d5000216595129844041aa740ceb6f7bb8a13a2cba677c9c9c025c851"
+    },
+    {
+      "file": "Unicode-LICENSE.txt",
+      "bytes": 1995,
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    {
+      "file": "GeistPixel-OFL.txt",
+      "bytes": 4384,
+      "sha256": "021caa749f89fecd7c2e40a50499de29e84d2bc19251659b47d499c2fbfffc17"
+    },
+    {
+      "file": "provenance.json",
+      "bytes": 6551,
+      "sha256": "a0402f971f23cd71a5a5da19d0c224c7a8996c60e769d10ca8d3a7abded7f45d"
+    },
+    {
+      "file": "Cubic11-OFL.txt",
+      "bytes": 5364,
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "file": "Noto3D-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "file": "mixed-source-provenance.json",
+      "bytes": 13142,
+      "sha256": "a06c7f44899c040513feca2ebeb9d558adf4c59d2c191cb23c8aa07ffd51455c"
+    },
+    {
+      "file": "GeistMono-OFL.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "file": "NOTICE.md",
+      "bytes": 440,
+      "sha256": "065436c5224a1bc3cdb130480970386f8de2103b2000952021302a861a9b34bc"
+    },
+    {
+      "file": "Cubic11-NAMING.md",
+      "bytes": 621,
+      "sha256": "0049ecb926a0d6cf1adb4aca1c60b7f4a60e1f2ca9ff5068fedbcb5a18f55774"
+    },
+    {
+      "file": "licenses/Pixel-OFL.txt",
+      "bytes": 4408,
+      "sha256": "bdf815a5ea761ebeb599674fc4583fb392b4b037dc85ec6bb51f676392a15ced"
+    },
+    {
+      "file": "licenses/MaterialDesign.txt",
+      "bytes": 992,
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829"
+    },
+    {
+      "file": "licenses/FontAwesome7.txt",
+      "bytes": 7427,
+      "sha256": "20c6f40715a567c97b80f6944beb8bb325835cab47ea7dcab89ee3b8e077eced"
+    },
+    {
+      "file": "licenses/PowerlineExtra.txt",
+      "bytes": 1072,
+      "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a"
+    },
+    {
+      "file": "licenses/PowerSymbolsIEC.txt",
+      "bytes": 1078,
+      "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d"
+    },
+    {
+      "file": "licenses/FontLogos.txt",
+      "bytes": 1210,
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+    },
+    {
+      "file": "licenses/Pomicons.txt",
+      "bytes": 4395,
+      "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce"
+    },
+    {
+      "file": "licenses/NerdFontsAudit.txt",
+      "bytes": 8470,
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f"
+    },
+    {
+      "file": "licenses/WeatherIconsCredit.txt",
+      "bytes": 2965,
+      "sha256": "1854ba6df3083a336c6e951ed0e2c61bbf862cf4930b7861592331ce8d041159"
+    },
+    {
+      "file": "licenses/NerdSymbolsReadme.txt",
+      "bytes": 4095,
+      "sha256": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b"
+    },
+    {
+      "file": "licenses/Departure/MaterialDesign.txt",
+      "bytes": 992,
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829"
+    },
+    {
+      "file": "licenses/Departure/FontAwesome7.txt",
+      "bytes": 7427,
+      "sha256": "20c6f40715a567c97b80f6944beb8bb325835cab47ea7dcab89ee3b8e077eced"
+    },
+    {
+      "file": "licenses/Departure/PowerlineExtra.txt",
+      "bytes": 1072,
+      "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a"
+    },
+    {
+      "file": "licenses/Departure/DepartureMono.txt",
+      "bytes": 4357,
+      "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"
+    },
+    {
+      "file": "licenses/Departure/PowerSymbolsIEC.txt",
+      "bytes": 1078,
+      "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d"
+    },
+    {
+      "file": "licenses/Departure/FontLogos.txt",
+      "bytes": 1210,
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+    },
+    {
+      "file": "licenses/Departure/Pomicons.txt",
+      "bytes": 4395,
+      "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce"
+    },
+    {
+      "file": "licenses/Departure/NerdFontsAudit.txt",
+      "bytes": 8470,
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f"
+    },
+    {
+      "file": "licenses/Departure/WeatherIconsCredit.txt",
+      "bytes": 2965,
+      "sha256": "1854ba6df3083a336c6e951ed0e2c61bbf862cf4930b7861592331ce8d041159"
+    },
+    {
+      "file": "licenses/Departure/NerdSymbolsReadme.txt",
+      "bytes": 4095,
+      "sha256": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b"
+    },
+    {
+      "file": "licenses/Departure/Cubic11.txt",
+      "bytes": 5364,
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "file": "licenses/Departure/Cubic11Naming.txt",
+      "bytes": 2481,
+      "sha256": "7d8de3293fbde3c0be92b41496d7129ca1cf2397856cf3bf8df83007c9978755"
+    },
+    {
+      "file": "licenses/Departure/Apache2.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "licenses/Departure/FontAwesomeExtension.txt",
+      "bytes": 1073,
+      "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5"
+    },
+    {
+      "file": "licenses/Departure/Codicons.txt",
+      "bytes": 19047,
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f"
+    },
+    {
+      "file": "licenses/Departure/Octicons.txt",
+      "bytes": 1068,
+      "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63"
+    },
+    {
+      "file": "licenses/Departure/NerdFonts.txt",
+      "bytes": 6200,
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160"
+    },
+    {
+      "file": "licenses/Departure/Seti.txt",
+      "bytes": 1054,
+      "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88"
+    },
+    {
+      "file": "licenses/Departure/Devicons.txt",
+      "bytes": 1072,
+      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664"
+    },
+    {
+      "file": "licenses/Departure/PowerlineSymbols.txt",
+      "bytes": 1132,
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be"
+    },
+    {
+      "file": "licenses/Departure/FontAwesome.txt",
+      "bytes": 7427,
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d"
+    },
+    {
+      "file": "licenses/Departure/WeatherIcons.txt",
+      "bytes": 4692,
+      "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790"
+    },
+    {
+      "file": "licenses/Departure/DeviconsLegacy.txt",
+      "bytes": 3527,
+      "sha256": "d0c1eccf6379e2d4a702d15c8ab1bca43320edc63126ebd51f3907b8e879ee29"
+    },
+    {
+      "file": "licenses/Departure/HackExtraGlyphs.txt",
+      "bytes": 3744,
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623"
+    },
+    {
+      "file": "licenses/Departure/NerdSymbols.txt",
+      "bytes": 1082,
+      "sha256": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847"
+    },
+    {
+      "file": "licenses/Apache2.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "licenses/FontAwesomeExtension.txt",
+      "bytes": 1073,
+      "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5"
+    },
+    {
+      "file": "licenses/Codicons.txt",
+      "bytes": 19047,
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f"
+    },
+    {
+      "file": "licenses/Octicons.txt",
+      "bytes": 1068,
+      "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63"
+    },
+    {
+      "file": "licenses/Cubic11-OFL.txt",
+      "bytes": 5364,
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "file": "licenses/Noto3D-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "file": "licenses/OFL.txt",
+      "bytes": 4382,
+      "sha256": "26a7b58bdba6cda8a78ca6e8b3791d8013b8abc6d5e6519f84193893aee02020"
+    },
+    {
+      "file": "licenses/NerdFonts.txt",
+      "bytes": 6200,
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160"
+    },
+    {
+      "file": "licenses/Seti.txt",
+      "bytes": 1054,
+      "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88"
+    },
+    {
+      "file": "licenses/Devicons.txt",
+      "bytes": 1072,
+      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664"
+    },
+    {
+      "file": "licenses/PowerlineSymbols.txt",
+      "bytes": 1132,
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be"
+    },
+    {
+      "file": "licenses/FontAwesome.txt",
+      "bytes": 7427,
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d"
+    },
+    {
+      "file": "licenses/GeistPixelVariable-OFL.txt",
+      "bytes": 4384,
+      "sha256": "021caa749f89fecd7c2e40a50499de29e84d2bc19251659b47d499c2fbfffc17"
+    },
+    {
+      "file": "licenses/Geist-OFL.txt",
+      "bytes": 4383,
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "file": "licenses/WeatherIcons.txt",
+      "bytes": 4692,
+      "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790"
+    },
+    {
+      "file": "licenses/DeviconsLegacy.txt",
+      "bytes": 3527,
+      "sha256": "d0c1eccf6379e2d4a702d15c8ab1bca43320edc63126ebd51f3907b8e879ee29"
+    },
+    {
+      "file": "licenses/HackExtraGlyphs.txt",
+      "bytes": 3744,
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623"
+    },
+    {
+      "file": "licenses/NerdSymbols.txt",
+      "bytes": 1082,
+      "sha256": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847"
+    }
+  ],
+  "emojiSequencesFile": "emoji-sequences.json",
+  "emoji": {
+    "config": {
+      "sourcePpem": 55,
+      "targetPpem": 28,
+      "coverage": "all source cmap and GSUB; no repertoire subsetting",
+      "maxFontBytes": 16000000,
+      "pngPolicy": "Lanczos RGBA at28PPEM, per-image256-color alpha palette; all source glyphs retained"
+    },
+    "sourceSha256": "81fd6b01bde93e4d7afa0aab4fbcfd915b2e9e1b0e55188c6e8e1a2571b14ab3",
+    "sourceBytes": 23903668,
+    "sha256": "e1173c61124f3579cc4f6c4f96354a2c053462e014217736fc840dd4f3c08554",
+    "bytes": 7025596,
+    "bitmapImages": 3994,
+    "cmapUnchanged": true,
+    "gsubUnchanged": true,
+    "family": "Extension Emoji3D",
+    "files": {
+      "default": "Emoji3D.woff2",
+      "android": "Emoji3D-Android.woff2"
+    }
+  },
+  "cjk": {
+    "family": "GeistMixUI_NerdAndZhAndEmoji3D",
+    "postScript": "GeistMixUI_NerdAndZhAndEmoji3D-Regular",
+    "cssAlias": "GeistMixUI_NerdAndZhAndEmoji3D",
+    "unicodeRange": "U+2E80-2FFF,U+3000-303F,U+3100-312F,U+31A0-31BF,U+31C0-31EF,U+3400-4DBF,U+4E00-9FFF,U+F900-FAFF,U+FE10-FE1F,U+FE30-FE4F,U+FF00-FFEF,U+20000-2FA1F,U+30000-323AF",
+    "embedded": true,
+    "fullUpstreamCoveragePreserved": true
+  }
+}

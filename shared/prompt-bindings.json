@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "authority": "A-Prometheus live Prompt library; files are snapshots",
+  "bindings": [
+    {
+      "id": "extension-no-icon-20260920",
+      "code": "BFNJ2",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "accf8080c2b15fd5bfee3098e4a665f7df123207130a55bdefa6303fcee3cb9c",
+      "file": "no/design/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/no/design/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-calmly-icon-20260920",
+      "code": "XZ6XF",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "60911b7155ca529d474163edb2634823dcd622a18acf8e33bd3379fd29d58db0",
+      "file": "calmly/design/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/calmly/design/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-active-icon-20260920",
+      "code": "42ARN",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "786f39c097c1a9dc64349c5f65a33f23c1354c09df03d65c24e1710f70a2c98c",
+      "file": "mastermind_capture/design/active/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/mastermind_capture/design/active/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-archive-icon-20260920",
+      "code": "WTQER",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "5138658d55a95ccd8d3dfefc3f5f12b253c60afa878fb499aef25d872703e8f5",
+      "file": "mastermind_capture/design/archive/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/mastermind_capture/design/archive/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-bookmark-icon-20260920",
+      "code": "SRYZA",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "431084a6fb1b6a651b425b4565af14b8b4f7a7a59c3ec657cdd75b7c5c6bd2b6",
+      "file": "mastermind_capture/design/bookmark/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/mastermind_capture/design/bookmark/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-kit-icon-20260920",
+      "code": "TXX49",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "ddf20a1da655622dd2dcde3dd0e46ee752255485a4e162ab01d93ec50f562d3b",
+      "file": "atlaskit_capture/design/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/atlaskit_capture/design/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-tabs-icon-20260920",
+      "code": "S4VLM",
+      "category": "IMG",
+      "revision": 2,
+      "body_hash": "b6191812d75bff9bbe69c41528e88124cab0f7273d623f45a09da54a95d57382",
+      "file": "tab_merge_n_sort/design/icon.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/tab_merge_n_sort/design/icon.prompt.txt",
+      "verified": "rebuilt icon spec; matching update receipt and exact API readback"
+    },
+    {
+      "id": "extension-popup-contract-20260920",
+      "code": "VUXP4",
+      "category": "SYS",
+      "revision": 1,
+      "body_hash": "8f7cbeacdd097ddf8976ea931649e27adda3917947244dc1b3b756bcf8622604",
+      "file": "shared/design/system.prompt.txt",
+      "source_ref": "A-Prometheus:module_extensions/shared/design/system.prompt.txt",
+      "verified": "receipt and exact API readback"
+    },
+    {
+      "id": "no-icon-concept-20260920",
+      "code": "5DMCZ",
+      "category": "IMG",
+      "revision": 1,
+      "body_hash": "00efa188ef2d7d435d288d930dc9e4af719c40d5a1e58b9774544fdb2caac3e9",
+      "file": "no/design/concept.prompt.txt",
+      "role": "historical selected-concept reference; do not regenerate the old comparison board",
+      "verified": "existing exact API readback; no duplicate write"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "extName": {
+    "message": "no"
+  },
+  "extDescription": {
+    "message": "指定したドメインをブロックし、ウインドウ全体に NO ✋ を表示します。"
+  },
+  "domains": {
+    "message": "ブロックするドメイン"
+  },
+  "site": {
+    "message": "サイト"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saving": {
+    "message": "保存中…"
+  },
+  "saved": {
+    "message": "保存して適用しました。"
+  },
+  "pending": {
+    "message": "本機に保存しました。ルールは未適用です。保存を選んで再試行してください。"
+  },
+  "conflict": {
+    "message": "別の場所でリストが変更されました。もう一度保存すると上書きできます。"
+  },
+  "storage": {
+    "message": "保存できません。もう一度お試しください。"
+  },
+  "settings": {
+    "message": "設定が無効です。このパネルを開き直してください。"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "domain": {
+    "message": "無効なドメイン：$1"
+  },
+  "row": {
+    "message": "$1 行目：$2"
+  },
+  "limit": {
+    "message": "ドメインは最大$1件までです。"
+  },
+  "access": {
+    "message": "ブロックするには、ブラウザの拡張機能設定でWebサイトへのアクセスを許可してください。"
+  },
+  "blocked": {
+    "message": "ブロックしました"
+  },
+  "fontLabel": {
+    "message": "フォント"
+  },
+  "fontDefault": {
+    "message": "デフォルト"
+  }
+}

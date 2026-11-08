@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "0.99.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "permissions": [
+    "storage",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "navigation.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "background": {
+    "service_worker": "safari_background.js"
+  },
+  "action": {
+    "default_title": "__MSG_extName__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/toolbar-light-16.png",
+      "24": "icons/toolbar-light-24.png",
+      "32": "icons/toolbar-light-32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "options_ui": {
+    "page": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "blocked.html"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArJfO9nQ+wBmeoflKnn9e/GdCV4W/2CIGiGzrcYAfUl/Dyls5WytUFxDENLLNkDexAZink+TaGgEMSYv/bKipkVbzYXkWSirA64nGIaRSI8KeHI6tYCtqDe7TludnVLJkbScloemNCfor2yMkMgSeRugjRDcmNK+s1y0FEnR1mJmn22QBY9nPCia9/x7c93iafk1Est1ohiPsUCuZxigUB8ohcweLDJbiDPhk33N3V3OPXaBJOclOVmYVB3zaMkmB4vJ3zSMqGqVhYhR05gLtfrwrzndzKjyumZyg8e5IXnUkEwjpat6Cd1aVQQV8AKMyJCpN1ohKpycyn/jegQvgpwIDAQAB"
+}

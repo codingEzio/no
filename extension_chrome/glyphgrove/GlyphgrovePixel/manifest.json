@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "family": "GlyphgrovePixel",
+  "scope": "project use",
+  "sourceRecipeSha256": "c8fa73320f5d8edae38c62d93a238ec462cfd28b9350dc5e9cebfaeff79da2e8",
+  "fonts": {
+    "Base-Regular.woff2": {
+      "sha256": "ff0fc33d193844de4f33686641df0b27f11b84e0047e67e9773e45b88ac36cc9",
+      "bytes": 732768
+    },
+    "Base-Italic.woff2": {
+      "sha256": "efd0f0f72ce247a370cf41f03d795758479e4c1acedc8b1f333dfffa6babfaf3",
+      "bytes": 801764
+    },
+    "Nerd.woff2": {
+      "sha256": "79ccc9e6d29f6a1b094bfc40398e2cb8c4b72b44565c5b8c5bcc21bef8d778c9",
+      "bytes": 1122672
+    },
+    "Emoji3D.woff2": {
+      "sha256": "a69b1a1d806f21736558511d5293d9fb592f971d8550cd97edd52345bfd34233",
+      "bytes": 2932964
+    },
+    "RysaMixWebPixelCJK.woff2": {
+      "sha256": "d0531588640b8c2554653a2a5515f6076742744c358436f5588b129b6778de38",
+      "bytes": 429336
+    }
+  },
+  "nerdCmapCount": 10625,
+  "emojiBitmapCount": 3994,
+  "files": {
+    "NOTICE.md": {
+      "sha256": "ed753395c58c26d41fbb0ec2a50dec3179c00dd4cdeab637678bd1831d7c56fe",
+      "bytes": 3663
+    },
+    "README.md": {
+      "sha256": "9a57dc2f608f879fcd8d68d081a118c44c05a9c90c378183ebcf476a7123615e",
+      "bytes": 1062
+    },
+    "README.zh-Hans.md": {
+      "sha256": "a2ed24329bf33a58701937b4429580033916a61424c5bd39cfb4dd938b171f95",
+      "bytes": 956
+    },
+    "README.zh-Hant.md": {
+      "sha256": "ec7054f87e0fad8e030a0623b9692dd62d83248399da365c7c9dfa3837b22ef0",
+      "bytes": 962
+    },
+    "example.html": {
+      "sha256": "c09b46b33f2954c48f94e04e2ac76b36bbf5366941bb6768365ddeefa79e49f9",
+      "bytes": 531
+    },
+    "fonts/Base-Italic.woff2": {
+      "sha256": "efd0f0f72ce247a370cf41f03d795758479e4c1acedc8b1f333dfffa6babfaf3",
+      "bytes": 801764
+    },
+    "fonts/Base-Regular.woff2": {
+      "sha256": "ff0fc33d193844de4f33686641df0b27f11b84e0047e67e9773e45b88ac36cc9",
+      "bytes": 732768
+    },
+    "fonts/Emoji3D.woff2": {
+      "sha256": "a69b1a1d806f21736558511d5293d9fb592f971d8550cd97edd52345bfd34233",
+      "bytes": 2932964
+    },
+    "fonts/Nerd.woff2": {
+      "sha256": "79ccc9e6d29f6a1b094bfc40398e2cb8c4b72b44565c5b8c5bcc21bef8d778c9",
+      "bytes": 1122672
+    },
+    "fonts/RysaMixWebPixelCJK.woff2": {
+      "sha256": "d0531588640b8c2554653a2a5515f6076742744c358436f5588b129b6778de38",
+      "bytes": 429336
+    },
+    "fonts.css": {
+      "sha256": "6343acda95e7ab66ababbb0da69728c676e2b3743840278f5cc48c207c6568cc",
+      "bytes": 105120
+    },
+    "licenses/Cubic11-OFL.txt": {
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188",
+      "bytes": 5364
+    },
+    "licenses/NerdFonts/Apache2.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "licenses/NerdFonts/Codicons.txt": {
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f",
+      "bytes": 19047
+    },
+    "licenses/NerdFonts/Devicons.txt": {
+      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664",
+      "bytes": 1072
+    },
+    "licenses/NerdFonts/DeviconsLegacy.txt": {
+      "sha256": "d0c1eccf6379e2d4a702d15c8ab1bca43320edc63126ebd51f3907b8e879ee29",
+      "bytes": 3527
+    },
+    "licenses/NerdFonts/FontAwesome.txt": {
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d",
+      "bytes": 7427
+    },
+    "licenses/NerdFonts/FontAwesome7.txt": {
+      "sha256": "20c6f40715a567c97b80f6944beb8bb325835cab47ea7dcab89ee3b8e077eced",
+      "bytes": 7427
+    },
+    "licenses/NerdFonts/FontAwesomeExtension.txt": {
+      "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5",
+      "bytes": 1073
+    },
+    "licenses/NerdFonts/FontLogos.txt": {
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+      "bytes": 1210
+    },
+    "licenses/NerdFonts/HackExtraGlyphs.txt": {
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623",
+      "bytes": 3744
+    },
+    "licenses/NerdFonts/MaterialDesign.txt": {
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829",
+      "bytes": 992
+    },
+    "licenses/NerdFonts/NerdFonts.txt": {
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160",
+      "bytes": 6200
+    },
+    "licenses/NerdFonts/NerdFontsAudit.txt": {
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f",
+      "bytes": 8470
+    },
+    "licenses/NerdFonts/NerdSymbols.txt": {
+      "sha256": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847",
+      "bytes": 1082
+    },
+    "licenses/NerdFonts/NerdSymbolsReadme.txt": {
+      "sha256": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b",
+      "bytes": 4095
+    },
+    "licenses/NerdFonts/Octicons.txt": {
+      "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63",
+      "bytes": 1068
+    },
+    "licenses/NerdFonts/Pomicons.txt": {
+      "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce",
+      "bytes": 4395
+    },
+    "licenses/NerdFonts/PowerSymbolsIEC.txt": {
+      "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d",
+      "bytes": 1078
+    },
+    "licenses/NerdFonts/PowerlineExtra.txt": {
+      "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a",
+      "bytes": 1072
+    },
+    "licenses/NerdFonts/PowerlineSymbols.txt": {
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be",
+      "bytes": 1132
+    },
+    "licenses/NerdFonts/Seti.txt": {
+      "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88",
+      "bytes": 1054
+    },
+    "licenses/NerdFonts/WeatherIcons.txt": {
+      "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790",
+      "bytes": 4692
+    },
+    "licenses/NerdFonts/WeatherIconsCredit.txt": {
+      "sha256": "1854ba6df3083a336c6e951ed0e2c61bbf862cf4930b7861592331ce8d041159",
+      "bytes": 2965
+    },
+    "licenses/Noto3D-OFL.txt": {
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    "licenses/Rysana-LICENSE.txt": {
+      "sha256": "1bd0b4ad491af7eff271c4aa9bae7edd1e4b42a423c14c5eac2ce52811a4e360",
+      "bytes": 6136
+    }
+  }
+}

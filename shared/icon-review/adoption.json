@@ -1,0 +1,332 @@
+{
+  "date": "2026-09-27",
+  "sourceBase": "7170e7c1720736f16b899bd0c9c9e9f73c611524",
+  "selectedStyle": "nothing-signal-v1",
+  "appearance": "universal",
+  "authorization": "User approved Signal and Matrix generation and selected Signal for all extensions",
+  "chrome": {
+    "sourceIdentities": 9,
+    "sourceIconFiles": 63,
+    "reloaded": false,
+    "visualAcceptance": "pending user reload; chrome://extensions navigation denied by browser URL security policy"
+  },
+  "safari": {
+    "installed": [
+      {
+        "id": "tab-merge-n-sort",
+        "version": "0.1.5",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "e0071f60814d45d0a3c56f6c03da6b358d9e98d293697dd0acd50eb82e5ba4cd"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "8002b066e36f3b03d41397524039725195d1ec15419973d1ea526521b970ad07"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "a72e68b1856552608983c4eacb28c07d845597c555d613c7f5cad6a156b08756"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "70d5c6292a5544ca292c95be819115eceff1a94482aaeb40b2ad594f2460876e"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "8002b066e36f3b03d41397524039725195d1ec15419973d1ea526521b970ad07"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "7df7ee555971046db35d272e668b36f1cba24860bb70d87b65d3c8d87f6b2141"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "a72e68b1856552608983c4eacb28c07d845597c555d613c7f5cad6a156b08756"
+          }
+        ]
+      },
+      {
+        "id": "no",
+        "version": "0.1.3",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "d1268ee397744cad480c545ad22422c956fff533fee698d3b2fa45026a93412e"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "e39f23e0385c394c8aa1413e36eda449376eb8dcfde8a66878404922b213fe87"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "7c00f0a380375ede0064c3ecb433d3938e80efea85e2f076dff944aad67c1246"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "f36726581532d646bf25631f8cafde5d3a0fabdfeb8c454bcd4a82cc3166602a"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "e39f23e0385c394c8aa1413e36eda449376eb8dcfde8a66878404922b213fe87"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "68e064c551a77d5eb5db7d33155dc11e1f1d869e6429e346bea1d1954b95cafd"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "7c00f0a380375ede0064c3ecb433d3938e80efea85e2f076dff944aad67c1246"
+          }
+        ]
+      },
+      {
+        "id": "calmly",
+        "version": "0.6.5",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "0dd50f136d6d6c646447f13d563edb76a83e4a549d116ab079546ec8742cef4d"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "77c332756ff5ac607f9c8f9bc294af3957d8be7dd78450e91922065a97d69688"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "e0e1a90797a9dbefa0909be364aed6aad1104d30c499a3eb4727def6bc005322"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "a5c4065bebde0f17113a0773a24e1fda2e713edfc7904e069f6d7c60337a4336"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "77c332756ff5ac607f9c8f9bc294af3957d8be7dd78450e91922065a97d69688"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "01222e8af9286a182e25afcb6d262db6a5af356e45d041818958b92c524917c9"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "e0e1a90797a9dbefa0909be364aed6aad1104d30c499a3eb4727def6bc005322"
+          }
+        ]
+      },
+      {
+        "id": "mastermind-active",
+        "version": "0.1.10",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "07dd98734319c33523e7d73dfec313987dade379906aaa0796e107e3df988753"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "3c3317c631a34823d28314f3f0a39357779175da7e341d714152415fb86f1483"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "24c88a56c0e1c3d3ef767f98c2e5d16335ab81d0147678e78410f2cdfddfba4c"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "412af31ec4bf7b946fb9afa42d5ff3de757fadc1e81224564dfc5b971ff8e5bb"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "3c3317c631a34823d28314f3f0a39357779175da7e341d714152415fb86f1483"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "b5b88352200c5f724bf46f341534d148ee6e6e0f60207cdb3c085fe780508551"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "24c88a56c0e1c3d3ef767f98c2e5d16335ab81d0147678e78410f2cdfddfba4c"
+          }
+        ]
+      },
+      {
+        "id": "mastermind-archive",
+        "version": "0.1.10",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "238530eeb3ed400acbe33972702f64db0bec1ae2ee5dfd9bd13c2d612effc3f1"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "c23f809fc777e87a578069d9c560bf20791179cdc52fa3ea4ac5ccc92ccf1471"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "8552223ce98e65ca5e144527cf9f8ee0b4044192383e81040a2667d6f713aa25"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "da8d582d31e0277d6bc875af82c9e34bc8d1e57f951aa07b82d0dd3d60f7b3ad"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "c23f809fc777e87a578069d9c560bf20791179cdc52fa3ea4ac5ccc92ccf1471"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "828928ff197db356387d01228eede38fbeb6c103f25737f475873416d80d047e"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "8552223ce98e65ca5e144527cf9f8ee0b4044192383e81040a2667d6f713aa25"
+          }
+        ]
+      },
+      {
+        "id": "mastermind-bookmark",
+        "version": "0.1.29",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "da5a760f36b22a6ead83e469f923b17a0155781ab42161b7a2165cb72fcdfca3"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "baeaa3469e0f2eab62cd5b4980fce6d352f239c542f1eaf791b3c38b7c332733"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "a8e1efb24f252d872e70bae1f2b2667629ff476e39ded57c5932ce410378234c"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "66a7d10eac5867a9e2d831c6623264c8db1c1ad467559a314d929b4989386de0"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "baeaa3469e0f2eab62cd5b4980fce6d352f239c542f1eaf791b3c38b7c332733"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "b4210c3b04505c8e82d126f42bdd7f9f409f82e6f6d9f0d384043902ebaa0703"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "a8e1efb24f252d872e70bae1f2b2667629ff476e39ded57c5932ce410378234c"
+          }
+        ]
+      },
+      {
+        "id": "atlaskit-capture",
+        "version": "0.3.0",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "bbce8cd5a645bd6534bf9eb2681aff230b9c0e52ad8acbc8f3693cb82c334dc5"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "f04ed9073a157ed82fae0bb949147842e51bd5fe4fdd5213488209b230ed4962"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "199f6682492abf757744e78a96c74c7f16b3d5dfec412840e9616c8c4159bd8b"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "6a7037f3a09eb63fce94a8c9b219efd6865a535a330a1bbd18f7aaa452ca659a"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "f04ed9073a157ed82fae0bb949147842e51bd5fe4fdd5213488209b230ed4962"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "08cddcc38dfe674de24c676c0ca80a233fa0c3cb0249eeec4fff4a54afb117d5"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "199f6682492abf757744e78a96c74c7f16b3d5dfec412840e9616c8c4159bd8b"
+          }
+        ]
+      },
+      {
+        "id": "x-collector",
+        "version": "0.1.6",
+        "signature": "verified",
+        "registrationCount": 1,
+        "enabled": true,
+        "icons": [
+          {
+            "path": "icons/icon-128.png",
+            "sha256": "becedf5f7eaf512f4c4f6d000d73d0218b132758d9a5d50cc6ef50ac49907a50"
+          },
+          {
+            "path": "icons/icon-16.png",
+            "sha256": "aa4d7a8c00fe51fd5c69d4995ebac6fab359a5a000485ebd4dbffc1ca84b307e"
+          },
+          {
+            "path": "icons/icon-32.png",
+            "sha256": "2622156d5c0dd29c2150c7b1a8cedb842d0d4a7aee3e0cc927e0d4de07dc6756"
+          },
+          {
+            "path": "icons/icon-48.png",
+            "sha256": "5e135f77ef713e9c221408a8db029ba300a73f43b98d87c36619ae24988ec29c"
+          },
+          {
+            "path": "icons/toolbar-light-16.png",
+            "sha256": "aa4d7a8c00fe51fd5c69d4995ebac6fab359a5a000485ebd4dbffc1ca84b307e"
+          },
+          {
+            "path": "icons/toolbar-light-24.png",
+            "sha256": "5ba2c070fcb08e68712051f5fc916c2d4b59749be5d464ff56006fcf125c6350"
+          },
+          {
+            "path": "icons/toolbar-light-32.png",
+            "sha256": "2622156d5c0dd29c2150c7b1a8cedb842d0d4a7aee3e0cc927e0d4de07dc6756"
+          }
+        ]
+      }
+    ],
+    "darkToolbarObserved": [
+      "calmly",
+      "tab-merge-n-sort",
+      "no",
+      "atlaskit-capture",
+      "x-collector",
+      "mastermind-bookmark"
+    ],
+    "visualLimits": "Six currently pinned identities observed with new shapes. Journal Active/Archive not pinned; light native toolbar not observed."
+  },
+  "checks": {
+    "iconParity": "12 passed",
+    "safariContract": "5 passed",
+    "sourceSync": "passed",
+    "allOriginalSnapshotsIntact": true,
+    "allCandidateFilesIntact": true
+  },
+  "evidenceDirectory": "Local/SignalIcons-20260927-universal/evidence",
+  "storageAndIds": "unchanged",
+  "hostAppIcons": "unchanged"
+}

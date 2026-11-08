@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-20",
+  "iconPolicy": "all seven identities rebuilt; legacy designs are not deliverables",
+  "safari": "deferred",
+  "installed_verified": false,
+  "items": [
+    {
+      "key": "no",
+      "directory": "no/design",
+      "recognition": "Custom bold NO monogram on black: firm refusal.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "no/design/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "no/design/concept.prompt.txt",
+          "sha256": "00efa188ef2d7d435d288d930dc9e4af719c40d5a1e58b9774544fdb2caac3e9"
+        },
+        {
+          "path": "no/design/generated/chrome/icon-128.png",
+          "sha256": "8ba8ff5de15e01f35d97376f140d50e961b8316120add19b3932c92e42079769"
+        },
+        {
+          "path": "no/design/generated/chrome/icon-16.png",
+          "sha256": "3b59f198a3284ff4ed33d9fcc12157ff9b9299ebb12eb2cc5ed3bdf6de54a5cd"
+        },
+        {
+          "path": "no/design/generated/chrome/icon-32.png",
+          "sha256": "cc4d680c9bdcb833ea71c6a6043363e70e2633b9798bbf75cf49f8f73f02a1f0"
+        },
+        {
+          "path": "no/design/generated/chrome/icon-48.png",
+          "sha256": "9029b248da275322b23b89466bf334a81936c69bb9fd9e6df684985b45cb15ef"
+        },
+        {
+          "path": "no/design/generated/chrome/toolbar-light-16.png",
+          "sha256": "1df24d8cd652c1fc680d06874e2c39e1f02d5d307f66f39863406e1956a7f333"
+        },
+        {
+          "path": "no/design/generated/chrome/toolbar-light-24.png",
+          "sha256": "8e3f08ebd1f8fdadd87dfe967567f78a9a99e14f37b9cd0e33cd869994222e76"
+        },
+        {
+          "path": "no/design/generated/chrome/toolbar-light-32.png",
+          "sha256": "1dfe1ad0e7cad45c26a2d59d15d429878877e4a9324f2c83420e0fab313967aa"
+        },
+        {
+          "path": "no/design/icon.prompt.txt",
+          "sha256": "accf8080c2b15fd5bfee3098e4a665f7df123207130a55bdefa6303fcee3cb9c"
+        },
+        {
+          "path": "no/design/icon.svg",
+          "sha256": "99fb5e226012997ae9a1d0ef41743149e1b022f78ea64675653aa49ce7614bb6"
+        },
+        {
+          "path": "no/design/toolbar.svg",
+          "sha256": "78cbd8e1bccf00b8d768ca41e18ed9cd0237e9cb5f858812c5863dd5b9a9a516"
+        }
+      ]
+    },
+    {
+      "key": "calmly",
+      "directory": "calmly/design",
+      "recognition": "A quiet horizon under one arch: calmer reading.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "calmly/design/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "calmly/design/generated/chrome/icon-128.png",
+          "sha256": "0df288b12e4f3572573ca17117ace0d211d360b064da57c2bed63651c497a41d"
+        },
+        {
+          "path": "calmly/design/generated/chrome/icon-16.png",
+          "sha256": "123a0951c7a56ccf4b5c74645c6c8452a016a32b281787b380ffc07353186766"
+        },
+        {
+          "path": "calmly/design/generated/chrome/icon-32.png",
+          "sha256": "2b848f0a0b6dfe47019740937ce189ee59ea28fc064eaaa1ffce1f5deb8c94ae"
+        },
+        {
+          "path": "calmly/design/generated/chrome/icon-48.png",
+          "sha256": "b9d9ff62c293124517d9cb8f6449bc84b69296b03c370d0ebb9b904a1e1adbc7"
+        },
+        {
+          "path": "calmly/design/generated/chrome/toolbar-light-16.png",
+          "sha256": "1fb9ebeba83c3596963ebe00c6314c9c54d056bc70ede25573655cab0bc30a80"
+        },
+        {
+          "path": "calmly/design/generated/chrome/toolbar-light-24.png",
+          "sha256": "36ab1d6f7ee85cea856d109be01546292bfc64f1e0f969fad8446a805a96d163"
+        },
+        {
+          "path": "calmly/design/generated/chrome/toolbar-light-32.png",
+          "sha256": "47f8e009d5b7fda3553f9982a38792d97e744aadc0efa5499e6e9b1c9894bee3"
+        },
+        {
+          "path": "calmly/design/icon.prompt.txt",
+          "sha256": "60911b7155ca529d474163edb2634823dcd622a18acf8e33bd3379fd29d58db0"
+        },
+        {
+          "path": "calmly/design/icon.svg",
+          "sha256": "15a4303117142ba43258c15052cf5b94844fa8fc1d09edb901dc08b6a380460e"
+        },
+        {
+          "path": "calmly/design/toolbar.svg",
+          "sha256": "c50cbffa1090ef375ee01801601d5714c13e98b3c27ff483ad7376f61cd49d75"
+        }
+      ]
+    },
+    {
+      "key": "active",
+      "directory": "mastermind_capture/design/active",
+      "recognition": "A page with a pencil: write into the active Journal.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "mastermind_capture/design/active/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/icon-128.png",
+          "sha256": "d5211739a98075f43d785c79d4a628ccbe6209f481f87a4b39841a0c82156dce"
+        },
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/icon-16.png",
+          "sha256": "06cbdbc75248353b1d0eeaa753c054e38a23a4e38586aca46073cd7ee935eefe"
+        },
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/icon-32.png",
+          "sha256": "163c0a283de34ac81e491f8924b8eddaf68e92035ec7c3b67c3ebbf3a8bd32c6"
+        },
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/icon-48.png",
+          "sha256": "8aa46be3be1662747f8dc8e955adce9fe58bb42972298c503bb26acf86e9dc78"
+        },
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/toolbar-light-16.png",
+          "sha256": "1e05c4dd3dd3833df3b918990d8c8483a6cd27c023e738d727bab6625ba62ed4"
+        },
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/toolbar-light-24.png",
+          "sha256": "e096038e84f66eb6d9c72dddef8b58e533ca041c4ba12c4b40efe2e1796c98e6"
+        },
+        {
+          "path": "mastermind_capture/design/active/generated/chrome/toolbar-light-32.png",
+          "sha256": "b4144bca2ef703ad710539abaa3c0a5982f5ac5f4831d1414caafec5c2fef666"
+        },
+        {
+          "path": "mastermind_capture/design/active/icon.prompt.txt",
+          "sha256": "786f39c097c1a9dc64349c5f65a33f23c1354c09df03d65c24e1710f70a2c98c"
+        },
+        {
+          "path": "mastermind_capture/design/active/icon.svg",
+          "sha256": "8a78d20c676def7fdc16a61d55dba3607da8c9846889ee0aa62ea6a116712024"
+        },
+        {
+          "path": "mastermind_capture/design/active/toolbar.svg",
+          "sha256": "dc197ea321fe93f0ca5a4f9d83569f9b0d6248b5dd9ca7792caf135d9e2fcea2"
+        }
+      ]
+    },
+    {
+      "key": "archive",
+      "directory": "mastermind_capture/design/archive",
+      "recognition": "A page entering a drawer: write into archived Journal.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "mastermind_capture/design/archive/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/icon-128.png",
+          "sha256": "fbb0229131b0d81c2a7198973fd86536a422017741dd29bfefbda5c6dcea1a43"
+        },
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/icon-16.png",
+          "sha256": "9e5dfbc73d71e84f9d43ead92beffa4fa12f14fb785ad879fec4248d129af68c"
+        },
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/icon-32.png",
+          "sha256": "5307a331711e44095813d0198301e48823c09c33e0941aa6628bda999cf69f6b"
+        },
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/icon-48.png",
+          "sha256": "c851b681f3f71f110174bfc2131926dd731b2bed2e78ef865936d701a3f4293a"
+        },
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/toolbar-light-16.png",
+          "sha256": "b95694364f7afc327c8ed5f59047a1e9b35f953af33f1f61490ee1ea4124cdb6"
+        },
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/toolbar-light-24.png",
+          "sha256": "9461576ba87c072f1cfb3e6689fa80b01276316f97befcdf70c7f8275f2ea109"
+        },
+        {
+          "path": "mastermind_capture/design/archive/generated/chrome/toolbar-light-32.png",
+          "sha256": "a27f843d751073505ae14343014dfae2a49409a03124133c4e78fe827b94c580"
+        },
+        {
+          "path": "mastermind_capture/design/archive/icon.prompt.txt",
+          "sha256": "5138658d55a95ccd8d3dfefc3f5f12b253c60afa878fb499aef25d872703e8f5"
+        },
+        {
+          "path": "mastermind_capture/design/archive/icon.svg",
+          "sha256": "636aa54f3239219c05f8f1883060270ea31d579a327af5b3fe73f807b378285a"
+        },
+        {
+          "path": "mastermind_capture/design/archive/toolbar.svg",
+          "sha256": "934668977a00563020b2ff08685f8edb720c125184f93619af2450e11de64168"
+        }
+      ]
+    },
+    {
+      "key": "bookmark",
+      "directory": "mastermind_capture/design/bookmark",
+      "recognition": "An offset double bookmark: keep a chosen link.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "mastermind_capture/design/bookmark/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/icon-128.png",
+          "sha256": "1f8567687482a04a7ac097866b97a2a18653d524e3b78074e48e5b8122bf6691"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/icon-16.png",
+          "sha256": "bf212f2e3838cf9692bd6b3401211686eccd0c5f1625caf91d16dab5a07e3bbd"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/icon-32.png",
+          "sha256": "fb1ca928b2a30557d613aae566b5a598847cb2c0698e5a82b526e45e02821fd6"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/icon-48.png",
+          "sha256": "e7d79dccdbd632a75b43c911bad3b202a729ed159ece015ab1128fdf00c4c597"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/toolbar-light-16.png",
+          "sha256": "9f5b70695e3fb1ce5e2ffd03b16f23f0180f6909245db4054a57f5d526a2ce8f"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/toolbar-light-24.png",
+          "sha256": "808f9d9d3001bee346390772c81281a6c1f382bac9fdea1f1feecbe144e1edfb"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/generated/chrome/toolbar-light-32.png",
+          "sha256": "23abf26ed44089b12e566f5128be1818ae976e164b6dae7de0a3590a34d981f8"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/icon.prompt.txt",
+          "sha256": "431084a6fb1b6a651b425b4565af14b8b4f7a7a59c3ec657cdd75b7c5c6bd2b6"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/icon.svg",
+          "sha256": "d62613b73426a9f814885471fffd63b746b67125f3e61ee554c0ba3731fbeb95"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/toolbar.svg",
+          "sha256": "5f9ded61074ef82bb9fe6eb595c756f826999457d08a1514e7bb1b3b56fd2999"
+        }
+      ]
+    },
+    {
+      "key": "kit",
+      "directory": "atlaskit_capture/design",
+      "recognition": "A framed media landscape: capture the selected asset.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "atlaskit_capture/design/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "atlaskit_capture/design/generated/chrome/icon-128.png",
+          "sha256": "3a717479d5e29743e5ae8d4521ff44c3339f8a18b5f0955d3f90aadf539368d6"
+        },
+        {
+          "path": "atlaskit_capture/design/generated/chrome/icon-16.png",
+          "sha256": "7313dcad03c0fd8669244cabf3fb88570d9f3070f3519a5dd5a002491425275b"
+        },
+        {
+          "path": "atlaskit_capture/design/generated/chrome/icon-32.png",
+          "sha256": "ca8347ed2ecee25f3d4bb312fd0f85014efb16054bb29a7bfc768fdc7ff19303"
+        },
+        {
+          "path": "atlaskit_capture/design/generated/chrome/icon-48.png",
+          "sha256": "cd682ed91b893b0ab2153a602093a3404a636642fea057397c2ae6fb6c8e5355"
+        },
+        {
+          "path": "atlaskit_capture/design/generated/chrome/toolbar-light-16.png",
+          "sha256": "f920659e8a025b0e59ba2a8e6357fe264c89a821b418844004896dee8b763fc2"
+        },
+        {
+          "path": "atlaskit_capture/design/generated/chrome/toolbar-light-24.png",
+          "sha256": "8bf1a4e1aae4a0794b2f6632609ed03184166d957a4c0f51d800dc2230919d18"
+        },
+        {
+          "path": "atlaskit_capture/design/generated/chrome/toolbar-light-32.png",
+          "sha256": "2aaa9e5f167b0539f175bac5524ceb52f05826ecb199031e9cfe934fe79ce947"
+        },
+        {
+          "path": "atlaskit_capture/design/icon.prompt.txt",
+          "sha256": "ddf20a1da655622dd2dcde3dd0e46ee752255485a4e162ab01d93ec50f562d3b"
+        },
+        {
+          "path": "atlaskit_capture/design/icon.svg",
+          "sha256": "1f09a876c1d9711c53f41ad82b22319a2df6dd71aebeb9c4f856af8e3f44b980"
+        },
+        {
+          "path": "atlaskit_capture/design/toolbar.svg",
+          "sha256": "5826acd5f5986cfdca9d7fac177ff9f86926b6fbfca3a3793721758244811feb"
+        }
+      ]
+    },
+    {
+      "key": "tabs",
+      "directory": "tab_merge_n_sort/design",
+      "recognition": "Two windows converging to one line: merge and sort tabs.",
+      "source": "new deterministic SVG drawn 2026-09-20 after explicit all-icons-rebuilt correction",
+      "toolbar_source": "new dedicated transparent composition with contrast contour",
+      "prompt_file": "tab_merge_n_sort/design/icon.prompt.txt",
+      "assets": [
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/icon-128.png",
+          "sha256": "f405bdb447cf2b3cc25aa0204ff73315018eb38bc6194346ccab8fc3faf6e3ee"
+        },
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/icon-16.png",
+          "sha256": "8f12702cb471289d4fbaddc04378a005fd3fccfe933d05a530af699a943df045"
+        },
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/icon-32.png",
+          "sha256": "c6a90a28ae9934a6752e780e152a625c5783bafd317744f0acacef4610c6f349"
+        },
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/icon-48.png",
+          "sha256": "eeef8ed1cdbbe104cb2e1a2e686891714e44a1a2c20d36756a8db728408a3dbd"
+        },
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/toolbar-light-16.png",
+          "sha256": "944515c2175e90573af3c0e2f177dbc7a66d2099485f6da14ce85b9d32b360ee"
+        },
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/toolbar-light-24.png",
+          "sha256": "b917f22bd5dcd5502caab2bc62eaf84de50303074c4afeacbb4637cd645d9646"
+        },
+        {
+          "path": "tab_merge_n_sort/design/generated/chrome/toolbar-light-32.png",
+          "sha256": "e3aa715e2071cf08260e4db117ac7cc2d6824c21ee6005698d277efabc5c9ebb"
+        },
+        {
+          "path": "tab_merge_n_sort/design/icon.prompt.txt",
+          "sha256": "b6191812d75bff9bbe69c41528e88124cab0f7273d623f45a09da54a95d57382"
+        },
+        {
+          "path": "tab_merge_n_sort/design/icon.svg",
+          "sha256": "908a5eb261e9df53b81c31d7cf03f95f2039500006a6d8a6673cc82facbc415e"
+        },
+        {
+          "path": "tab_merge_n_sort/design/toolbar.svg",
+          "sha256": "225517d033dfc8518ad12cbf73609591f388ec3a1fc20a3d67c6e7ec8a11a63a"
+        }
+      ]
+    }
+  ],
+  "status": "Historical 2026-09-20 source inventory; current selected browser icons are tracked by icon-styles.json",
+  "currentBrowserIconAuthority": "shared/icon-styles.json"
+}

@@ -1,0 +1,1 @@
+GlyphgroveDeparture experiment. DeparturePixelZh Compact 0.1.1 supplies Departure Mono, Cubic 11 and Nerd Fonts symbols; full Noto 3D Emoji is merged or separately bundled. The Compact source advances remain unchanged. Italic and bold are synthesized experimental styles, not upstream original designs. All component licenses and notices under licenses/ remain applicable.

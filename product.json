@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "name": "X-ExtNo",
+  "title": "No",
+  "product": "no",
+  "variant": null,
+  "safariId": "no",
+  "firefox": "no",
+  "chromeRoot": "extension_chrome",
+  "safariRoot": "extension_safari",
+  "viaRoot": null,
+  "sourceRepository": "A-Prometheus",
+  "sourceRevision": "614b19a073ac92500dc31341b95915504c7e1485",
+  "sourceRoot": "module_extensions/no",
+  "focus": [
+    "chrome"
+  ],
+  "pausedTargets": [
+    "safari",
+    "firefox"
+  ],
+  "displayName": "no",
+  "version": "0.99.1",
+  "candidateRepository": "Z-BeIntentional",
+  "chromeId": "ldndgmehimhaofljeaifbopfbgddjido",
+  "chromeKeySource": "new-for-owner-approved-fresh-install",
+  "tests": [
+    "no_test.ts"
+  ],
+  "fontPolicy": "glyphgrove"
+}

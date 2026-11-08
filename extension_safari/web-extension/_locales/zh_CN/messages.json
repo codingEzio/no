@@ -1,0 +1,56 @@
+{
+  "extName": {
+    "message": "no"
+  },
+  "extDescription": {
+    "message": "屏蔽指定域名，显示填满窗口的 NO ✋。"
+  },
+  "domains": {
+    "message": "屏蔽域名"
+  },
+  "site": {
+    "message": "站点"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saving": {
+    "message": "正在保存…"
+  },
+  "saved": {
+    "message": "已保存并应用。"
+  },
+  "pending": {
+    "message": "已保存在本机，规则尚未应用。请选择“保存”重试。"
+  },
+  "conflict": {
+    "message": "列表已在其他地方更新。再选一次“保存”即可覆盖。"
+  },
+  "storage": {
+    "message": "无法保存，请重试。"
+  },
+  "settings": {
+    "message": "设置无效，请重新打开此面板。"
+  },
+  "loading": {
+    "message": "正在加载…"
+  },
+  "domain": {
+    "message": "无效域名：$1"
+  },
+  "row": {
+    "message": "第 $1 行：$2"
+  },
+  "limit": {
+    "message": "最多可设置 $1 个域名。"
+  },
+  "access": {
+    "message": "请在浏览器的扩展设置中允许网站访问，屏蔽才会生效。"
+  },
+  "blocked": {
+    "message": "已屏蔽"
+  }
+}

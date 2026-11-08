@@ -1,0 +1,104 @@
+[
+  {
+    "id": "geist-pixel-square",
+    "key": "sansPixel",
+    "family": "GeistMixUI_NerdAndZhAndEmoji3D",
+    "file": "GeistMixUI_NerdAndZhAndEmoji3D.woff2",
+    "bytes": 1552196,
+    "sha256": "f47293da8758f8cb39402da67b00208a012b8287367b73063ec2f0db15a3408c",
+    "heightAxis": null,
+    "weight": "400",
+    "role": "sans"
+  },
+  {
+    "id": "geist-code",
+    "key": "monoGeist",
+    "family": "GeistMixCode_NerdAndZhAndEmoji3D",
+    "file": "GeistMixCode_NerdAndZhAndEmoji3D.woff2",
+    "bytes": 1592320,
+    "sha256": "906a78e49394149a9b85c71e3b6af19a50ef0ab1bc9d8da86006f77f15af0a0e",
+    "heightAxis": null,
+    "weight": "100 900",
+    "role": "mono"
+  },
+  {
+    "id": "doto-500",
+    "key": "doto500",
+    "family": "Doto500MixUI_NerdAndZhAndEmoji3D",
+    "file": "Doto500MixUI_NerdAndZhAndEmoji3D.woff2",
+    "bytes": 1536968,
+    "sha256": "b01a09cf6cf04bdea83eaaec005ae0ca4b02b9a1b433f7619698268be312c9f3",
+    "heightAxis": {
+      "tag": "HGHT",
+      "values": [
+        105,
+        110,
+        115,
+        120
+      ],
+      "default": 110
+    },
+    "weight": "400",
+    "role": "doto-500"
+  },
+  {
+    "id": "doto-700",
+    "key": "doto700",
+    "family": "Doto700MixUI_NerdAndZhAndEmoji3D",
+    "file": "Doto700MixUI_NerdAndZhAndEmoji3D.woff2",
+    "bytes": 1537680,
+    "sha256": "84cbd889d9e44a71db5ed1e1ce920a06ae87e8fa5557f735c1256a2cbb225c9c",
+    "heightAxis": {
+      "tag": "HGHT",
+      "values": [
+        105,
+        110,
+        115,
+        120
+      ],
+      "default": 110
+    },
+    "weight": "400",
+    "role": "doto-700"
+  },
+  {
+    "id": "doto-900",
+    "key": "doto900",
+    "family": "Doto900MixUI_NerdAndZhAndEmoji3D",
+    "file": "Doto900MixUI_NerdAndZhAndEmoji3D.woff2",
+    "bytes": 1537596,
+    "sha256": "7c06e9fe4f51cc0fee771554a5f55d2ebfae4f85522c57a9b09123a1f6785faf",
+    "heightAxis": {
+      "tag": "HGHT",
+      "values": [
+        105,
+        110,
+        115,
+        120
+      ],
+      "default": 110
+    },
+    "weight": "400",
+    "role": "doto-900"
+  },
+  {
+    "id": "departure",
+    "key": "departure",
+    "family": "DeparturePixelZh",
+    "file": "DeparturePixelZh-Regular.woff2",
+    "bytes": 1390160,
+    "sha256": "43b3d4dd811b376e360ce28275ab3e41d68b7e4f61dab60e44933608da62fe23",
+    "weight": "400",
+    "role": "departure"
+  },
+  {
+    "id": "departure-compact",
+    "key": "departureCompact",
+    "family": "DeparturePixelZh Compact",
+    "file": "DeparturePixelZhCompact-Regular.woff2",
+    "bytes": 1389344,
+    "sha256": "2b46974c046bc8d9b1f4f195d5fe848ae17ebb41ed2a99f3784cb60ad65c13eb",
+    "weight": "400",
+    "role": "departure-compact"
+  }
+]

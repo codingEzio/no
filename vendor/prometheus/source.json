@@ -1,0 +1,72 @@
+{
+  "owner": "A-Prometheus",
+  "revision": "614b19a073ac92500dc31341b95915504c7e1485",
+  "files": [
+    {
+      "path": "vendor/prometheus/entries.ts",
+      "source": "A-Prometheus/shared/entries.ts",
+      "sha256": "724a0ad8556795b02f1954f7d1758365ba4a5324bd1d2a4260f6ec400723a66c"
+    },
+    {
+      "path": "vendor/prometheus/review.ts",
+      "source": "A-Prometheus/shared/review.ts",
+      "sha256": "92722c214efa0c7c24287f71dc38541eeed17bed7b75c2ca8df964cbbd538753"
+    },
+    {
+      "path": "vendor/prometheus/transport.ts",
+      "source": "A-Prometheus/shared/transport.ts",
+      "sha256": "3709da243457f19db3e59114aacd4b30bc3918b658145e281f9f4aa328c92b4d"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_title_prefix.ts",
+      "source": "A-Prometheus/shared/bookmark_title_prefix.ts",
+      "sha256": "7a0aa516917bdb8b952b14baaa215d5fe90fb78619d2947130b9361b5ba08992"
+    },
+    {
+      "path": "vendor/prometheus/server_info.ts",
+      "source": "A-Prometheus/shared/server_info.ts",
+      "sha256": "3912ca2bc5627d37d8cf3e14aa52dfafdff4987f4ac32a1b7233a0cfde1b68a4"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_intake.ts",
+      "source": "A-Prometheus/shared/bookmark_intake.ts",
+      "sha256": "a415ff32547770aa04c2df1772827617224e49eb304ca3597498151c11c0cedd"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_tag_scope.ts",
+      "source": "A-Prometheus/shared/bookmark_tag_scope.ts",
+      "sha256": "7f171d9f38ed4f83552206defea7caa531b8841a034140709d5c5f1a5f9597c2"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_source_policy.js",
+      "source": "A-Prometheus/shared/bookmark_source_policy.js",
+      "sha256": "e6ee35979dfad05d9f02b84c061ba554beb8950b59165335065ba56b37351b2d"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_source_receipt.ts",
+      "source": "A-Prometheus/shared/bookmark_source_receipt.ts",
+      "sha256": "f24ce4791ec73bf1be693ce372dc2d9794a2dc7bac15d5b2e5a56c5e6485dbe7"
+    },
+    {
+      "path": "vendor/prometheus/via_capture.ts",
+      "source": "A-Prometheus/shared/via_capture.ts",
+      "sha256": "4d5ec7ad758bd0e375aa3208c97d3929709488acf138e94f49c0e896bf98a1f5"
+    },
+    {
+      "path": "vendor/prometheus/font_arsenal.ts",
+      "source": "A-Prometheus/shared/font_arsenal.ts",
+      "sha256": "71c8ee85ac35ec7f355315090c4f2cfb278b33afa2f7afe751cc2a396ace3c97",
+      "derivation": {
+        "base_revision": "614b19a073ac92500dc31341b95915504c7e1485",
+        "base_sha256": "7c85569d296eb0747e14b8c28f892aceaf111604d9ad4f1497d50434bae984b6",
+        "policy": "Owner-directed removal of a permanently deleted font experiment; legacy preference keeps System fallback; other catalog bytes unchanged.",
+        "date": "2026-10-25"
+      }
+    },
+    {
+      "path": "vendor/prometheus/cactus_font_faces.json",
+      "source": "A-Prometheus/shared/cactus_font_faces.json",
+      "sha256": "62f0d64372bc0a47bf3d8ffcf2c41de373eee9bf756b67fc2776c27150855457"
+    }
+  ]
+}

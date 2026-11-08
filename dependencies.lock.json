@@ -1,0 +1,1050 @@
+{
+  "schemaVersion": 1,
+  "note": "Generated immutable inputs. Edit the named owner and explicitly synchronize; no moving branch/network fetch at build time.",
+  "files": [
+    {
+      "path": "shared/.gitkeep",
+      "owner": "X-ExtShared",
+      "source": "shared/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "shared/API.md",
+      "owner": "X-ExtShared",
+      "source": "shared/API.md",
+      "sha256": "9610b5a93db89e5247a2e72ab57eb2dc786a6ccc60855aa9ae0ad90002757bd0"
+    },
+    {
+      "path": "shared/USE-TARGET.md",
+      "owner": "X-ExtShared",
+      "source": "shared/USE-TARGET.md",
+      "sha256": "7d5cbe2b9f12fe21851b3b269694c79286f8ee69324188bbcdb59432cbabee99"
+    },
+    {
+      "path": "shared/capture-menu/README.md",
+      "owner": "X-ExtShared",
+      "source": "shared/capture-menu/README.md",
+      "sha256": "7549e22e98f2ee214d8dc825963d1d72c0458ccfb31326666a9eeb83f6566c53"
+    },
+    {
+      "path": "shared/capture-menu/menu_settings.css",
+      "owner": "X-ExtShared",
+      "source": "shared/capture-menu/menu_settings.css",
+      "sha256": "3f7602486420385fd7595fd5dcc330491f07f5784d5147d586df5baf4b7f7955"
+    },
+    {
+      "path": "shared/capture-menu/menu_settings.js",
+      "owner": "X-ExtShared",
+      "source": "shared/capture-menu/menu_settings.js",
+      "sha256": "c7f7eb1070bef4adc3882ffb8caca2d696dba4b2d1533432e0118588ff05f242"
+    },
+    {
+      "path": "shared/capture-menu/menu_settings_ui.js",
+      "owner": "X-ExtShared",
+      "source": "shared/capture-menu/menu_settings_ui.js",
+      "sha256": "23852f7f34abd3d0df5845b6544f85447e417b505782529ce2861b23fe894b2f"
+    },
+    {
+      "path": "shared/capture-route-service.js",
+      "owner": "X-ExtShared",
+      "source": "shared/capture-route-service.js",
+      "sha256": "b5c6495bf7e6b8e0bdaaeb97d56847cb2781caf4bd2a095dab4590fbb12937c0"
+    },
+    {
+      "path": "shared/capture-route.js",
+      "owner": "X-ExtShared",
+      "source": "shared/capture-route.js",
+      "sha256": "c4852877ac9f69967f22933b0aee3fd1c94976ebe421ca47c4261e64c5595c5e"
+    },
+    {
+      "path": "shared/design/README.md",
+      "owner": "X-ExtShared",
+      "source": "shared/design/README.md",
+      "sha256": "1efcca1db06412bf749cd83af745e3b7e62792391b5c29401f08dfcfb05e6887"
+    },
+    {
+      "path": "shared/design/collection.css",
+      "owner": "X-ExtShared",
+      "source": "shared/design/collection.css",
+      "sha256": "c789fc0b9c97a7856f17359d5c131973cef02d03dbed1e58f736cc3b09beb5e7"
+    },
+    {
+      "path": "shared/design/contract.json",
+      "owner": "X-ExtShared",
+      "source": "shared/design/contract.json",
+      "sha256": "eca5c67e2ef6a30bca872f70361ed8f85e89ded91bebf6a5eedbe249871979c0"
+    },
+    {
+      "path": "shared/design/icons/block.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/block.svg",
+      "sha256": "b75403ee5111bc8de5cc6dd498395e585b87e73e829c4ea81f6e451d2442ac43"
+    },
+    {
+      "path": "shared/design/icons/check.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/check.svg",
+      "sha256": "4fdd95360931fb17622356c1aa4b0ebbc519c5fa738d0ed09f85ed145877132d"
+    },
+    {
+      "path": "shared/design/icons/chevron.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/chevron.svg",
+      "sha256": "443011cceb171f5348780df2a2fcb1ff2ad83c1d0d86f246cdf6171ed93bd426"
+    },
+    {
+      "path": "shared/design/icons/close.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/close.svg",
+      "sha256": "20b732fdd5d32666c26ac0d00e4f44173aa3db5761931822e6be3e413955a373"
+    },
+    {
+      "path": "shared/design/icons/edit.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/edit.svg",
+      "sha256": "bed42d5a0b31718d38536fe0c116e676631816c4141efafb7511479ac553f0a9"
+    },
+    {
+      "path": "shared/design/icons/refresh.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/refresh.svg",
+      "sha256": "acadf0f732bfc2f854491e7b4369f427382ff819dfdb89eafe3f45dee34d8f44"
+    },
+    {
+      "path": "shared/design/icons/settings.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/icons/settings.svg",
+      "sha256": "35b3119e6aa67699967d1125c72ae42e0f6c9c1ee10991676b6ed18a52c910aa"
+    },
+    {
+      "path": "shared/design/page-icons/README.md",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/README.md",
+      "sha256": "d7fa5ff88df3f621ffb19dae740e4c8945d19bef7e238f9405952dd20974a787"
+    },
+    {
+      "path": "shared/design/page-icons/block.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/block.svg",
+      "sha256": "4a91ae6d390ae81af02be3ea656088e9620a8d48ee6733ad73966ed62d2ad3a6"
+    },
+    {
+      "path": "shared/design/page-icons/bookmark.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/bookmark.svg",
+      "sha256": "407600afd220a48e75dbcae8870ca061518a4aae6cd7a9e2b9fd9f33828f31a9"
+    },
+    {
+      "path": "shared/design/page-icons/communities.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/communities.svg",
+      "sha256": "5fe23c386c4084406d48094a30d0d331c49669680aec78ccdd9959d4191fd4b8"
+    },
+    {
+      "path": "shared/design/page-icons/compose.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/compose.svg",
+      "sha256": "fc989545ae7ebf13b10d9a79f9e2994e7ad1133df6c2fe15f273fbec67ea5b3b"
+    },
+    {
+      "path": "shared/design/page-icons/copy-link.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/copy-link.svg",
+      "sha256": "4c4ecb67ac281ade2f10d48a7bea866587f4f3ee6f32e74136d5f56b76063e90"
+    },
+    {
+      "path": "shared/design/page-icons/copy-text.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/copy-text.svg",
+      "sha256": "325bad69d202db27bdedc7531fc39f6cce5af717b1b8074ab7b3a13630f0e375"
+    },
+    {
+      "path": "shared/design/page-icons/grok.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/grok.svg",
+      "sha256": "6985b5a5622a18fd558508df30984eaa0b539352e2922cc5a097f44854121e99"
+    },
+    {
+      "path": "shared/design/page-icons/history.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/history.svg",
+      "sha256": "e9c079e7ca222cad097f1b08a3e70f06336eca61a3ed1a366a2ce34988673da9"
+    },
+    {
+      "path": "shared/design/page-icons/home.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/home.svg",
+      "sha256": "517b172512defe96b484b8e00a347b965a7f948c1212277e4dd401bdf5d7e833"
+    },
+    {
+      "path": "shared/design/page-icons/messages.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/messages.svg",
+      "sha256": "64f0c64989df5107104886ea14b78296b1a528fe990c88fa90630504fd9f2eae"
+    },
+    {
+      "path": "shared/design/page-icons/more.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/more.svg",
+      "sha256": "92427166b067abac456715d0e47fecb5a0443e7d128da3141a53874b0e7a165a"
+    },
+    {
+      "path": "shared/design/page-icons/notifications.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/notifications.svg",
+      "sha256": "abad453fbad62bd3aa0ad794ade9767ce7cc6afda6aab3e6bfac894fbe94651c"
+    },
+    {
+      "path": "shared/design/page-icons/premium.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/premium.svg",
+      "sha256": "240d5bc985278799e6cd4082c3b5665de4c5373579f288a2799d7c96ab5e2285"
+    },
+    {
+      "path": "shared/design/page-icons/profile.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/profile.svg",
+      "sha256": "41a52a641b0beb04ac446853715bd7fc9f2b747b14d6e03bb4a55558f9748f29"
+    },
+    {
+      "path": "shared/design/page-icons/search.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/search.svg",
+      "sha256": "9bcafaa85af98274d3ca9de6fb94d3057ab5dbf7b8ddfedb6873fde013985e9a"
+    },
+    {
+      "path": "shared/design/page-icons/settings.svg",
+      "owner": "X-ExtShared",
+      "source": "shared/design/page-icons/settings.svg",
+      "sha256": "4ce0b44471ed4294b3e778151149828d39e9b6b7282890d3d342f3207d800493"
+    },
+    {
+      "path": "shared/design/popup.css",
+      "owner": "X-ExtShared",
+      "source": "shared/design/popup.css",
+      "sha256": "425b1debb47e96c107aa2454a0b3a28d78c86d81d04c087ed5b71c92473008ad"
+    },
+    {
+      "path": "shared/design/reference.html",
+      "owner": "X-ExtShared",
+      "source": "shared/design/reference.html",
+      "sha256": "80fed102c2af978d72378fbcf6d0a49ff737aa778b22f5364a4a44d607f783f3"
+    },
+    {
+      "path": "shared/design/system.prompt.txt",
+      "owner": "X-ExtShared",
+      "source": "shared/design/system.prompt.txt",
+      "sha256": "8f7cbeacdd097ddf8976ea931649e27adda3917947244dc1b3b756bcf8622604"
+    },
+    {
+      "path": "shared/design/ui-interactions.js",
+      "owner": "X-ExtShared",
+      "source": "shared/design/ui-interactions.js",
+      "sha256": "d42d4fa68753594b2d0221b1d267a0cd2eb81634b131b7ac6eb5024dd1097111"
+    },
+    {
+      "path": "shared/endpoint.js",
+      "owner": "X-ExtShared",
+      "source": "shared/endpoint.js",
+      "sha256": "3bc4bb7adba8821e585db6bbcae2ce09da35295c443286a7050ff0d6a2e78e20"
+    },
+    {
+      "path": "shared/icon-assets.json",
+      "owner": "X-ExtShared",
+      "source": "shared/icon-assets.json",
+      "sha256": "1ba079f6504034025526ec03539c1d631da099f96c9e778dfd46288bbc1bbc66"
+    },
+    {
+      "path": "shared/icon-review/README.md",
+      "owner": "X-ExtShared",
+      "source": "shared/icon-review/README.md",
+      "sha256": "977748725da9772227281c7a083ef7fd9e8bfe52dae315aa0bed23a5285242bc"
+    },
+    {
+      "path": "shared/icon-review/adoption.json",
+      "owner": "X-ExtShared",
+      "source": "shared/icon-review/adoption.json",
+      "sha256": "a2490ddabacafe234e3fd4121a4a57dd3b4b535a4dd97232a083be9884be2422"
+    },
+    {
+      "path": "shared/icon-review/index.html",
+      "owner": "X-ExtShared",
+      "source": "shared/icon-review/index.html",
+      "sha256": "d655312b7e1de4a2a0d25e9e0ce14f97ea71f405da93161e75d7ba2a34517805"
+    },
+    {
+      "path": "shared/icon-review/verification.json",
+      "owner": "X-ExtShared",
+      "source": "shared/icon-review/verification.json",
+      "sha256": "40346f289b8fc99acc6061592f0491abe5068737a291a62d9feb797d8d88fb5b"
+    },
+    {
+      "path": "shared/icon-styles.json",
+      "owner": "X-ExtShared",
+      "source": "shared/icon-styles.json",
+      "sha256": "d6e72cb99f1b9e5acd079e60dae219b36712ac729cf02a78005f43b937ab76b5"
+    },
+    {
+      "path": "shared/prometheus-api.ts",
+      "owner": "X-ExtShared",
+      "source": "shared/prometheus-api.ts",
+      "sha256": "9780e7c7194850f85f5f3b570cc78a5b650086b62557c59ad40f2bc7464bef21"
+    },
+    {
+      "path": "shared/prompt-bindings.json",
+      "owner": "X-ExtShared",
+      "source": "shared/prompt-bindings.json",
+      "sha256": "8f9f4883a73f1607408105e83f7edecde46b8f725446104f81f74bb8f8905b2e"
+    },
+    {
+      "path": "shared/safari-host/HostApp.swift",
+      "owner": "X-ExtShared",
+      "source": "shared/safari-host/HostApp.swift",
+      "sha256": "32196cb49304120539b0381ddca212007e5e2bed2a6fb3258c3365cf61199aef"
+    },
+    {
+      "path": "shared/safari-host/SafariWebExtensionHandler.swift",
+      "owner": "X-ExtShared",
+      "source": "shared/safari-host/SafariWebExtensionHandler.swift",
+      "sha256": "f081f71db4d804a94a3ba8941e75b24c068eee2ac171f98d6bc439a406dd5f1a"
+    },
+    {
+      "path": "shared/use-target-copy.js",
+      "owner": "X-ExtShared",
+      "source": "shared/use-target-copy.js",
+      "sha256": "ca775b558e78756ebb0730540d6e1d73ee855c7b93c0cbc8e9a82c44ec658724"
+    },
+    {
+      "path": "shared/use-target-ui.js",
+      "owner": "X-ExtShared",
+      "source": "shared/use-target-ui.js",
+      "sha256": "5850e80f04ba21a73f8c91208477d03383b4985b2c2fcbae16404e68126e51d9"
+    },
+    {
+      "path": "shared/use-target.js",
+      "owner": "X-ExtShared",
+      "source": "shared/use-target.js",
+      "sha256": "74678483caa785445837fd64afc29e72e88b278f64056f0013f7374208e10b5b"
+    },
+    {
+      "path": "shared/via/transfer-source.js",
+      "owner": "X-ExtShared",
+      "source": "shared/via/transfer-source.js",
+      "sha256": "1ca7275ae68e7d8f561e8b490dd31f64d6ecd61026f6a3d3fd276b6b58c94e30"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_intake.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/bookmark_intake.ts",
+      "sha256": "a415ff32547770aa04c2df1772827617224e49eb304ca3597498151c11c0cedd"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_source_policy.js",
+      "owner": "A-Prometheus",
+      "source": "shared/bookmark_source_policy.js",
+      "sha256": "e6ee35979dfad05d9f02b84c061ba554beb8950b59165335065ba56b37351b2d"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_source_receipt.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/bookmark_source_receipt.ts",
+      "sha256": "f24ce4791ec73bf1be693ce372dc2d9794a2dc7bac15d5b2e5a56c5e6485dbe7"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_tag_scope.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/bookmark_tag_scope.ts",
+      "sha256": "7f171d9f38ed4f83552206defea7caa531b8841a034140709d5c5f1a5f9597c2"
+    },
+    {
+      "path": "vendor/prometheus/bookmark_title_prefix.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/bookmark_title_prefix.ts",
+      "sha256": "7a0aa516917bdb8b952b14baaa215d5fe90fb78619d2947130b9361b5ba08992"
+    },
+    {
+      "path": "vendor/prometheus/cactus_font_faces.json",
+      "owner": "A-Prometheus",
+      "source": "shared/cactus_font_faces.json",
+      "sha256": "62f0d64372bc0a47bf3d8ffcf2c41de373eee9bf756b67fc2776c27150855457"
+    },
+    {
+      "path": "vendor/prometheus/entries.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/entries.ts",
+      "sha256": "724a0ad8556795b02f1954f7d1758365ba4a5324bd1d2a4260f6ec400723a66c"
+    },
+    {
+      "path": "vendor/prometheus/font_arsenal.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/font_arsenal.ts",
+      "sha256": "71c8ee85ac35ec7f355315090c4f2cfb278b33afa2f7afe751cc2a396ace3c97"
+    },
+    {
+      "path": "vendor/prometheus/review.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/review.ts",
+      "sha256": "92722c214efa0c7c24287f71dc38541eeed17bed7b75c2ca8df964cbbd538753"
+    },
+    {
+      "path": "vendor/prometheus/server_info.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/server_info.ts",
+      "sha256": "3912ca2bc5627d37d8cf3e14aa52dfafdff4987f4ac32a1b7233a0cfde1b68a4"
+    },
+    {
+      "path": "vendor/prometheus/source.json",
+      "owner": "X-ExtShared",
+      "source": "vendor/prometheus/source.json",
+      "sha256": "978595405fe041a18fccbc718254440c149085267723365b2cb030107dd999f2"
+    },
+    {
+      "path": "vendor/prometheus/transport.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/transport.ts",
+      "sha256": "3709da243457f19db3e59114aacd4b30bc3918b658145e281f9f4aa328c92b4d"
+    },
+    {
+      "path": "vendor/prometheus/via_capture.ts",
+      "owner": "A-Prometheus",
+      "source": "shared/via_capture.ts",
+      "sha256": "4d5ec7ad758bd0e375aa3208c97d3929709488acf138e94f49c0e896bf98a1f5"
+    },
+    {
+      "path": "scripts/verify.ts",
+      "owner": "X-ExtShared",
+      "source": "standalone/verify.ts",
+      "sha256": "5f5bdb6cbdfd82db668a19e341f23b388d2020556e75bca4866a2f9586edf643"
+    },
+    {
+      "path": "scripts/package.ts",
+      "owner": "X-ExtShared",
+      "source": "standalone/package.ts",
+      "sha256": "f272dde44ad6a3c12d9690330c25072b866304326c0ba3ad8418843b9b9a3fd7"
+    },
+    {
+      "path": "scripts/paths.ts",
+      "owner": "X-ExtShared",
+      "source": "standalone/paths.ts",
+      "sha256": "16a71e778caadc132120762ac2919a011858e85a3c2fff02a224b6187fb57365"
+    },
+    {
+      "path": "scripts/sync_dependencies.ts",
+      "owner": "X-ExtShared",
+      "source": "standalone/sync_dependencies.ts",
+      "sha256": "54ed432fbcade83755419af9b5f4d6ffa8eab0e7e089a48e492f3d304ef70baa"
+    },
+    {
+      "path": "scripts/sync_endpoints.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/sync_endpoints.ts",
+      "sha256": "5ed9c9505d9d9b55c254fc9de9b2d9979b70be912ef85828d88572d252c22a68"
+    },
+    {
+      "path": "scripts/sync_capture_menu.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/sync_capture_menu.ts",
+      "sha256": "9b074e74d831d5504649646ab4ac53dbb6a18565eff59ce5e2e5fb5a1303acf3"
+    },
+    {
+      "path": "scripts/sync_bookmark_source_policy.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/sync_bookmark_source_policy.ts",
+      "sha256": "2d89198e80c2259a56e9eb13c90380bfbf4961d69651b11c4dde6b064c5139ff"
+    },
+    {
+      "path": "scripts/sync_popup_design.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/sync_popup_design.ts",
+      "sha256": "668f64e6080b9ebd2b2af0b79636d82ee31da379d1d54f2c41325e8232d4556e"
+    },
+    {
+      "path": "scripts/generate_safari_hosts.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/generate_safari_hosts.ts",
+      "sha256": "77243a325796e49d3e7055bc058646031e05db48a184558dd0e2561b2e7a967a"
+    },
+    {
+      "path": "scripts/build_safari.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/build_safari.sh",
+      "sha256": "3dbdd16ad8dda80b9a9f0808fda0afb53a3339f5829203fa15ef3dbc0f56601b"
+    },
+    {
+      "path": "scripts/chrome_session.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/chrome_session.ts",
+      "sha256": "69f4d5aaf8c67d32cfa8a0100422be7ad1093fd257d1baa93dbecb1e31e64555"
+    },
+    {
+      "path": "extension_firefox/background.js",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/background.js",
+      "sha256": "315251c8c69522f3d3add0226c0dcea28dbd7f82b3ef0c6bf947d1a2cb14e199"
+    },
+    {
+      "path": "extension_firefox/bridge.js",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/bridge.js",
+      "sha256": "a1c71da1546dade5194f9ccb1b9deeb8b02d838dea8a4eab857862bca07ab963"
+    },
+    {
+      "path": "extension_firefox/desktop_adapter.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/desktop_adapter.ts",
+      "sha256": "c56041843b744375caca193f060dc0d49e7a62f15d81d213d92d7d9b1806dbac"
+    },
+    {
+      "path": "extension_firefox/temporary_install.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/temporary_install.ts",
+      "sha256": "662d9db7005799d1128763b711a427c3324fae3925026f57c2b9a39a9461b054"
+    },
+    {
+      "path": "extension_firefox/bridge.test.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/bridge.test.ts",
+      "sha256": "f414f75c9cd9b5cd1fa2755c6d4104a5a1da7091dccb65561d68972ffb513b95"
+    },
+    {
+      "path": "extension_firefox/desktop_adapter.test.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/desktop_adapter.test.ts",
+      "sha256": "22eecfa646b29f52353e425585977b1326d013c183a2b3ec6901c1278363328a"
+    },
+    {
+      "path": "extension_firefox/build_extensions.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/build_extensions.ts",
+      "sha256": "89915bf6820a121e50f69a5b468b1b0d8daf2b8c4f4112c110eb109e27ceef2e"
+    },
+    {
+      "path": "extension_firefox/browser_fixture.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/browser_fixture.ts",
+      "sha256": "4842167c8ac3f8d80c46c7f5314f73d5f507e69fe2d5603a92451e8413666908"
+    },
+    {
+      "path": "extension_firefox/build.ts",
+      "owner": "X-ExtShared",
+      "source": "firefox_android/build.ts",
+      "sha256": "e314f0dadac534c271854db5e35cc7c729f041afe148d26ef67e4aa3889bc9fb"
+    },
+    {
+      "path": "scripts/package-firefox.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/package-firefox.sh",
+      "sha256": "fea57f7540de0256fa52a50e4c63c08a466b0be75e5c71aa33ac9de95562286c"
+    },
+    {
+      "path": "scripts/calmly_package_guard.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/calmly_package_guard.ts",
+      "sha256": "316e1e55c7d7f607fa4aacc1ea1c69c3b918e90896a1c202aedd1b5fceeb527b"
+    },
+    {
+      "path": "scripts/uninstall_safari.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/uninstall_safari.sh",
+      "sha256": "cad55213f60fb074b2d27d4ea123515ebffd3eac522859fc1934dc27b48877c9"
+    },
+    {
+      "path": "scripts/safari_status.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/safari_status.sh",
+      "sha256": "dfb30eb34991ed0b4164321a4642394bafeb4b4adf25ab29d5a873b84f4a02c4"
+    },
+    {
+      "path": "scripts/sync_safari.ts",
+      "owner": "X-ExtShared",
+      "source": "scripts/sync_safari.ts",
+      "sha256": "b897456d15bdf846c0747af7e88ad07bf8d60f2f3b55fbe1bb89aea0233d7ac7"
+    },
+    {
+      "path": "scripts/open_safari_settings.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/open_safari_settings.sh",
+      "sha256": "1096070988d30577e5dd52d684dbcd9c6e272c5f7419ee804df285387cd38416"
+    },
+    {
+      "path": "scripts/forget-safari-build-copy.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/forget-safari-build-copy.sh",
+      "sha256": "cbe942332d00f2192655ac8379d898ca37528c0d89e56dc05026daff661a41bb"
+    },
+    {
+      "path": "scripts/install_safari.sh",
+      "owner": "X-ExtShared",
+      "source": "scripts/install_safari.sh",
+      "sha256": "753b6a767b5de035fa7a5caf4f7e395e00a071772d4e0f514c8bafffd0157d97"
+    },
+    {
+      "path": "shared/design/ui-typography.js",
+      "owner": "X-ExtShared",
+      "source": "shared/design/ui-typography.js",
+      "sha256": "7dbe17ac1aa6947e9379508cf5309cdc8e83600e5954137b416426051dccd153"
+    },
+    {
+      "path": "shared/design/browser-font-manifest.json",
+      "owner": "X-ExtShared",
+      "source": "shared/design/browser-font-manifest.json",
+      "sha256": "b1cb23bc14a3a6923eb33b5d5ab1d70a43c4c485100f241e4457a0135be0c769"
+    },
+    {
+      "path": "shared/design/browser-emoji.js",
+      "owner": "X-ExtShared",
+      "source": "shared/design/browser-emoji.js",
+      "sha256": "b52ec7a53761c21c6c7b29db286b4ffa87f8fe06df2cdf87bc0f7b4bb6aca322"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/final-font-catalog.json",
+      "path": "shared/design/final-font-catalog.json",
+      "sha256": "3b61d409ce3d86c6aaa9ccbbfc3e431cd9d7e2bc5e7802b5265b783a4bedd451"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/GeistMixUI_NerdAndZhAndEmoji3D.woff2",
+      "path": "shared/design/fonts/browser/GeistMixUI_NerdAndZhAndEmoji3D.woff2",
+      "sha256": "f47293da8758f8cb39402da67b00208a012b8287367b73063ec2f0db15a3408c"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/GeistMixCode_NerdAndZhAndEmoji3D.woff2",
+      "path": "shared/design/fonts/browser/GeistMixCode_NerdAndZhAndEmoji3D.woff2",
+      "sha256": "906a78e49394149a9b85c71e3b6af19a50ef0ab1bc9d8da86006f77f15af0a0e"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Doto500MixUI_NerdAndZhAndEmoji3D.woff2",
+      "path": "shared/design/fonts/browser/Doto500MixUI_NerdAndZhAndEmoji3D.woff2",
+      "sha256": "b01a09cf6cf04bdea83eaaec005ae0ca4b02b9a1b433f7619698268be312c9f3"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Doto700MixUI_NerdAndZhAndEmoji3D.woff2",
+      "path": "shared/design/fonts/browser/Doto700MixUI_NerdAndZhAndEmoji3D.woff2",
+      "sha256": "84cbd889d9e44a71db5ed1e1ce920a06ae87e8fa5557f735c1256a2cbb225c9c"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Doto900MixUI_NerdAndZhAndEmoji3D.woff2",
+      "path": "shared/design/fonts/browser/Doto900MixUI_NerdAndZhAndEmoji3D.woff2",
+      "sha256": "7c06e9fe4f51cc0fee771554a5f55d2ebfae4f85522c57a9b09123a1f6785faf"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/DeparturePixelZh-Regular.woff2",
+      "path": "shared/design/fonts/browser/DeparturePixelZh-Regular.woff2",
+      "sha256": "43b3d4dd811b376e360ce28275ab3e41d68b7e4f61dab60e44933608da62fe23"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/DeparturePixelZhCompact-Regular.woff2",
+      "path": "shared/design/fonts/browser/DeparturePixelZhCompact-Regular.woff2",
+      "sha256": "2b46974c046bc8d9b1f4f195d5fe848ae17ebb41ed2a99f3784cb60ad65c13eb"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/emoji-sequences.json",
+      "path": "shared/design/fonts/browser/emoji-sequences.json",
+      "sha256": "4567e00d5000216595129844041aa740ceb6f7bb8a13a2cba677c9c9c025c851"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Unicode-LICENSE.txt",
+      "path": "shared/design/fonts/browser/Unicode-LICENSE.txt",
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/GeistPixel-OFL.txt",
+      "path": "shared/design/fonts/browser/GeistPixel-OFL.txt",
+      "sha256": "021caa749f89fecd7c2e40a50499de29e84d2bc19251659b47d499c2fbfffc17"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/provenance.json",
+      "path": "shared/design/fonts/browser/provenance.json",
+      "sha256": "a0402f971f23cd71a5a5da19d0c224c7a8996c60e769d10ca8d3a7abded7f45d"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Cubic11-OFL.txt",
+      "path": "shared/design/fonts/browser/Cubic11-OFL.txt",
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Noto3D-OFL.txt",
+      "path": "shared/design/fonts/browser/Noto3D-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/GeistMono-OFL.txt",
+      "path": "shared/design/fonts/browser/GeistMono-OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/NOTICE.md",
+      "path": "shared/design/fonts/browser/NOTICE.md",
+      "sha256": "065436c5224a1bc3cdb130480970386f8de2103b2000952021302a861a9b34bc"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Cubic11-NAMING.md",
+      "path": "shared/design/fonts/browser/Cubic11-NAMING.md",
+      "sha256": "0049ecb926a0d6cf1adb4aca1c60b7f4a60e1f2ca9ff5068fedbcb5a18f55774"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Pixel-OFL.txt",
+      "path": "shared/design/fonts/browser/licenses/Pixel-OFL.txt",
+      "sha256": "bdf815a5ea761ebeb599674fc4583fb392b4b037dc85ec6bb51f676392a15ced"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/MaterialDesign.txt",
+      "path": "shared/design/fonts/browser/licenses/MaterialDesign.txt",
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/FontAwesome7.txt",
+      "path": "shared/design/fonts/browser/licenses/FontAwesome7.txt",
+      "sha256": "20c6f40715a567c97b80f6944beb8bb325835cab47ea7dcab89ee3b8e077eced"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/PowerlineExtra.txt",
+      "path": "shared/design/fonts/browser/licenses/PowerlineExtra.txt",
+      "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/PowerSymbolsIEC.txt",
+      "path": "shared/design/fonts/browser/licenses/PowerSymbolsIEC.txt",
+      "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/FontLogos.txt",
+      "path": "shared/design/fonts/browser/licenses/FontLogos.txt",
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Pomicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Pomicons.txt",
+      "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/NerdFontsAudit.txt",
+      "path": "shared/design/fonts/browser/licenses/NerdFontsAudit.txt",
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/WeatherIconsCredit.txt",
+      "path": "shared/design/fonts/browser/licenses/WeatherIconsCredit.txt",
+      "sha256": "1854ba6df3083a336c6e951ed0e2c61bbf862cf4930b7861592331ce8d041159"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/NerdSymbolsReadme.txt",
+      "path": "shared/design/fonts/browser/licenses/NerdSymbolsReadme.txt",
+      "sha256": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/MaterialDesign.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/MaterialDesign.txt",
+      "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/FontAwesome7.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/FontAwesome7.txt",
+      "sha256": "20c6f40715a567c97b80f6944beb8bb325835cab47ea7dcab89ee3b8e077eced"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/PowerlineExtra.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/PowerlineExtra.txt",
+      "sha256": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/DepartureMono.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/DepartureMono.txt",
+      "sha256": "b65e42750f3cb65437a97f4dfd781c58f199259949db2341012be60e32500e83"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/PowerSymbolsIEC.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/PowerSymbolsIEC.txt",
+      "sha256": "11aef1cdf2d58d822e6857e2574870ccc59d4900052bf5c098e319d750e7ac3d"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/FontLogos.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/FontLogos.txt",
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Pomicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Pomicons.txt",
+      "sha256": "cb4797a9745683f287c28833db596e9d68ec43082d59359b3a49c504f0f610ce"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/NerdFontsAudit.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/NerdFontsAudit.txt",
+      "sha256": "c2a3f634fa1e5001912f4f19a42fa86fdef5654691b70000f936089325aa404f"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/WeatherIconsCredit.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/WeatherIconsCredit.txt",
+      "sha256": "1854ba6df3083a336c6e951ed0e2c61bbf862cf4930b7861592331ce8d041159"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/NerdSymbolsReadme.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/NerdSymbolsReadme.txt",
+      "sha256": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Cubic11.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Cubic11.txt",
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Cubic11Naming.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Cubic11Naming.txt",
+      "sha256": "7d8de3293fbde3c0be92b41496d7129ca1cf2397856cf3bf8df83007c9978755"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Apache2.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Apache2.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/FontAwesomeExtension.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/FontAwesomeExtension.txt",
+      "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Codicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Codicons.txt",
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Octicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Octicons.txt",
+      "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/NerdFonts.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/NerdFonts.txt",
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Seti.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Seti.txt",
+      "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/Devicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/Devicons.txt",
+      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/PowerlineSymbols.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/PowerlineSymbols.txt",
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/FontAwesome.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/FontAwesome.txt",
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/WeatherIcons.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/WeatherIcons.txt",
+      "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/DeviconsLegacy.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/DeviconsLegacy.txt",
+      "sha256": "d0c1eccf6379e2d4a702d15c8ab1bca43320edc63126ebd51f3907b8e879ee29"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/HackExtraGlyphs.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/HackExtraGlyphs.txt",
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Departure/NerdSymbols.txt",
+      "path": "shared/design/fonts/browser/licenses/Departure/NerdSymbols.txt",
+      "sha256": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Apache2.txt",
+      "path": "shared/design/fonts/browser/licenses/Apache2.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/FontAwesomeExtension.txt",
+      "path": "shared/design/fonts/browser/licenses/FontAwesomeExtension.txt",
+      "sha256": "b47b15d771c4507a75ff65beca3a78168d6af4cca9b45177a1aa817139c64ba5"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Codicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Codicons.txt",
+      "sha256": "d6239afa918961b465b07bf7411cbe34ff6685854f58553db7966f4881a0211f"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Octicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Octicons.txt",
+      "sha256": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Cubic11-OFL.txt",
+      "path": "shared/design/fonts/browser/licenses/Cubic11-OFL.txt",
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Noto3D-OFL.txt",
+      "path": "shared/design/fonts/browser/licenses/Noto3D-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/OFL.txt",
+      "path": "shared/design/fonts/browser/licenses/OFL.txt",
+      "sha256": "26a7b58bdba6cda8a78ca6e8b3791d8013b8abc6d5e6519f84193893aee02020"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/NerdFonts.txt",
+      "path": "shared/design/fonts/browser/licenses/NerdFonts.txt",
+      "sha256": "1f6ad4edae6479aaace3112ede5279a23284ae54b2a34db66357aef5f64df160"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Seti.txt",
+      "path": "shared/design/fonts/browser/licenses/Seti.txt",
+      "sha256": "d4d2d888c6a0a220a7b0e2d6013cf37539b0e05ef937002b3b33bdb364575b88"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Devicons.txt",
+      "path": "shared/design/fonts/browser/licenses/Devicons.txt",
+      "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/PowerlineSymbols.txt",
+      "path": "shared/design/fonts/browser/licenses/PowerlineSymbols.txt",
+      "sha256": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/FontAwesome.txt",
+      "path": "shared/design/fonts/browser/licenses/FontAwesome.txt",
+      "sha256": "de784a808496d49f5f80dd9d1d6e9a51cff712cfbc339e7c25155631ae3cdb5d"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/GeistPixelVariable-OFL.txt",
+      "path": "shared/design/fonts/browser/licenses/GeistPixelVariable-OFL.txt",
+      "sha256": "021caa749f89fecd7c2e40a50499de29e84d2bc19251659b47d499c2fbfffc17"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/Geist-OFL.txt",
+      "path": "shared/design/fonts/browser/licenses/Geist-OFL.txt",
+      "sha256": "c683bfbcc7e087f5d37a54ef628f10387c451a83ddc459b151403a164ac46c90"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/WeatherIcons.txt",
+      "path": "shared/design/fonts/browser/licenses/WeatherIcons.txt",
+      "sha256": "69cdedc8a4f57a30d68e4f045af8b9cce0ec3b1a6e7eec1ad41737c894f26790"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/DeviconsLegacy.txt",
+      "path": "shared/design/fonts/browser/licenses/DeviconsLegacy.txt",
+      "sha256": "d0c1eccf6379e2d4a702d15c8ab1bca43320edc63126ebd51f3907b8e879ee29"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/HackExtraGlyphs.txt",
+      "path": "shared/design/fonts/browser/licenses/HackExtraGlyphs.txt",
+      "sha256": "1f61bb7c790c59b4b0ecdf304628b94e42ae4c8020094a8c3da73381ab212623"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/licenses/NerdSymbols.txt",
+      "path": "shared/design/fonts/browser/licenses/NerdSymbols.txt",
+      "sha256": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/final-font-catalog.json",
+      "path": "shared/design/final-font-catalog.json",
+      "sha256": "3b61d409ce3d86c6aaa9ccbbfc3e431cd9d7e2bc5e7802b5265b783a4bedd451"
+    },
+    {
+      "path": "shared/design/typography-geometry.js",
+      "owner": "X-ExtShared",
+      "source": "shared/design/typography-geometry.js",
+      "sha256": "4c6385a15644720e173c0b9f2ce2e2a587fe722fb02030d30bea7d2875dff695"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Emoji3D.woff2",
+      "path": "shared/design/fonts/browser/Emoji3D.woff2",
+      "sha256": "574d0763c549c1d0c281f692f64a11d56ee8cfb054c9f64f5872b76380f396c7"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/Emoji3D-Android.woff2",
+      "path": "shared/design/fonts/browser/Emoji3D-Android.woff2",
+      "sha256": "9d339473c30e0b8919c38b7c45d6c95d97ee4ad220253a3b8e201cbae0c889d8"
+    },
+    {
+      "owner": "X-ExtShared",
+      "source": "shared/design/fonts/browser/mixed-source-provenance.json",
+      "path": "shared/design/fonts/browser/mixed-source-provenance.json",
+      "sha256": "a06c7f44899c040513feca2ebeb9d558adf4c59d2c191cb23c8aa07ffd51455c"
+    }
+  ]
+}

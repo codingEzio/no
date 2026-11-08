@@ -1,0 +1,2097 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-09-27",
+  "status": "Signal selected and adopted in Chrome/Safari source; runtime verification in shared/icon-review/adoption.json",
+  "styles": [
+    "legacy-20260927",
+    "nothing-signal-v1",
+    "nothing-matrix-v1"
+  ],
+  "items": [
+    {
+      "key": "tab_merge_n_sort",
+      "name": "Tab Merge N Sort",
+      "function": "合併／排序分頁",
+      "recognition": "兩個分頁匯入同一列",
+      "sourceRoot": "tab_merge_n_sort/extension_chrome",
+      "sourceVersion": "0.1.5",
+      "owner": "tab_merge_n_sort/design",
+      "legacyToolbar": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        1,
+        2,
+        15,
+        14
+      ],
+      "legacy16AlphaEquivalentArea": 99.8,
+      "files": [
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/icon-128.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "f405bdb447cf2b3cc25aa0204ff73315018eb38bc6194346ccab8fc3faf6e3ee"
+        },
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/icon-16.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "8f12702cb471289d4fbaddc04378a005fd3fccfe933d05a530af699a943df045"
+        },
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/icon-32.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "c6a90a28ae9934a6752e780e152a625c5783bafd317744f0acacef4610c6f349"
+        },
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/icon-48.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "eeef8ed1cdbbe104cb2e1a2e686891714e44a1a2c20d36756a8db728408a3dbd"
+        },
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/toolbar-light-16.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "944515c2175e90573af3c0e2f177dbc7a66d2099485f6da14ce85b9d32b360ee"
+        },
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/toolbar-light-24.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "b917f22bd5dcd5502caab2bc62eaf84de50303074c4afeacbb4637cd645d9646"
+        },
+        {
+          "target": "tab_merge_n_sort/extension_chrome/icons/toolbar-light-32.png",
+          "snapshot": "tab_merge_n_sort/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "e3aa715e2071cf08260e4db117ac7cc2d6824c21ee6005698d277efabc5c9ebb"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "8002b066e36f3b03d41397524039725195d1ec15419973d1ea526521b970ad07"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "7df7ee555971046db35d272e668b36f1cba24860bb70d87b65d3c8d87f6b2141"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "a72e68b1856552608983c4eacb28c07d845597c555d613c7f5cad6a156b08756"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "70d5c6292a5544ca292c95be819115eceff1a94482aaeb40b2ad594f2460876e"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "e0071f60814d45d0a3c56f6c03da6b358d9e98d293697dd0acd50eb82e5ba4cd"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "e78cdbbd4e5658784a834459d19892c25e1fc3b4068ef0fa8e761073eaa1e319"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "f0cd032f7e7ec1a819808c1078b316b174d088d49e7b4b4958390b1861f54352"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "7577eb96a1147eca510060581a54fb3fec3d1f49c16870c3e66130898f6f2541"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "0a6ba52e670b9d2fcb95222e2b0a65f8aee0236665fbe4f9ebbafab60181a3d7"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "fd8a3c4b79f51d81380cf39de264a0fd99d34497d4b12ddc412b4226df52e63c"
+                }
+              ],
+              "sourceSha256": "e0f389deeaa6666baec079a5e98af49fb41cb3ef434a03a3640fece82cffceda"
+            },
+            "dark": {
+              "source": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "8245d724b6b4303e5979982c8c834ccc9236477a7f0ccc7d89f212c15929caa0"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "c2d83eaa792ec5a66d00ff97c3478c8ff015938054c6d632dcb0f10dc58866bc"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "7c1623cfb93dca7017cba1cb87bf46752170681cb0b9f9fee1fe752a13cec231"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "6de8ba86bab540654f874963f0ca1742effd81eb9eab4d9d19b641a965ea3673"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "7091852e99d759348c8210808ea3ee0c694462f494a12680c664c246934e259f"
+                }
+              ],
+              "sourceSha256": "2b1cffd55ad6b1d2d5cfb86c5f10cde4fea493b3d94f2aeae81e5603cf036707"
+            }
+          },
+          "sourceSha256": "eb15cff45437368153f22f0f2086a60d885ef989b068fb93fb1b1504ca6b80c7"
+        },
+        "nothing-matrix-v1": {
+          "source": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "ed53eb18a182a8fed7b267dfdaae93ac8b60400e2da652b6eb33d2f227a15bd0"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "a4d367e8b25db69d80478eb1ec299c0eefcdc2ea04507be430a6cdf03ce19eaf"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "476c421b9ff0829c9199976292aa77a26e1cf0c8c8642edbaec1ef2caeea0925"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "465a1ed424e7fecbc03309a9d7163542bdd41ffbdd7635178916e3907af86211"
+            },
+            {
+              "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "033ee4b062db6092ceb9a5a4ddae148a98dd43862bb539165ddf11778bdd05ee"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "8bc1527be720dcad4a605002046e3cc4b1ab6bf8071a0189ba2e09cda7710622"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "d733db4f821b7ce1f87317b4a9cef66f68d077fa634fc7e8e54aed382fd82b9a"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "7d2fb30c801011d47d218e5a1e36274b1d72b9cfd806252d045685d598117b27"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "c9610c89aa6303b8058b482a23952d929dbd68248508c4630f2eea187aaae709"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "33df80e52a9258e5cd34349cb4b7b98d67292b041e34258e6efdede2a4219e06"
+                }
+              ],
+              "sourceSha256": "1d50b6e4b5ef13df279e9fdb3f7125c2ba33f54582997dcfa33f64d25d3d8e9d"
+            },
+            "dark": {
+              "source": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "0e9ab14f62c04b0f1cce6e1344fccfc64654bc0478aad6c0ded94ea68a5be025"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "8495e4b856818c3eb71b172a190d0d4ca92c089d3257b923af3e4582303c592d"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "7f6ef674fdf683f4dc7184e3dc0fc43b5ea023379aaa40886716352be4d70239"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "c1dd3c5ae4d14c661033dec38e11457b7f075c50b3f51b7b4ffd0a350db17304"
+                },
+                {
+                  "path": "tab_merge_n_sort/design/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "84df263801f731d3c7b3e705c729c2caa027fe05f2228dc10dd7f5d038dbc0b6"
+                }
+              ],
+              "sourceSha256": "460beb48ec135535b4285637299a4664e05e4be11e2683ffd71da8d366ec98a6"
+            }
+          },
+          "sourceSha256": "0b9a694073369ac0c0cd487318aba6341e0d3dd8ef74b8de583d9c3478bb3648"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "tab_merge_n_sort/design/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "065de3a4fbc83624dddf1e18c1d622ba6aa87e9813b78e9f9c6645066d9bf005"
+        },
+        {
+          "path": "tab_merge_n_sort/design/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "f8495b9962e0fcab19eec683b5db9032b665537695e22a82f584687fa4a4cb5b"
+        },
+        {
+          "path": "tab_merge_n_sort/design/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "132ddd615124d606358628ac09c6f89ded45083f4c6970d2ac45df0a2312bfa1"
+        }
+      ]
+    },
+    {
+      "key": "no",
+      "name": "no",
+      "function": "阻擋分心網站",
+      "recognition": "停止符號：禁止進入",
+      "sourceRoot": "no/extension_chrome",
+      "sourceVersion": "0.1.3",
+      "owner": "no/design",
+      "legacyToolbar": "no/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "no/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        3,
+        4,
+        14,
+        12
+      ],
+      "legacy16AlphaEquivalentArea": 72.1,
+      "files": [
+        {
+          "target": "no/extension_chrome/icons/icon-128.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "8ba8ff5de15e01f35d97376f140d50e961b8316120add19b3932c92e42079769"
+        },
+        {
+          "target": "no/extension_chrome/icons/icon-16.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "3b59f198a3284ff4ed33d9fcc12157ff9b9299ebb12eb2cc5ed3bdf6de54a5cd"
+        },
+        {
+          "target": "no/extension_chrome/icons/icon-32.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "cc4d680c9bdcb833ea71c6a6043363e70e2633b9798bbf75cf49f8f73f02a1f0"
+        },
+        {
+          "target": "no/extension_chrome/icons/icon-48.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "9029b248da275322b23b89466bf334a81936c69bb9fd9e6df684985b45cb15ef"
+        },
+        {
+          "target": "no/extension_chrome/icons/toolbar-light-16.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "1df24d8cd652c1fc680d06874e2c39e1f02d5d307f66f39863406e1956a7f333"
+        },
+        {
+          "target": "no/extension_chrome/icons/toolbar-light-24.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "8e3f08ebd1f8fdadd87dfe967567f78a9a99e14f37b9cd0e33cd869994222e76"
+        },
+        {
+          "target": "no/extension_chrome/icons/toolbar-light-32.png",
+          "snapshot": "no/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "1dfe1ad0e7cad45c26a2d59d15d429878877e4a9324f2c83420e0fab313967aa"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "no/design/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "no/design/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "e39f23e0385c394c8aa1413e36eda449376eb8dcfde8a66878404922b213fe87"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "68e064c551a77d5eb5db7d33155dc11e1f1d869e6429e346bea1d1954b95cafd"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "7c00f0a380375ede0064c3ecb433d3938e80efea85e2f076dff944aad67c1246"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "f36726581532d646bf25631f8cafde5d3a0fabdfeb8c454bcd4a82cc3166602a"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "d1268ee397744cad480c545ad22422c956fff533fee698d3b2fa45026a93412e"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "no/design/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "dcc869cc3bf8ac0bb1488abd378e2dc75da7a6a317b50971f498b1eb01ba6953"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "9568b7d4531481319707372e81a2a9d324c7a0214c49ebc3fb9c84f0de218c6d"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "30b51741d790b0501bcccefad6f8bb3046b94d7a4ca75a58d536571423d39e35"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "28e254fd44aa2520d966acb18df9a061cc51fb93ff2809a652891a32cd747b36"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "3b6c5dff7162b90dd51e68061caefc4319c870c5eee4ad77b46a6a56692d2aaf"
+                }
+              ],
+              "sourceSha256": "38301c3805254c58c0222485df1fd500c7f98f35636dc2b4408a938da3975925"
+            },
+            "dark": {
+              "source": "no/design/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "65d21521923b0e3a665d85c0308313cdcf8bb649eef95590990170721f6ecc60"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "e31e21101dc035f5c6c466a22f365dbbd6218d3f855a14a844538a11c5061f94"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "c3ea95e641cc0456d3667d2fd0470a99cd30e695f260aa57ce6ccec3727d3260"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "8a071a47bbeaa4dda4df1c5c091a0f674f45b55445e0ad0950b17a700332cbec"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "012d372de8e36d1a9883b3f1275b8f4253b2377bcdf155fd892e67a793027920"
+                }
+              ],
+              "sourceSha256": "10a8f12e348f4a664cc70f0faf870f5ec16ec98640711f72ea32e08e4b13f356"
+            }
+          },
+          "sourceSha256": "ad966a4c174646d28ecbbe21c4dd2af2fcd4be17b996e652a3d743c550f22a23"
+        },
+        "nothing-matrix-v1": {
+          "source": "no/design/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "no/design/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "e7d0368ce56eb9fe1b0442d123775a0154df6188e44a02b001faddcc3be6bf9c"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "0ebfce9c671e20f4476eefbdf698cb6e6d51a898b5e6df2f1ab28400657f19f4"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "70d8c816782dc344566882b7ccea5d8b28f693b302048f53600eecc8807e0a7d"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "c71bf48744980667d4729e47c27a5e8a17cca903a76d42ddc24e047ad4ed81f5"
+            },
+            {
+              "path": "no/design/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "593e69cd7237e3c69144ea1f439739aa3f0ac5ace346634f7c34e652ecee5f18"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "no/design/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "f90c9d7ef6086dee8fd88284053801a1787102a5944248b28a464a3ba60efaff"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "18b23d29d985219338327c3c5b07b5fa444cadc68c6ba52cf893e94027af5536"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "7815239ce076c1002381eef3cf1d0d3a0aeda6ca2cbd5fae9df984f878826fb3"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "e5713f85ee5a94ed61e9e70dde5d5b1180e08b60f73878291292549faf778ea0"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "d63fb04df7e38a724745395878e30f0aa9a0442ba962849796a1efcc40b6b921"
+                }
+              ],
+              "sourceSha256": "f23165786c5ebb2dc554e6dc03d2fc5dd95f63818b9d0070a776bbba83ce58ee"
+            },
+            "dark": {
+              "source": "no/design/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "b47144314f7d0b3ae550477dfefc5e5e5dd0d9931e4c2a410de1a30cf4521d61"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "42059d0ae9df3164d5be707c173599ea261a447e00db2432a6222564b01c356e"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "6d55a615f95276b0376719987b4a10a1731ff22477991e9481b4a59c8eaed430"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "6cd4828d92082e70c5f14f00e34bef4aaba4d820875ce89fe389151e9297a46c"
+                },
+                {
+                  "path": "no/design/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "b18df3b974f5634c70e434d93aa767a2b6051e650aad13056fa4cee5e0f6e7bb"
+                }
+              ],
+              "sourceSha256": "a3d918ad0a344b55ef7b0b6b0b31577fe01eb80ce058b84f68417a110b0baae4"
+            }
+          },
+          "sourceSha256": "1f036e9f9360114fd212c57bb5af8526552459b8500fd228540d4ff51bf3b6ea"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "no/design/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "b42cc201bdf5b5b2d5328d4b0a6d67fd08754012a2743f080c8745f209716ed6"
+        },
+        {
+          "path": "no/design/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "57c39f20cf50e96a5c5b224dd2f46bc50073a016777766a2b0b2c31e2d3dfb0f"
+        },
+        {
+          "path": "no/design/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "b792ff727d75fb9c21340848e79cb517866a0629d003eccab04f8ea8b24992ac"
+        }
+      ]
+    },
+    {
+      "key": "calmly",
+      "name": "Calmly",
+      "function": "整理網頁、降低干擾",
+      "recognition": "清楚的眼睛：保留內容、減少干擾",
+      "sourceRoot": "calmly/extension_chrome",
+      "sourceVersion": "0.6.4",
+      "owner": "calmly/design",
+      "legacyToolbar": "calmly/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "calmly/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        2,
+        3,
+        14,
+        12
+      ],
+      "legacy16AlphaEquivalentArea": 68.1,
+      "files": [
+        {
+          "target": "calmly/extension_chrome/icons/icon-128.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "0df288b12e4f3572573ca17117ace0d211d360b064da57c2bed63651c497a41d"
+        },
+        {
+          "target": "calmly/extension_chrome/icons/icon-16.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "123a0951c7a56ccf4b5c74645c6c8452a016a32b281787b380ffc07353186766"
+        },
+        {
+          "target": "calmly/extension_chrome/icons/icon-32.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "2b848f0a0b6dfe47019740937ce189ee59ea28fc064eaaa1ffce1f5deb8c94ae"
+        },
+        {
+          "target": "calmly/extension_chrome/icons/icon-48.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "b9d9ff62c293124517d9cb8f6449bc84b69296b03c370d0ebb9b904a1e1adbc7"
+        },
+        {
+          "target": "calmly/extension_chrome/icons/toolbar-light-16.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "1fb9ebeba83c3596963ebe00c6314c9c54d056bc70ede25573655cab0bc30a80"
+        },
+        {
+          "target": "calmly/extension_chrome/icons/toolbar-light-24.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "36ab1d6f7ee85cea856d109be01546292bfc64f1e0f969fad8446a805a96d163"
+        },
+        {
+          "target": "calmly/extension_chrome/icons/toolbar-light-32.png",
+          "snapshot": "calmly/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "47f8e009d5b7fda3553f9982a38792d97e744aadc0efa5499e6e9b1c9894bee3"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "calmly/design/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "calmly/design/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "77c332756ff5ac607f9c8f9bc294af3957d8be7dd78450e91922065a97d69688"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "01222e8af9286a182e25afcb6d262db6a5af356e45d041818958b92c524917c9"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "e0e1a90797a9dbefa0909be364aed6aad1104d30c499a3eb4727def6bc005322"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "a5c4065bebde0f17113a0773a24e1fda2e713edfc7904e069f6d7c60337a4336"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "0dd50f136d6d6c646447f13d563edb76a83e4a549d116ab079546ec8742cef4d"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "calmly/design/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "05f87563169b331824bfa99ac9ec5562cb63f7c0085bcbcccdd6f22522752ab9"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "8a8e1948b9505552bfdce3182e130c75dbcb89305b6d9114f4244150c0c34dab"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "7b765148246fb96d9411370bbf5419b6de8533c4dc0ba78ed4625b8782a6e2a4"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "e24388a270ad150983ba67e3b1f669648c5ef64596ec57a17452c5f14e499a90"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "529d565c556a42414cc710ed8d8508ad324a28a880e6d522affca29a47412ff5"
+                }
+              ],
+              "sourceSha256": "dc96690c4d5dbb001dc60f27d086d2d2fbe4d41a7e3795bd5a08876b9633b688"
+            },
+            "dark": {
+              "source": "calmly/design/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "f6297ee5ed77d3e97803b53e5a95e13e608c3988302e4f61964b329c80988f96"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "932624a42ccf53aa2d9ef2bfc52658dc35153cc30967985a4bbe92a15659f713"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "26bf8104c6612e4f9f99f7ab8f16756509f5d40e9e6e39d294c49553f92ce241"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "a051b31c22f5b343e3bb7dbbe84955e853aba021658f2815bd5cfc714565704f"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "a01ed1004c920cd19549c8ae681bbc22077f9a55e2bd7c401815ec72b3a8c7cb"
+                }
+              ],
+              "sourceSha256": "805f2369c4800fa799e4b228abcdb350077a67dc35537bd6cdb7037ebd77e5f8"
+            }
+          },
+          "sourceSha256": "8bf118f7efd75f3deb7521db842e49043a924c402ab8fceb861cf038d2c75143"
+        },
+        "nothing-matrix-v1": {
+          "source": "calmly/design/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "calmly/design/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "03a2258d277ef99546e7c978c94649d069049a39e38126168e2728841acb05f7"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "0bd128ee3b35b846ff9907a8d9138f6f4a768e8214e86716537b7e5c0410bbd8"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "a7244764506c6401c1f41e1e2914732ce8cbf1c895d0305a9d0b629a98bfc4c7"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "0ba1e39207dcad21754ba04c1021b6540ca976392e6ff3a7aaf2a8074b47378a"
+            },
+            {
+              "path": "calmly/design/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "dc6c335434547b776c6ad1c8b176cde60cc41eb0c33646374d20f09d48973751"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "calmly/design/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "aff0dac307621c52f3dc1c418e443ad4793dbb6f8eab3a5949ebc380766561f4"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "ce93f59b70521f3236cae8c713c3543a8fdd745d1b9069a2d862bd74b85de826"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "4f0ad78dff59063f4762393b549f809053c2fd46d4506b7b49704fcbe988b2a2"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "aa8b922b59739a53da50baa44fc87d743bcb85429bd71d02fc8b50eaad93239e"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "4c1bd61edf9fe67bf867e9f9d040539eff67594c668ef2da4c740a00888e80b1"
+                }
+              ],
+              "sourceSha256": "92f64f0a6e3747d93f30d92d608e0af7e82d44147b2f1c1fedb44cf083363161"
+            },
+            "dark": {
+              "source": "calmly/design/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "3c31e16b7f42b721cc9315bf0593e89cf1519c7471bad0fdffb11563fe6ca35c"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "cf56f80525e94e6e5e46eddd7200d0e087c82ee85a185b4811145a601bd0046b"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "880243dde12ac2ae80bad7f451ff20e2ce53b4939286a8bc3701bf0b9dff9a84"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "cbb85c7930946cdd2ec2204aebf25da672974a52538c52a7a08bccdedaffddc3"
+                },
+                {
+                  "path": "calmly/design/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "7366a0d3b8cb076325f82717c7d57823c36ac8cc0e3dbf3b6d12a93c931ce3de"
+                }
+              ],
+              "sourceSha256": "92ccd76eabbe0ebe7e77909e09bf96e76a15841bde83f81dbd137f0294e155e1"
+            }
+          },
+          "sourceSha256": "5bd97b9acd4d7f227b828b5c89daf11b24f37b0da5d5166640459875b8e99be8"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "calmly/design/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "793b33716d718baa24d2ddddf854349bb90486bccc05b8ea28cb6c3532940b81"
+        },
+        {
+          "path": "calmly/design/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "671a60d938c7293f85a5b40e05a1f6034ec5a850cfe191592ddd1f1e60bb1ac6"
+        },
+        {
+          "path": "calmly/design/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "82f1655278d244774ffad368258a335101ae0153688e081d382a9b5a909ad981"
+        }
+      ]
+    },
+    {
+      "key": "active",
+      "name": "Active",
+      "function": "擷取至進行中 Journal",
+      "recognition": "一支筆：寫入進行中記錄",
+      "sourceRoot": "mastermind_capture/extension_chrome/active",
+      "sourceVersion": "0.1.10",
+      "owner": "mastermind_capture/design/active",
+      "legacyToolbar": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        3,
+        1,
+        15,
+        14
+      ],
+      "legacy16AlphaEquivalentArea": 98,
+      "files": [
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/icon-128.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "d5211739a98075f43d785c79d4a628ccbe6209f481f87a4b39841a0c82156dce"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/icon-16.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "06cbdbc75248353b1d0eeaa753c054e38a23a4e38586aca46073cd7ee935eefe"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/icon-32.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "163c0a283de34ac81e491f8924b8eddaf68e92035ec7c3b67c3ebbf3a8bd32c6"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/icon-48.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "8aa46be3be1662747f8dc8e955adce9fe58bb42972298c503bb26acf86e9dc78"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/toolbar-light-16.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "1e05c4dd3dd3833df3b918990d8c8483a6cd27c023e738d727bab6625ba62ed4"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/toolbar-light-24.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "e096038e84f66eb6d9c72dddef8b58e533ca041c4ba12c4b40efe2e1796c98e6"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/active/icons/toolbar-light-32.png",
+          "snapshot": "mastermind_capture/design/active/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "b4144bca2ef703ad710539abaa3c0a5982f5ac5f4831d1414caafec5c2fef666"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "3c3317c631a34823d28314f3f0a39357779175da7e341d714152415fb86f1483"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "b5b88352200c5f724bf46f341534d148ee6e6e0f60207cdb3c085fe780508551"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "24c88a56c0e1c3d3ef767f98c2e5d16335ab81d0147678e78410f2cdfddfba4c"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "412af31ec4bf7b946fb9afa42d5ff3de757fadc1e81224564dfc5b971ff8e5bb"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "07dd98734319c33523e7d73dfec313987dade379906aaa0796e107e3df988753"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "0d3990ff205703e6d565428e51162f22c289070523d95edd9a0bf6c097164f6a"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "78656f5acbce4fd29c890f818420b8a7ad511f0b81e9080d5013e6ce88445ad0"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "fcfd64003bca8cb98dd836f243591b165003d7c8fd3bd0c4f43b64c50f8b10ec"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "4c8ad929d9325bba19987a7098bc7ea4b37d7ad3ad025b7bd26614b9add78c39"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "0d157c064020f705172a45ab9462962eeaa5fcfcf5bdd48f95c98a96abe178b2"
+                }
+              ],
+              "sourceSha256": "8761ccc991516b0bb39ff12786173e8f8db14392c24ff6dd01b99c7718a8f1e6"
+            },
+            "dark": {
+              "source": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "72380051fd31ae22be375e8358ec3385830adc65a89cc1a7e1181bdc8324f6e8"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "5f13040ae42d5b130669eb405f889a5d4bd839f508c8fc4c71cc9187446b9029"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "cb9b8f35c5de63a13f5afd290749c917ce45cfbcbb523a432a038c4b7410537a"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "ac9d445dd4873a1401ec2a73b5305ef7a70a603e19f269fce2bc6202f94b9122"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "d2d9be5dd6f7031468c2cb5b0195f9967cf9115b7c4303052eeddd40f913ff40"
+                }
+              ],
+              "sourceSha256": "5193c828c25c71960759845a9a086a1a5d572611508173ef0b051658c8cbca37"
+            }
+          },
+          "sourceSha256": "5902f13f5ae6f6464fcac701e1b26aa30a9d177130a1f1a1252f120924d4f488"
+        },
+        "nothing-matrix-v1": {
+          "source": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "446dc29dba5b0398113f5021125aa6e1bd4e50d34bfbbee4fffc253dff6e40b7"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "d7e1aa41b0d73743632d6db4da12b853f04744c9c3e31daff81f119d57ebc338"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "a7794983ca9f14ca5a3de175fd1bafd72ab9a430d38c83f490362028a72a7ebc"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "3aec466ffbcfde887a142faa879cf366765acb3f1b1c9cf717a731b2411bb5b7"
+            },
+            {
+              "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "a6569f8beaebb11504d89711e8ac4e3a3ef84bf9a26ee6a82eb8bd3968e04a1f"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "9e9c22b842d14ee0993eaf2a8aed0739bf700d6cbf6c47cb6885c8d594668de7"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "bfacaf4636c16391b2dbdb5a9d7cd662b8f390b60452d2f77703bd7f9a2b02bd"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "2539ee16d6f17cf98f1d33178256c2bbca95bd9a0231df64586b49fd74eb7a8e"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "1f5e0bd3370eeba8a02d3b99092b5996856e7e1e129a5b9424157138b86b943f"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "8c8118d0f2781601ebc98c0965afb296d516c78e401f295d890bcdeb613cdd6b"
+                }
+              ],
+              "sourceSha256": "c379679f86357f4e2976237cdd30773827b30921903976be168862a24651e208"
+            },
+            "dark": {
+              "source": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "0f15106c33ef3795ad3585f6956bda1cc4961a439d2a844b19a19f9ed8372edd"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "0762bdf14f9e8de7c627723e29225b24d8dcfc486a727b1c9d770dd7512ec1d7"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "65519a5a68357707cf947bf79714ebc559af365e1dd465c474430e0855fa125e"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "05b53cc997143297840280bbf368999f248ba8ef8703f3075f28be1bf31b4e4b"
+                },
+                {
+                  "path": "mastermind_capture/design/active/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "f973dfc67359b72c07b41e1f80c73c3391bf54ec32b536130ed43bf1154cc810"
+                }
+              ],
+              "sourceSha256": "5c992d367d4d6aea01d8f17c5f1f66cb1cff95df57b362125b89c655f784a9fb"
+            }
+          },
+          "sourceSha256": "7095652d7fa5580b6412d9cad3acf437d65a8923e3d21f3e804450b2bb2bb03d"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "mastermind_capture/design/active/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "191c10acc430ae08a3406c4438940f57238e72d583fa4e1b1fcd5af28c94247a"
+        },
+        {
+          "path": "mastermind_capture/design/active/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "c1655f649da66e16156a1f73ae9741dc1a24f0e38f26ba6a7c7257ce5c69d1d1"
+        },
+        {
+          "path": "mastermind_capture/design/active/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "61a61d5dbe67d7ead81de7a8d040962384f8ffdca43a1f26e38b9af1e38aedc0"
+        }
+      ]
+    },
+    {
+      "key": "archive",
+      "name": "Archive",
+      "function": "擷取至封存 Journal",
+      "recognition": "有蓋檔案盒：收進封存",
+      "sourceRoot": "mastermind_capture/extension_chrome/archive",
+      "sourceVersion": "0.1.10",
+      "owner": "mastermind_capture/design/archive",
+      "legacyToolbar": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "legacy16AlphaEquivalentArea": 105.3,
+      "files": [
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/icon-128.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "fbb0229131b0d81c2a7198973fd86536a422017741dd29bfefbda5c6dcea1a43"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/icon-16.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "9e5dfbc73d71e84f9d43ead92beffa4fa12f14fb785ad879fec4248d129af68c"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/icon-32.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "5307a331711e44095813d0198301e48823c09c33e0941aa6628bda999cf69f6b"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/icon-48.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "c851b681f3f71f110174bfc2131926dd731b2bed2e78ef865936d701a3f4293a"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/toolbar-light-16.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "b95694364f7afc327c8ed5f59047a1e9b35f953af33f1f61490ee1ea4124cdb6"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/toolbar-light-24.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "9461576ba87c072f1cfb3e6689fa80b01276316f97befcdf70c7f8275f2ea109"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/archive/icons/toolbar-light-32.png",
+          "snapshot": "mastermind_capture/design/archive/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "a27f843d751073505ae14343014dfae2a49409a03124133c4e78fe827b94c580"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "c23f809fc777e87a578069d9c560bf20791179cdc52fa3ea4ac5ccc92ccf1471"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "828928ff197db356387d01228eede38fbeb6c103f25737f475873416d80d047e"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "8552223ce98e65ca5e144527cf9f8ee0b4044192383e81040a2667d6f713aa25"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "da8d582d31e0277d6bc875af82c9e34bc8d1e57f951aa07b82d0dd3d60f7b3ad"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "238530eeb3ed400acbe33972702f64db0bec1ae2ee5dfd9bd13c2d612effc3f1"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "36c521b29529025bb6bcb2d90b4e9e185fed14c0068f8c8d4e884b3708b848f8"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "cb4335e24e8c6d8352acdf151c5cceac13f7c8605aa05b788c4743df56c45bae"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "d411bd24f7761b16a1c49b69d934cbf7d9b78467de20286756412035c2b37aac"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "618f9ab5edc9bbb4003be06792e235ade5d45033c0a94cafde9a4913c547e683"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "0aab4f2a59f46b3edaa837a83d57e8cc8ccf255b3b54f4db6f296d1a76f8a652"
+                }
+              ],
+              "sourceSha256": "7f1f4adb3d264ae9416d666785ee605c814838fcfd9a7571e4fc57c62e4f2392"
+            },
+            "dark": {
+              "source": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "45303a87f76409c2bc8ae30238e2a9540b77e6ef70ad85b60d891d1647a437b9"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "02328ddae38f2a4e7e6ccced923dc36e45b186868a77a67d226cf8db9f71fc95"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "46736721227d0923c4496e59e5fc5e48129552c9a2ca2c0ff5b67660971f9d2d"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "441ffbd5aa4a74e5b01dfa165f3b9e2a22f3b616872080dafe4ff1f88b764c51"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "a13c00950c458bb74b4211263f4dac655d95e2ebb51eb5f7777e78574e4a3b1a"
+                }
+              ],
+              "sourceSha256": "790ce97c9984c4a969e650595f30405f0be1ed49560aa812b0b7230e7befc443"
+            }
+          },
+          "sourceSha256": "cdb9d524b23126a20f0be8b6a4840a92f944b368b3d0bf45a24324b06086b0e7"
+        },
+        "nothing-matrix-v1": {
+          "source": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "b9cf65a9f3d6078d20520042d849dae40794a61aa0412e8257e0fe9e411448a7"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "f9093539ce4a77ff7778a2a74ff45e02c32fcb668d192e191457d0b41c68049f"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "bbeb2c09424d6faa95f2276d465b6104d02bea95ea8fdcfd4f309413a8169e2a"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "b4bbdec3b75c1d86d9d4316f5f3420b8a0c7a434868556eb585fda44def19cc5"
+            },
+            {
+              "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "b171cb12f73206a228fc762c566423930b8c490ea7e63168a974e3d91c8a4cbc"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "8118145ac0ad0599c951ad8b80cc06f51aaf6157541849d1ecd75e693ea1c0fa"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "6c43ef4bb5c1baf058ce1e022639654282d3eec95151af3124456fcc217bf914"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "0598e1c144323279d61943917ddc9c733a8241bb6432038b9075a825e2cf4ac9"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "3900cc25665fa36335f73af3d8340ce6197b3118e0c7246ffffa9a61620ae732"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "d5ae1605041f5a7a5d98b86a985b78a667cab9c6f0c850b59cdcb030dce44348"
+                }
+              ],
+              "sourceSha256": "0e890ff5bdec61632478e0fc45a77210e586911286a7d2b8c1677b3686d6018d"
+            },
+            "dark": {
+              "source": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "bfb6ad909003a22be2dff46c372235cf46d8db662c725e6b5be3d5bf4d809da6"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "b06132455bf8e33c054327cea32a043db98a6d403e8210a8cb1dbef8e97aebec"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "357fe5630ab2cc1bf24273ce0db1047ffe9e4ef7714d9c06a6359d108e10cc85"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "845fe8a79d38d291c8c7d0312bf0c0159c5313716a18694219bf3ad3ebd35f54"
+                },
+                {
+                  "path": "mastermind_capture/design/archive/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "18ba984bfbc02b821f31007795ac133169486a1814e37c60342cecb2f4a3a11a"
+                }
+              ],
+              "sourceSha256": "2d13b89ddbfd6c4846c3bc4c69eeb343b55710fc2dfd62404fdd16556b59423b"
+            }
+          },
+          "sourceSha256": "55c9c7bae419ff3c75a9e31da561cb76e47ae612c63cc2e11a51389691c75356"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "mastermind_capture/design/archive/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "ab920e441aab4120f943dceb086753cd3702afd688572e3d354f5f13a98cf436"
+        },
+        {
+          "path": "mastermind_capture/design/archive/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "297468cb779e799ffec4d9ab1239727a963c357b936b3c526e426bc0ffe60a2f"
+        },
+        {
+          "path": "mastermind_capture/design/archive/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "75604101bd8b41eb512f54e45ae5fb8218cf07cf947defa98954411432f13726"
+        }
+      ]
+    },
+    {
+      "key": "bookmark",
+      "name": "Bookmark",
+      "function": "保存網頁書籤",
+      "recognition": "單一書籤尾：保留頁面",
+      "sourceRoot": "mastermind_capture/extension_chrome/bookmark",
+      "sourceVersion": "0.1.29",
+      "owner": "mastermind_capture/design/bookmark",
+      "legacyToolbar": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        2,
+        1,
+        12,
+        15
+      ],
+      "legacy16AlphaEquivalentArea": 91.1,
+      "files": [
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-128.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "1f8567687482a04a7ac097866b97a2a18653d524e3b78074e48e5b8122bf6691"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-16.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "bf212f2e3838cf9692bd6b3401211686eccd0c5f1625caf91d16dab5a07e3bbd"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-32.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "fb1ca928b2a30557d613aae566b5a598847cb2c0698e5a82b526e45e02821fd6"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-48.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "e7d79dccdbd632a75b43c911bad3b202a729ed159ece015ab1128fdf00c4c597"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/toolbar-light-16.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "9f5b70695e3fb1ce5e2ffd03b16f23f0180f6909245db4054a57f5d526a2ce8f"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/toolbar-light-24.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "808f9d9d3001bee346390772c81281a6c1f382bac9fdea1f1feecbe144e1edfb"
+        },
+        {
+          "target": "mastermind_capture/extension_chrome/bookmark/icons/toolbar-light-32.png",
+          "snapshot": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "23abf26ed44089b12e566f5128be1818ae976e164b6dae7de0a3590a34d981f8"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "baeaa3469e0f2eab62cd5b4980fce6d352f239c542f1eaf791b3c38b7c332733"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "b4210c3b04505c8e82d126f42bdd7f9f409f82e6f6d9f0d384043902ebaa0703"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "a8e1efb24f252d872e70bae1f2b2667629ff476e39ded57c5932ce410378234c"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "66a7d10eac5867a9e2d831c6623264c8db1c1ad467559a314d929b4989386de0"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "da5a760f36b22a6ead83e469f923b17a0155781ab42161b7a2165cb72fcdfca3"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "d69db13d0c01d6fc514e56667c75435d9f7be7beefe0c139d1e70c78954c0de6"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "5f266223fb9609a1be8db95b224f32aca25ac73d7b648d2e04d3ac59900f43f4"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "2cb26ec07c15b1996d7f1428c6a450193317eaf03a833c20fdda99b34dedafcc"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "b96bc66e57f5796133b2fcb124c1e3699a5bc912482126d1955977f6e6088b65"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "a56b8c764d3909a8e8a153becb0368072a715634039f1250bb8f89808e9a287f"
+                }
+              ],
+              "sourceSha256": "b56f4583f0b946e46594aed0dd2a58bd0fef4ab3d8e0820f46825e561bdfd1c0"
+            },
+            "dark": {
+              "source": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "0b55ea7550a98904c15d9b55c7c69441b65291e53cdfb02fd8f1e4efbb72b8b8"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "2483085f3dede625268946e2abd665865f5b774074dfd0b5769a0bc9721dd257"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "2ff61798f212df67547df16fa5f6a56f104dcdd7d234a8e8d10087dac0ef5232"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "ca17f1b27b26dac20a6fe1f2ec1855dd2a9dff0c19a481a7c155d5ae17782bce"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "f31980d565322c8543157a1ec9800be6cd53872f0de52d998abef06e107f18cb"
+                }
+              ],
+              "sourceSha256": "861c664315b46462af5aaa2ca5efcfd6acc2d6822ee18797ac7f1fb1a4f818e9"
+            }
+          },
+          "sourceSha256": "eee88ccacfdb7540ab81e584f8ca3692281f34fdae8bc13fd1ee429f789de561"
+        },
+        "nothing-matrix-v1": {
+          "source": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "d7ffa68a4ae029a3ecd33fc761dfdb833781481f9f16182be43c5c08bc48ab17"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "948a254491ab1d2b0d7186d788904508a3d3934cd085fec483641be123c3cb5f"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "11bf0421c5e659c22e4788126ceda5f3f552252ec2166c08c2f819a99b8e8af5"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "6e9592575f614e8a7c04f77609fc9675a6af712fa80ad75fd8eb873472a36b69"
+            },
+            {
+              "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "d5bf29ca8087775fda9f7f0884f2b28b7193846fecdb4db82a18e1db50e8b355"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "1cb4bf8935971e721e77bb60687452428ef2bdc0375d38d9b1fba65affb77948"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "63d9e3dd1788d11cf70ac25254599899b0bc92b1e1153e22847b1a8f8c4d338d"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "a22621dbce5015969b0e9b79134b859c03475ff1b8c005732e6a3f96a47625e4"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "2febaef5b61901bdd296afb229c8161416dbc3cf0b74e06f6c243e0ccf74868a"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "361180fdbfb43f5e4dda454313e86ce4a20f09876313795f854891798f9d6bd8"
+                }
+              ],
+              "sourceSha256": "bfd65edb02d7441649a38fbee704aa8b77d1778d070d81d69ae9a36eb39da43e"
+            },
+            "dark": {
+              "source": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "a2091f46a1fb67f91f95952ab4832210c2a79d9e39112a53e9315fcde22fb58f"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "2437d8a7a08d64bdd96d5ffa378e2fa4b66ed603f08624548c168c96e1568058"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "0330e736227161e02bf9e1f359232c638001ac9b570cbf8ff14162eb4528573b"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "c43976b088f69cdc66330d8de4ee4635485f73fd851c9bd7dec6d05131cda228"
+                },
+                {
+                  "path": "mastermind_capture/design/bookmark/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "39bc8c785ed6c8b803d9aa2a4235ef18c4351825bfc2ce4592f28714c1931484"
+                }
+              ],
+              "sourceSha256": "e96333200e8f1137064772163feb2e61fab7dec38c9a8b0e5822f3263856ce32"
+            }
+          },
+          "sourceSha256": "d9bf69561829456bd7f62c9cfef32cdd933e797e1fab80b5d1867d0c67323c74"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "e5af5f400da26aac9c06f40bdffac5d608216c55af767d3fb5ff2d515cffeacd"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "708b8ac488a31801b6d4523f3a7c8ae39b02491b1df61710b8283f774105a29a"
+        },
+        {
+          "path": "mastermind_capture/design/bookmark/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "cec251398662dcb7c7bb187bfd35f655b80d162c69d41f78a86cb79071255b24"
+        }
+      ]
+    },
+    {
+      "key": "x_collector",
+      "name": "X Collector",
+      "function": "收集 X 讚與書籤",
+      "recognition": "X 加收納槽：收集 X 內容",
+      "sourceRoot": "x_collector/extension_chrome",
+      "sourceVersion": "0.1.6",
+      "owner": "x_collector/design",
+      "legacyToolbar": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        3,
+        1,
+        13,
+        15
+      ],
+      "legacy16AlphaEquivalentArea": 125,
+      "files": [
+        {
+          "target": "x_collector/extension_chrome/icons/icon-128.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "141851a423af554f93878ab4618ef07c49d58b41046db155b2f284f747c9e99d"
+        },
+        {
+          "target": "x_collector/extension_chrome/icons/icon-16.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "ceac8c09e5b2809445dce508e432dfe33b8809bacd8c064aab1bc40fdeb40335"
+        },
+        {
+          "target": "x_collector/extension_chrome/icons/icon-32.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "3ae8974f0720670a41502c2751746e27dc9cec621ae4cbd35239bfbf1c2311af"
+        },
+        {
+          "target": "x_collector/extension_chrome/icons/icon-48.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "9420998cca5ed2334247046fd33febf2aaabe141f66f7ca021239a09f930cb05"
+        },
+        {
+          "target": "x_collector/extension_chrome/icons/toolbar-light-16.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "07717dfa8542fe8f7cc8539119d2f31488dcaa40f4cb8cd4a3bab38c9836385f"
+        },
+        {
+          "target": "x_collector/extension_chrome/icons/toolbar-light-24.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "d10b0e4a3b5596bd4115b6f7dee88eb0c78c5c5d4132ec4aa791882b94c875ff"
+        },
+        {
+          "target": "x_collector/extension_chrome/icons/toolbar-light-32.png",
+          "snapshot": "x_collector/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "7db0c498dd490cecee9e19830434f98b55ef5ff85c66e410804c5dbc11df2057"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "x_collector/design/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "x_collector/design/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "aa4d7a8c00fe51fd5c69d4995ebac6fab359a5a000485ebd4dbffc1ca84b307e"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "5ba2c070fcb08e68712051f5fc916c2d4b59749be5d464ff56006fcf125c6350"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "2622156d5c0dd29c2150c7b1a8cedb842d0d4a7aee3e0cc927e0d4de07dc6756"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "5e135f77ef713e9c221408a8db029ba300a73f43b98d87c36619ae24988ec29c"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "becedf5f7eaf512f4c4f6d000d73d0218b132758d9a5d50cc6ef50ac49907a50"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "x_collector/design/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "83b0e937e85568c28f8460249c5dbc1eea6932eb226839d89bfbbd6be2f232e2"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "f2173fe2505a7f66426487eecbe66504d921cddaa17fb34fca91281871560b53"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "da2910651f34987f18c14e8d580ca604b5ff9456e678f08dd1cf5236cb6d762c"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "17012b9b3e01c8ccb4bca3e852c37ef0d4c02b1d4b23f4f65890607a74039400"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "819b3df17b882142d9f2aabe81504ecf5f27929ddcf6368c99accdf02ebe99a1"
+                }
+              ],
+              "sourceSha256": "8422b3a54dd08e7b44cf5d7775b8a208bbd5968c0a513c662bacfc769d65018f"
+            },
+            "dark": {
+              "source": "x_collector/design/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "5ece83963cd7f00ebe744e487d8a1dca0191b47de7bd6a2776e3f7fa8971661f"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "875286aee45d92a9405749875777d9c1b10d1c13b1d8b2ce104293406acb9303"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "649b21949e285d28390f81de3c897d3c17fc39931c8455f772329b758cd9230b"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "08d6bbe1312ae551c77b8671aca3115d3dc57158790ca740906e57088d78ae95"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "47e07b4705e325f9b0332f4515af46491ce02d49e66238d60b79c0568a874217"
+                }
+              ],
+              "sourceSha256": "692e5c17892aa87f9e1842f159a74a8533f93231823bd126f6529870e75dd908"
+            }
+          },
+          "sourceSha256": "b8438c5a9653207e098807977807b0aecd655c4b0a9c2f2c062c48f97e334340"
+        },
+        "nothing-matrix-v1": {
+          "source": "x_collector/design/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "x_collector/design/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "0917b731636d56c86025720265348f79ba46b5e49358ef2bb4b1b3bb4a8e4b3f"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "f3f24803c5d7f0813afd87451a61798e4a918abdd1321829e095cd7c3e772624"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "8f5063e760e33c2b2ab44d6fe383cff5db1a391a97d069e369e525ec941421f9"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "efc9e7a68feaa0a687ad8553cc6eb91426de7e3f98dba8993180a19ab864a583"
+            },
+            {
+              "path": "x_collector/design/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "7c38864e2ea544118eeb8d33cbceb91377cf2ad10297c05c8743be6eb4c2f4cc"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "x_collector/design/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "671c00977bb897fcdbc6cbc2de1f1f3e641f75936340683547ed426bcc5b94e0"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "40661af0e780ace4d88f79182483ededf95356a376c635d3f6152638d34c0e75"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "708aa3a33b4975ef662f2c3c4344e50b74360ac1924d834b9b0bdaaedb4295d4"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "24d42971d7e1e6f186b5506256740df0ad1d70764853d156ddd3f3858a7b51f9"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "3f1ebde693a816c2d19d49564f51e9ebdbd73f4f4a687520673c63f4c18667f3"
+                }
+              ],
+              "sourceSha256": "f5fa03678f33a9c41804cc74dbddb80c41b1ca936e48f2db99185b8976bf7438"
+            },
+            "dark": {
+              "source": "x_collector/design/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "aa93327d7da4551a60f5226d2313b1c888e9d74530e784b730ff516e24e171b5"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "d62ecc1b907185507e113deea360ea7178b2a795ba644dc5944d272e921e0550"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "5759a17d974f36c6fbf7d37a18b45140e2c96ca366f702c98a684599043c8f93"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "43b2cecdf8a9fc13087f40f84f45f2ca989f02a18836adfc2301fedfb97053d3"
+                },
+                {
+                  "path": "x_collector/design/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "89bbcdf30e2619376367f9acf82622aa638fcfbc6f620d71b1195104d89035ee"
+                }
+              ],
+              "sourceSha256": "1676d4466320a1cba6d4109bff87753f778074d5fb830a971dbc76f825762352"
+            }
+          },
+          "sourceSha256": "1ae5eff6d128d633ee4b3c43d19d68413c6bc8df17e0677bb834fd4dee003374"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "x_collector/design/icon-styles/legacy-20260927/source/icon-app.svg",
+          "sha256": "87fe7998269cf59a79766105ac563c96703835930f7f20df8d87d6f42fd571cd"
+        },
+        {
+          "path": "x_collector/design/icon-styles/legacy-20260927/source/icon-small.svg",
+          "sha256": "e033994dac0911003329fa45be2f8fc04016cbdd9e55d338d9dfe063393da5f0"
+        },
+        {
+          "path": "x_collector/design/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "22875b38bc8b6061943203939a9d3aa2cd15844d8df9f1d08020ef37bf2419ba"
+        }
+      ]
+    },
+    {
+      "key": "atlaskit_capture",
+      "name": "AtlasKit Capture",
+      "function": "擷取媒體／連結至 Kit",
+      "recognition": "取景角與向內箭頭：擷取到本機",
+      "sourceRoot": "atlaskit_capture/extension_chrome",
+      "sourceVersion": "0.3.0",
+      "owner": "atlaskit_capture/design",
+      "legacyToolbar": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+      "legacy32": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+      "legacy16BoundsAlpha128": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "legacy16AlphaEquivalentArea": 84.4,
+      "files": [
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/icon-128.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/icon-128.png",
+          "sha256": "3a717479d5e29743e5ae8d4521ff44c3339f8a18b5f0955d3f90aadf539368d6"
+        },
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/icon-16.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/icon-16.png",
+          "sha256": "7313dcad03c0fd8669244cabf3fb88570d9f3070f3519a5dd5a002491425275b"
+        },
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/icon-32.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/icon-32.png",
+          "sha256": "ca8347ed2ecee25f3d4bb312fd0f85014efb16054bb29a7bfc768fdc7ff19303"
+        },
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/icon-48.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/icon-48.png",
+          "sha256": "cd682ed91b893b0ab2153a602093a3404a636642fea057397c2ae6fb6c8e5355"
+        },
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/toolbar-light-16.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-16.png",
+          "sha256": "f920659e8a025b0e59ba2a8e6357fe264c89a821b418844004896dee8b763fc2"
+        },
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/toolbar-light-24.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-24.png",
+          "sha256": "8bf1a4e1aae4a0794b2f6632609ed03184166d957a4c0f51d800dc2230919d18"
+        },
+        {
+          "target": "atlaskit_capture/extension_chrome/icons/toolbar-light-32.png",
+          "snapshot": "atlaskit_capture/design/icon-styles/legacy-20260927/runtime/icons/toolbar-light-32.png",
+          "sha256": "2aaa9e5f167b0539f175bac5524ceb52f05826ecb199031e9cfe934fe79ce947"
+        }
+      ],
+      "candidates": {
+        "nothing-signal-v1": {
+          "source": "atlaskit_capture/design/icon-styles/nothing-signal-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/icon-16.png",
+              "sha256": "f04ed9073a157ed82fae0bb949147842e51bd5fe4fdd5213488209b230ed4962"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/icon-24.png",
+              "sha256": "08cddcc38dfe674de24c676c0ca80a233fa0c3cb0249eeec4fff4a54afb117d5"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/icon-32.png",
+              "sha256": "199f6682492abf757744e78a96c74c7f16b3d5dfec412840e9616c8c4159bd8b"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/icon-48.png",
+              "sha256": "6a7037f3a09eb63fce94a8c9b219efd6865a535a330a1bbd18f7aaa452ca659a"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/icon-128.png",
+              "sha256": "bbce8cd5a645bd6534bf9eb2681aff230b9c0e52ad8acbc8f3693cb82c334dc5"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "atlaskit_capture/design/icon-styles/nothing-signal-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/light-16.png",
+                  "sha256": "11eb8262edf17704c33fb14ec7a15c2f2162f56768954980531b400b8b1e9d6c"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/light-24.png",
+                  "sha256": "9a7f6357c7634fe2adf93632c5417eed478f2def60c788b6532a5dfc8dc2709d"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/light-32.png",
+                  "sha256": "aac5743d548a945c93784287474f06599ce1a0dafff69f72f408791ec8c64ca3"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/light-48.png",
+                  "sha256": "b69885f69362190d5daaef89dfc33b0448c141d1fc4714133f10d519220eb81d"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/light-128.png",
+                  "sha256": "af3cf69e87533e7abab34abfa8083e226302410362168e6da2e78e8f1ea78a29"
+                }
+              ],
+              "sourceSha256": "e38119733b04e69f755ade4555f6b50dbc58e22e6c29ecbb4f25b9a0e9b5e942"
+            },
+            "dark": {
+              "source": "atlaskit_capture/design/icon-styles/nothing-signal-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/dark-16.png",
+                  "sha256": "a71bb9300fbd97c252d8954c8c887239db0e9b2d195b1845038ff2e61f6a3b44"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/dark-24.png",
+                  "sha256": "32679d4b11110c112a8ba992f83b6dea22654828e66cc5e23a6a247e96ad925c"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/dark-32.png",
+                  "sha256": "32b63ccd633788e07697b2392d86bf959f8bc3e870d5896b9a807041736afb3a"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/dark-48.png",
+                  "sha256": "58049ff090560eeb35eb90c649b38b90c12d16c38d57297c3551adfd63e0c5ea"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-signal-v1/dark-128.png",
+                  "sha256": "c58e0814440adddb105b59aae7e712a27fc276aa203b348c00ec03e73538e98a"
+                }
+              ],
+              "sourceSha256": "cbf1edf2afefef74400d212d9fdb52c38958e6d6c6b00d29fafb346cfac5eb7f"
+            }
+          },
+          "sourceSha256": "65ee4a63d5b09326e23547f24d074adb440c37f46b7c22b271c332b4f9cd4260"
+        },
+        "nothing-matrix-v1": {
+          "source": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/toolbar.svg",
+          "assets": [
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/icon-16.png",
+              "sha256": "bb4091c6f33618f10c71e94aadeeac44a9e27d8cf33c37a560ca6cc866f95239"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/icon-24.png",
+              "sha256": "4e52b8a205b0f03911e4eb02f1add679a937917111008a17fff3f7e6a941d73d"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/icon-32.png",
+              "sha256": "cb5916fc7d0dc1bf7571fbd9ae6c17b9c01c2793475972a476fbcdca5f82cc67"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/icon-48.png",
+              "sha256": "50932668da2af833e70e9533f66511f1cde6949dae8f31032bc03c62b94ef673"
+            },
+            {
+              "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/icon-128.png",
+              "sha256": "83d56487445a562be48f01c08d9bdd2a2b21c3794fede54a3da076bc68893950"
+            }
+          ],
+          "appearances": {
+            "light": {
+              "source": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/toolbar-light.svg",
+              "assets": [
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/light-16.png",
+                  "sha256": "2bca91a66b1a5a80e8642ac06cd02fbca7bfad2a06eab7c81be93caa46a09081"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/light-24.png",
+                  "sha256": "2235cd7dd79b7f90e34edef97f1588b31b36f39173d1fe74277d9585b90a490d"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/light-32.png",
+                  "sha256": "d2f005c5513296f0c6c6774c0ef8d0a668646257d0bf747f4633f7baf7ebb0be"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/light-48.png",
+                  "sha256": "85f39fd770d235487880d21cea76eb468b0a6e44480442cd7a62ce1d40b78741"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/light-128.png",
+                  "sha256": "606bbc4951cf69bbfa93554f4f7938c106f2af3964892c4f394a9bf0fcd3de97"
+                }
+              ],
+              "sourceSha256": "df9357d2b0791235ba2fec9e818e980a496d1b3b773139c0064e06a3f067c79d"
+            },
+            "dark": {
+              "source": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/toolbar-dark.svg",
+              "assets": [
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/dark-16.png",
+                  "sha256": "1fc83174d7d3339a0728a7778a2d59b0ba848acf15adc79085747bc19abd3263"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/dark-24.png",
+                  "sha256": "8b38c108dc6683ce989c3816521c1ab65cacb640ab42561f69b42e9175e1f67c"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/dark-32.png",
+                  "sha256": "984e118c5186757519c84fe7790b21c735e53852ae63daa59fa6155a45a07171"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/dark-48.png",
+                  "sha256": "9ea0b7eb9a339e9d5e2dc4b00eb67139651186d319baa4a150d6d27a50a91028"
+                },
+                {
+                  "path": "atlaskit_capture/design/icon-styles/nothing-matrix-v1/dark-128.png",
+                  "sha256": "1b47a7051eac149e3e0d81597543cad90a6f51874db3d381e62685b56a471382"
+                }
+              ],
+              "sourceSha256": "5e5fd2469981ebcfac847fdb7ffdfedda66436e079ab0de21a4db74a6f6b8201"
+            }
+          },
+          "sourceSha256": "f597fa339ae20098302dc9d99d235e2ab3fb93a145b728bd4b71eefaf08ad091"
+        }
+      },
+      "preservedSources": [
+        {
+          "path": "atlaskit_capture/design/icon-styles/legacy-20260927/source/icon.svg",
+          "sha256": "d6564f0dc458381af2ba8d662ea11a1711c35fb5fdcdb26e354dbf88b44e5f28"
+        },
+        {
+          "path": "atlaskit_capture/design/icon-styles/legacy-20260927/source/macos-icon.svg",
+          "sha256": "a406598c90ca57e5a83d5187a6eb3b62316783f20764a91817d8a857b37ab9bb"
+        },
+        {
+          "path": "atlaskit_capture/design/icon-styles/legacy-20260927/source/toolbar.svg",
+          "sha256": "a3c5f73ec82817bf5652b935c1b7681c9eed6cef645b1da9fb721cd35afd719b"
+        }
+      ]
+    }
+  ],
+  "activeSelection": {
+    "style": "nothing-signal-v1",
+    "appearance": "universal",
+    "selectedBy": "Review selection, 2026-09-27",
+    "scope": "all nine Chrome identities and eight Safari equivalents",
+    "reason": "Single black/ivory mark remains visible on both toolbar backgrounds without runtime theme detection",
+    "retainedStyles": [
+      "legacy-20260927",
+      "nothing-matrix-v1"
+    ],
+    "files": [
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/icon-128.png",
+        "sha256": "e0071f60814d45d0a3c56f6c03da6b358d9e98d293697dd0acd50eb82e5ba4cd"
+      },
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/icon-16.png",
+        "sha256": "8002b066e36f3b03d41397524039725195d1ec15419973d1ea526521b970ad07"
+      },
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/icon-32.png",
+        "sha256": "a72e68b1856552608983c4eacb28c07d845597c555d613c7f5cad6a156b08756"
+      },
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/icon-48.png",
+        "sha256": "70d5c6292a5544ca292c95be819115eceff1a94482aaeb40b2ad594f2460876e"
+      },
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/toolbar-light-16.png",
+        "sha256": "8002b066e36f3b03d41397524039725195d1ec15419973d1ea526521b970ad07"
+      },
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/toolbar-light-24.png",
+        "sha256": "7df7ee555971046db35d272e668b36f1cba24860bb70d87b65d3c8d87f6b2141"
+      },
+      {
+        "target": "tab_merge_n_sort/extension_chrome/icons/toolbar-light-32.png",
+        "sha256": "a72e68b1856552608983c4eacb28c07d845597c555d613c7f5cad6a156b08756"
+      },
+      {
+        "target": "no/extension_chrome/icons/icon-128.png",
+        "sha256": "d1268ee397744cad480c545ad22422c956fff533fee698d3b2fa45026a93412e"
+      },
+      {
+        "target": "no/extension_chrome/icons/icon-16.png",
+        "sha256": "e39f23e0385c394c8aa1413e36eda449376eb8dcfde8a66878404922b213fe87"
+      },
+      {
+        "target": "no/extension_chrome/icons/icon-32.png",
+        "sha256": "7c00f0a380375ede0064c3ecb433d3938e80efea85e2f076dff944aad67c1246"
+      },
+      {
+        "target": "no/extension_chrome/icons/icon-48.png",
+        "sha256": "f36726581532d646bf25631f8cafde5d3a0fabdfeb8c454bcd4a82cc3166602a"
+      },
+      {
+        "target": "no/extension_chrome/icons/toolbar-light-16.png",
+        "sha256": "e39f23e0385c394c8aa1413e36eda449376eb8dcfde8a66878404922b213fe87"
+      },
+      {
+        "target": "no/extension_chrome/icons/toolbar-light-24.png",
+        "sha256": "68e064c551a77d5eb5db7d33155dc11e1f1d869e6429e346bea1d1954b95cafd"
+      },
+      {
+        "target": "no/extension_chrome/icons/toolbar-light-32.png",
+        "sha256": "7c00f0a380375ede0064c3ecb433d3938e80efea85e2f076dff944aad67c1246"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/icon-128.png",
+        "sha256": "0dd50f136d6d6c646447f13d563edb76a83e4a549d116ab079546ec8742cef4d"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/icon-16.png",
+        "sha256": "77c332756ff5ac607f9c8f9bc294af3957d8be7dd78450e91922065a97d69688"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/icon-32.png",
+        "sha256": "e0e1a90797a9dbefa0909be364aed6aad1104d30c499a3eb4727def6bc005322"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/icon-48.png",
+        "sha256": "a5c4065bebde0f17113a0773a24e1fda2e713edfc7904e069f6d7c60337a4336"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/toolbar-light-16.png",
+        "sha256": "77c332756ff5ac607f9c8f9bc294af3957d8be7dd78450e91922065a97d69688"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/toolbar-light-24.png",
+        "sha256": "01222e8af9286a182e25afcb6d262db6a5af356e45d041818958b92c524917c9"
+      },
+      {
+        "target": "calmly/extension_chrome/icons/toolbar-light-32.png",
+        "sha256": "e0e1a90797a9dbefa0909be364aed6aad1104d30c499a3eb4727def6bc005322"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/icon-128.png",
+        "sha256": "07dd98734319c33523e7d73dfec313987dade379906aaa0796e107e3df988753"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/icon-16.png",
+        "sha256": "3c3317c631a34823d28314f3f0a39357779175da7e341d714152415fb86f1483"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/icon-32.png",
+        "sha256": "24c88a56c0e1c3d3ef767f98c2e5d16335ab81d0147678e78410f2cdfddfba4c"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/icon-48.png",
+        "sha256": "412af31ec4bf7b946fb9afa42d5ff3de757fadc1e81224564dfc5b971ff8e5bb"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/toolbar-light-16.png",
+        "sha256": "3c3317c631a34823d28314f3f0a39357779175da7e341d714152415fb86f1483"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/toolbar-light-24.png",
+        "sha256": "b5b88352200c5f724bf46f341534d148ee6e6e0f60207cdb3c085fe780508551"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/active/icons/toolbar-light-32.png",
+        "sha256": "24c88a56c0e1c3d3ef767f98c2e5d16335ab81d0147678e78410f2cdfddfba4c"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/icon-128.png",
+        "sha256": "238530eeb3ed400acbe33972702f64db0bec1ae2ee5dfd9bd13c2d612effc3f1"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/icon-16.png",
+        "sha256": "c23f809fc777e87a578069d9c560bf20791179cdc52fa3ea4ac5ccc92ccf1471"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/icon-32.png",
+        "sha256": "8552223ce98e65ca5e144527cf9f8ee0b4044192383e81040a2667d6f713aa25"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/icon-48.png",
+        "sha256": "da8d582d31e0277d6bc875af82c9e34bc8d1e57f951aa07b82d0dd3d60f7b3ad"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/toolbar-light-16.png",
+        "sha256": "c23f809fc777e87a578069d9c560bf20791179cdc52fa3ea4ac5ccc92ccf1471"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/toolbar-light-24.png",
+        "sha256": "828928ff197db356387d01228eede38fbeb6c103f25737f475873416d80d047e"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/archive/icons/toolbar-light-32.png",
+        "sha256": "8552223ce98e65ca5e144527cf9f8ee0b4044192383e81040a2667d6f713aa25"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-128.png",
+        "sha256": "da5a760f36b22a6ead83e469f923b17a0155781ab42161b7a2165cb72fcdfca3"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-16.png",
+        "sha256": "baeaa3469e0f2eab62cd5b4980fce6d352f239c542f1eaf791b3c38b7c332733"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-32.png",
+        "sha256": "a8e1efb24f252d872e70bae1f2b2667629ff476e39ded57c5932ce410378234c"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/icon-48.png",
+        "sha256": "66a7d10eac5867a9e2d831c6623264c8db1c1ad467559a314d929b4989386de0"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/toolbar-light-16.png",
+        "sha256": "baeaa3469e0f2eab62cd5b4980fce6d352f239c542f1eaf791b3c38b7c332733"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/toolbar-light-24.png",
+        "sha256": "b4210c3b04505c8e82d126f42bdd7f9f409f82e6f6d9f0d384043902ebaa0703"
+      },
+      {
+        "target": "mastermind_capture/extension_chrome/bookmark/icons/toolbar-light-32.png",
+        "sha256": "a8e1efb24f252d872e70bae1f2b2667629ff476e39ded57c5932ce410378234c"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/icon-128.png",
+        "sha256": "becedf5f7eaf512f4c4f6d000d73d0218b132758d9a5d50cc6ef50ac49907a50"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/icon-16.png",
+        "sha256": "aa4d7a8c00fe51fd5c69d4995ebac6fab359a5a000485ebd4dbffc1ca84b307e"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/icon-32.png",
+        "sha256": "2622156d5c0dd29c2150c7b1a8cedb842d0d4a7aee3e0cc927e0d4de07dc6756"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/icon-48.png",
+        "sha256": "5e135f77ef713e9c221408a8db029ba300a73f43b98d87c36619ae24988ec29c"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/toolbar-light-16.png",
+        "sha256": "aa4d7a8c00fe51fd5c69d4995ebac6fab359a5a000485ebd4dbffc1ca84b307e"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/toolbar-light-24.png",
+        "sha256": "5ba2c070fcb08e68712051f5fc916c2d4b59749be5d464ff56006fcf125c6350"
+      },
+      {
+        "target": "x_collector/extension_chrome/icons/toolbar-light-32.png",
+        "sha256": "2622156d5c0dd29c2150c7b1a8cedb842d0d4a7aee3e0cc927e0d4de07dc6756"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/icon-128.png",
+        "sha256": "bbce8cd5a645bd6534bf9eb2681aff230b9c0e52ad8acbc8f3693cb82c334dc5"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/icon-16.png",
+        "sha256": "f04ed9073a157ed82fae0bb949147842e51bd5fe4fdd5213488209b230ed4962"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/icon-32.png",
+        "sha256": "199f6682492abf757744e78a96c74c7f16b3d5dfec412840e9616c8c4159bd8b"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/icon-48.png",
+        "sha256": "6a7037f3a09eb63fce94a8c9b219efd6865a535a330a1bbd18f7aaa452ca659a"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/toolbar-light-16.png",
+        "sha256": "f04ed9073a157ed82fae0bb949147842e51bd5fe4fdd5213488209b230ed4962"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/toolbar-light-24.png",
+        "sha256": "08cddcc38dfe674de24c676c0ca80a233fa0c3cb0249eeec4fff4a54afb117d5"
+      },
+      {
+        "target": "atlaskit_capture/extension_chrome/icons/toolbar-light-32.png",
+        "sha256": "199f6682492abf757744e78a96c74c7f16b3d5dfec412840e9616c8c4159bd8b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extName": {
+    "message": "no"
+  },
+  "extDescription": {
+    "message": "Block chosen domains with a full-window NO ✋."
+  },
+  "domains": {
+    "message": "Blocked domains"
+  },
+  "site": {
+    "message": "Site"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "saved": {
+    "message": "Saved and applied."
+  },
+  "pending": {
+    "message": "Saved locally. Rules are pending. Select Save to retry."
+  },
+  "conflict": {
+    "message": "The list changed elsewhere. Select Save again to overwrite it."
+  },
+  "storage": {
+    "message": "Could not save. Try again."
+  },
+  "settings": {
+    "message": "Invalid settings. Reopen this panel."
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "domain": {
+    "message": "Invalid domain: $1"
+  },
+  "row": {
+    "message": "Row $1: $2"
+  },
+  "limit": {
+    "message": "Use at most $1 domains."
+  },
+  "access": {
+    "message": "Allow website access in the browser’s extension settings for blocking to work."
+  },
+  "blocked": {
+    "message": "Blocked"
+  },
+  "fontLabel": {
+    "message": "Font"
+  },
+  "fontDefault": {
+    "message": "Default"
+  }
+}

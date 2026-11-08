@@ -1,0 +1,56 @@
+{
+  "extName": {
+    "message": "no"
+  },
+  "extDescription": {
+    "message": "선택한 도메인을 차단하고 창 전체에 NO ✋를 표시합니다."
+  },
+  "domains": {
+    "message": "차단할 도메인"
+  },
+  "site": {
+    "message": "사이트"
+  },
+  "add": {
+    "message": "추가"
+  },
+  "save": {
+    "message": "저장"
+  },
+  "saving": {
+    "message": "저장 중…"
+  },
+  "saved": {
+    "message": "저장 및 적용 완료."
+  },
+  "pending": {
+    "message": "기기에 저장되었지만 규칙은 아직 적용되지 않았습니다. 저장을 선택해 재시도하세요."
+  },
+  "conflict": {
+    "message": "다른 곳에서 목록이 변경되었습니다. 저장을 다시 선택하면 덮어씁니다."
+  },
+  "storage": {
+    "message": "저장할 수 없습니다. 다시 시도하세요."
+  },
+  "settings": {
+    "message": "설정이 잘못되었습니다. 패널을 다시 여세요."
+  },
+  "loading": {
+    "message": "불러오는 중…"
+  },
+  "domain": {
+    "message": "잘못된 도메인: $1"
+  },
+  "row": {
+    "message": "$1번째 줄: $2"
+  },
+  "limit": {
+    "message": "도메인은 최대 $1개까지 설정할 수 있습니다."
+  },
+  "access": {
+    "message": "차단하려면 브라우저 확장 설정에서 웹사이트 접근을 허용하세요."
+  },
+  "blocked": {
+    "message": "차단됨"
+  }
+}

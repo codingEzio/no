@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "status": "Nothing interaction source verified; daily-browser acceptance remains separate; values are implementation defaults, not official brand specifications",
+  "source": "2026-09-26 user-approved full extension and site interaction redesign; supersedes warm copper materials",
+  "popup": {
+    "width": 360,
+    "height": 440,
+    "font": "Seven final mixed families; Geist Code or System mono; System or Emoji3D",
+    "rowHeight": 32,
+    "padding": 12
+  },
+  "appearance": {
+    "light": {
+      "background": "#f5f5f5",
+      "surface": "#ffffff",
+      "ink": "#171717",
+      "muted": "#626262",
+      "line": "#d8d8d8",
+      "hover": "#ededed",
+      "accent": "#d71920"
+    },
+    "dark": {
+      "background": "#111111",
+      "surface": "#1c1c1c",
+      "ink": "#f5f5f5",
+      "muted": "#a3a3a3",
+      "line": "#3a3a3a",
+      "hover": "#292929",
+      "accent": "#ff555a"
+    },
+    "grid": 4,
+    "buttonRadius": 999,
+    "inputRadius": 8,
+    "panelRadius": 12,
+    "dots": "identity, purposeful icons and state; no wallpaper texture",
+    "primary": "inverse solid or one sparse red action",
+    "secondary": "quiet unboxed text or icon, visible hover and keyboard focus",
+    "selected": "solid contrasting surface plus semantic selected state",
+    "disabled": "readable muted state, no disappearing labels"
+  },
+  "motion": {
+    "pressMs": 100,
+    "selectionMs": 140,
+    "enterMs": 160,
+    "exitMs": 120,
+    "easing": "cubic-bezier(.2,.8,.2,1)",
+    "reducedMotion": "immediate state change; no translation, scale or looping",
+    "interruption": "continue from presented state; never delay actions or persistence",
+    "scope": "local content and owned controls; browser-owned popup window and native context menu timing remain native"
+  },
+  "opening": {
+    "render": "local cached state first",
+    "networkWaitAllowed": false,
+    "fontDownloadAllowed": false,
+    "ruleRebuildAllowed": false,
+    "numericBudget": null,
+    "measure": "open-to-first-paint and open-to-enabled-local-controls on named device; cold/warm/offline, record CPU/network"
+  },
+  "states": [
+    "ready",
+    "draft",
+    "pending",
+    "saved-after-receipt-readback",
+    "api-unavailable",
+    "failed",
+    "conflict"
+  ],
+  "safari": "eight generated and signed identities; installed UI evidence remains separate",
+  "presentationOnly": false,
+  "typography": {
+    "catalog": "seven final families, one shared platform Emoji3D fallback",
+    "siteFont": "inherit / any final family / website original",
+    "weight": {
+      "min": 100,
+      "max": 900,
+      "variable": "Geist Code and capable website fonts; static faces retain source weights",
+      "nativeDefault": 0
+    },
+    "lineHeight": {
+      "min": 0,
+      "max": 3,
+      "zero": "host default"
+    },
+    "contentSizePx": {
+      "min": 0,
+      "max": 48,
+      "zero": "host default"
+    },
+    "letterSpacingEm": {
+      "min": -0.2,
+      "max": 1
+    },
+    "dotoHeightPercent": [
+      105,
+      110,
+      115,
+      120
+    ],
+    "dotoDefaultHeightPercent": 110,
+    "horizontalMetrics": "unchanged",
+    "unicodeAlias": {
+      "EA00": "pinned Nerd Twitter F099"
+    },
+    "platforms": [
+      "Chrome",
+      "iPhone Safari",
+      "Android VIA"
+    ],
+    "verification": "source gate, packaged binary hashes, installed version and physical rendered/persisted behavior remain separate"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 3,
+  "products": [
+    {
+      "id": ".",
+      "roots": [
+        "extension_chrome"
+      ]
+    }
+  ],
+  "safariBuilds": [
+    {
+      "id": "no",
+      "sourceRoot": "extension_chrome",
+      "webRoot": "extension_safari/web-extension",
+      "hostRoot": "extension_safari/host/Z-BeIntentional",
+      "appName": "Z-BeIntentional",
+      "installApp": "Z-BeIntentional.app",
+      "hostBundleId": "app.alex.z-be-intentional",
+      "extensionBundleId": "app.alex.z-be-intentional.extension",
+      "handler": "default",
+      "iconRoot": "design/generated/apple-static/default"
+    }
+  ],
+  "product": "no",
+  "variant": null
+}

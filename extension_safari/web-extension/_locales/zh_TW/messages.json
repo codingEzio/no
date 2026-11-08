@@ -1,0 +1,56 @@
+{
+  "extName": {
+    "message": "no"
+  },
+  "extDescription": {
+    "message": "封鎖指定網域，顯示填滿視窗的 NO ✋。"
+  },
+  "domains": {
+    "message": "封鎖網域"
+  },
+  "site": {
+    "message": "網站"
+  },
+  "add": {
+    "message": "新增"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "saving": {
+    "message": "儲存中…"
+  },
+  "saved": {
+    "message": "已儲存並套用。"
+  },
+  "pending": {
+    "message": "已儲存在本機，規則尚待套用。請選擇「儲存」重試。"
+  },
+  "conflict": {
+    "message": "清單已在其他地方更新。再選一次「儲存」即可覆寫。"
+  },
+  "storage": {
+    "message": "無法儲存，請再試一次。"
+  },
+  "settings": {
+    "message": "設定無效，請重新開啟此面板。"
+  },
+  "loading": {
+    "message": "載入中…"
+  },
+  "domain": {
+    "message": "無效的網域：$1"
+  },
+  "row": {
+    "message": "第 $1 列：$2"
+  },
+  "limit": {
+    "message": "最多可設定 $1 個網域。"
+  },
+  "access": {
+    "message": "請在瀏覽器的擴充功能設定中允許網站存取，封鎖才會生效。"
+  },
+  "blocked": {
+    "message": "已封鎖"
+  }
+}

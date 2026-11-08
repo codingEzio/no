@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Extension popup references</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+  body {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 24px;
+  }
+  .popup {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  h1 {
+    flex-basis: 100%;
+    font-size: 14px;
+    margin: 0;
+  }
+  section > header {
+    justify-content: space-between;
+  }
+  </style>
+  <h1>Preparation reference · controls do not save data</h1>
+  <section class="popup">
+    <header><strong>Mastermind Active</strong></header>
+    <main
+      class="stack"><label>Category<select class="fill"><option>Misc</option><option>Idea</option><option>Work</option><option>Life</option></select></label><textarea aria-label="Journal text" placeholder="Write…"></textarea><button type="button">Save</button></main>
+    <footer class="muted">API unavailable · draft retained</footer>
+  </section>
+  <section class="popup">
+    <header><strong>Mastermind Archive</strong></header>
+    <main
+      class="stack"><label>Category<select class="fill"><option>Misc</option><option>Idea</option><option>Work</option><option>Life</option></select></label><textarea aria-label="Journal text" placeholder="Write…"></textarea><button type="button">Save</button></main>
+    <footer class="muted">API unavailable · draft retained</footer>
+  </section>
+  <section class="popup">
+    <header><strong>Mastermind Bookmark</strong></header>
+    <main
+      class="stack"><input aria-label="Title" placeholder="Title"><input aria-label="URL" placeholder="URL"><label>Tag<select><option>Choose a real tag</option></select></label><div class="row"><select aria-label="Visibility"><option>SFW</option><option>NSFW</option></select><select aria-label="State"><option>Active</option><option>Archived</option></select></div><button type="button">Save</button></main>
+    <footer></footer>
+  </section>
+  <section class="popup">
+    <header><strong>calmly</strong></header>
+    <main>
+      <nav><button>X</button><button>YouTube</button><button>ChatGPT</button></nav>
+      <div
+        class="row toggle"><label for="blur">Blur posts</label><input id="blur" type="checkbox" checked></div>
+      <div
+        class="row toggle"><label for="reply">Blur replies</label><input id="reply" type="checkbox" checked></div>
+      <div
+        class="stack"><label>Sans<span>Geist Pixel Square</span></label><label>Mono<select><option>Geist Mono</option><option>System mono</option></select></label><label>Emoji<select><option>System emoji</option><option>Noto3D</option></select></label></div>
+    </main>
+    <footer></footer>
+  </section>
+</html>

@@ -1,0 +1,2 @@
+GlyphgroveDeparture: Regular, Italic, Bold and Bold Italic. Italic and bold are synthesized experimental styles. English and Chinese advances are unchanged from DeparturePixelZh Compact; complete Nerd and Noto 3D Emoji included. Retain NOTICE.md and licenses/.
+Load fonts.css, apply class glyphgrove-departure, and wrap keycap sequences with glyphgrove-departure-emoji. Emoji uses sbix; other platforms may fall back. Keep all notices and licenses.

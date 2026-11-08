@@ -1,0 +1,11 @@
+Local/
+.runtime/
+.DS_Store
+*.pem
+*.p12
+.env
+extension_safari/host/**/*.xcodeproj/
+extension_safari/host/**/Extension-Info.plist
+extension_safari/host/**/Host-Info.plist
+extension_safari/host/**/Bridge-Info.plist
+safari_identity.conf

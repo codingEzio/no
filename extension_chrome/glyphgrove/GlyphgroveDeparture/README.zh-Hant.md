@@ -1,0 +1,1 @@
+GlyphgroveDeparture 實驗版，包含正常體、斜體、粗體與粗斜體。粗體和斜體為實驗性合成樣式，不是上游原生字形；英文字格和漢字字格保持 DeparturePixelZh Compact 原值。包含 Nerd 圖示和完整 Noto 3D Emoji。保留 licenses/ 和 NOTICE.md。Web 使用 fonts.css 與 glyphgrove-departure 類別，數字鍵帽等完整序列使用 glyphgrove-departure-emoji 類別。Emoji 使用 sbix，非 macOS 瀏覽器相容性未驗證。

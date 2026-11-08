@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>no</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="ui-interactions.js" defer></script>
+</head>
+  <body>
+    <div class="popup">
+      <header>
+        <img src="icons/icon-32.png" width="24" height="24" alt="">
+        <strong>no</strong>
+        <span class="fill"></span>
+        <small id="version"></small>
+      </header>
+      <main>
+        <details id="domains-panel" open>
+          <summary>
+            <span data-i18n="domains">Blocked domains</span>
+            <span id="count" class="count"></span>
+          </summary>
+          <div id="entries" class="entries"></div>
+        </details>
+        <div class="actions">
+          <button type="button" id="add" data-i18n="add">Add</button>
+          <button type="button" id="save" class="primary" data-i18n="save">
+            Save
+          </button>
+        </div>
+      </main>
+      <footer>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </footer>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
