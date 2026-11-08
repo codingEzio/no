@@ -35,4 +35,4 @@ El código propio de esta versión usa GNU GPL versión3 solamente, GPL-3.0-only
 
 ## Valores privados opcionales
 
-Al cargar `extension_chrome/`, cree el archivo ignorado `extension_chrome/private-defaults.json`, por ejemplo `{"domains":["example.com"]}`, y recargue la extensión. Es solo datos: se excluye de exportaciones y paquetes. Los ajustes guardados tienen prioridad; si faltan, se conservan y priorizan las reglas dinámicas existentes. Sin ambos, un archivo ausente o ilegible da una lista vacía; JSON inválido informa un error. Safari y Firefox no usan estos valores.
+Al cargar `extension_chrome/`, cree el archivo ignorado `extension_chrome/private-defaults.json`, por ejemplo `{"domains":["example.com"]}`, y recargue la extensión. Es solo datos: se excluye de exportaciones y paquetes de Chrome, Safari y Firefox. Los ajustes guardados tienen prioridad; si faltan, se conservan y priorizan las reglas dinámicas existentes. Sin ambos, un archivo ausente o ilegible da una lista vacía; JSON inválido informa un error. Safari y Firefox no usan estos valores.

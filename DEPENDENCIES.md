@@ -9,7 +9,13 @@
   automatic download. `deps:sync` explicitly accepts `--owner` and
   `--workspace`; its omitted workspace defaults to the parent directory for that
   update command only. Change the owner first, then sync and verify.
-- The X-ExtShared-pinned Firefox packaging scripts retain an Android system-linker
+- `extension_firefox/build_extensions.ts` and `scripts/sync_safari.ts` are
+  product-maintained derivatives of X-ExtShared `firefox_android/build_extensions.ts`
+  and `scripts/sync_safari.ts`, respectively. The previous consumer pin SHA-256 values were
+  `89915bf6820a121e50f69a5b468b1b0d8daf2b8c4f4112c110eb109e27ceef2e` and
+  `b897456d15bdf846c0747af7e88ad07bf8d60f2f3b55fbe1bb89aea0233d7ac7`.
+  They exclude Chrome-only private defaults; review upstream changes before merging.
+- The retained Firefox packaging scripts include an Android system-linker
   path. This does not establish Termux build support; change the owner before
   syncing the pinned copy. Firefox delivery remains paused.
 - Runtime fonts, icons, provenance and license notices are bundled locally.

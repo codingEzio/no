@@ -35,6 +35,6 @@ deno task build
 
 ## 可选私人默认值
 
-公开源码默认拦截列表为空。直接加载 `extension_chrome/` 时，可创建 Git 忽略的 `extension_chrome/private-defaults.json`，例如 `{"domains":["example.com"]}`，然后重新加载扩展。文件仅作为数据，不执行，也不会进入源码导出或构建包。已有设置优先；设置缺失时既有动态规则优先并保留。两者均无时，默认文件缺失或无法读取会使用空列表，JSON 无效则报错。Safari 和 Firefox 不使用这些 Chrome 默认值。
+公开源码默认拦截列表为空。直接加载 `extension_chrome/` 时，可创建 Git 忽略的 `extension_chrome/private-defaults.json`，例如 `{"domains":["example.com"]}`，然后重新加载扩展。文件仅作为数据，不执行，也不会进入源码导出或 Chrome、Safari 和 Firefox 构建包。已有设置优先；设置缺失时既有动态规则优先并保留。两者均无时，默认文件缺失或无法读取会使用空列表，JSON 无效则报错。Safari 和 Firefox 不使用这些 Chrome 默认值。
 
 公开构建的默认拦截列表为空。如需本地 Chrome 候选，创建 Git 忽略的 `Local/private-defaults.json`，内容例如 `{"domains":["example.com"]}`，再运行 `deno task private:build`。该命令验证公开源码，并在 `Local/` 下生成独立候选；配置和候选包含私人设置。默认值仅在没有已存设置时使用；已有列表（包括空列表）优先。命令不会安装或重新加载扩展，也不适用于 Safari 或 Firefox。

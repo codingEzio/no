@@ -19,7 +19,7 @@
   },
   "tasks": {
     "verify": "deno run --allow-read scripts/verify.ts",
-    "test": "deno test --allow-read --allow-net=127.0.0.1,localhost --ignore=tests/public_prepare_test.ts,tests/public_build_test.ts tests/",
+    "test": "deno test --allow-read --allow-net=127.0.0.1,localhost --ignore=tests/public_prepare_test.ts,tests/public_build_test.ts,tests/platform_private_test.ts tests/",
     "check": "deno task verify && deno run --allow-read scripts/sync_capture_menu.ts --check && deno run --allow-read scripts/sync_bookmark_source_policy.ts --check && deno task test",
     "build": "deno task check && deno run --allow-read --allow-write=Local scripts/package_local.ts",
     "safari:sync": "deno run --allow-read --allow-write scripts/sync_safari.ts && deno run --allow-read --allow-write scripts/generate_safari_hosts.ts",
@@ -31,7 +31,7 @@
     "public:test": "deno test --allow-read --allow-write --allow-run=git,deno tests/public_prepare_test.ts",
     "maintenance": "deno task check && deno task public:test && deno task public:build:test && deno task public:imports && deno task public:check && deno task public:build",
     "public:build": "deno run --allow-read --allow-write=Local scripts/public_prepare.ts --build",
-    "public:build:test": "deno test --allow-read --allow-write --allow-run=deno tests/public_build_test.ts",
+    "public:build:test": "deno test --allow-read --allow-write --allow-run=deno,zip,unzip tests/public_build_test.ts tests/platform_private_test.ts",
     "private:build": "deno run --allow-read --allow-write=Local --allow-run=deno scripts/private_build.ts",
     "public:imports": "deno run --allow-read scripts/check_public_imports.ts"
   }

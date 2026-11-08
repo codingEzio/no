@@ -1,3 +1,4 @@
+// Product-maintained derivative of X-ExtShared firefox_android/build_extensions.ts.
 // Four desktop-source ports; old VIA wrapper build.ts remains for recovery.
 import {
   checkCalmlyFontPackage,
@@ -10,10 +11,18 @@ import {
   products,
 } from "./desktop_adapter.ts";
 const project = new URL("../", import.meta.url);
-const owner = await Deno.readTextFile(new URL("product.json", project)).then(JSON.parse).catch(e => {if(e instanceof Deno.errors.NotFound) return null; throw e;});
+const owner = await Deno.readTextFile(new URL("product.json", project)).then(
+  JSON.parse,
+).catch((e) => {
+  if (e instanceof Deno.errors.NotFound) return null;
+  throw e;
+});
 const desktop = Deno.args.includes("--desktop");
-const only = Deno.args.find((arg) => arg.startsWith("--only="))?.slice(7) ?? owner?.firefox;
-if (owner && only !== owner.firefox) throw Error("This repository owns only " + owner.firefox);
+const only = Deno.args.find((arg) => arg.startsWith("--only="))?.slice(7) ??
+  owner?.firefox;
+if (owner && only !== owner.firefox) {
+  throw Error("This repository owns only " + owner.firefox);
+}
 if (only && !products.some((product) => product.slug === only)) {
   throw new Error("Unknown product");
 }
@@ -55,7 +64,10 @@ const tooling = Object.fromEntries(
 for (
   const product of products.filter((product) => !only || product.slug === only)
 ) {
-  const source = new URL(owner ? "extension_chrome/" : `${product.source}/`, project);
+  const source = new URL(
+    owner ? "extension_chrome/" : `${product.source}/`,
+    project,
+  );
   const target = new URL(`${product.slug}/`, output);
   const fontPackage = product.slug === "calmly"
     ? await checkCalmlyFontPackage(source)
@@ -72,6 +84,8 @@ for (
       if (entry.name === ".DS_Store") continue;
       if (entry.isSymlink) throw new Error("Package refuses symlinks");
       const path = prefix + entry.name;
+      // Chrome-only local data must never enter Firefox output or its receipt.
+      if (path === "private-defaults.json" && entry.isFile) continue;
       if (entry.isDirectory) {
         await Deno.mkdir(new URL(`${path}/`, target), { recursive: true });
         await copy(new URL(`${entry.name}/`, dir), `${path}/`);
@@ -132,9 +146,13 @@ for (
   const android = Deno.build.target.endsWith("-android");
   // Android requires its system linker for Termux executables without LD_PRELOAD.
   // The shell resolves zip before removing preload; Deno.execPath can report the loader.
-  const zipPath = Deno.args.find((arg) => arg.startsWith("--zip-path="))?.slice(11);
+  const zipPath = Deno.args.find((arg) => arg.startsWith("--zip-path="))?.slice(
+    11,
+  );
   if (android && (!zipPath?.startsWith("/") || !zipPath.endsWith("/zip"))) {
-    throw new Error("Native Android packaging requires the absolute zip path from its shell entrypoint");
+    throw new Error(
+      "Native Android packaging requires the absolute zip path from its shell entrypoint",
+    );
   }
   const zip = await new Deno.Command(android ? "/system/bin/linker64" : "zip", {
     cwd: target,

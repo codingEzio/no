@@ -35,4 +35,4 @@ deno task build
 
 ## 선택적 비공개 기본값
 
-`extension_chrome/`을 직접 로드할 때 Git이 무시하는 `extension_chrome/private-defaults.json`을 `{"domains":["example.com"]}`처럼 만들고 확장 프로그램을 다시 로드하세요. 파일은 실행하지 않는 데이터이며 소스 내보내기와 패키지에서 제외됩니다. 저장된 설정이 우선합니다. 설정이 없으면 기존 동적 규칙을 우선하고 유지합니다. 둘 다 없을 때 파일이 없거나 읽을 수 없으면 빈 목록을 사용하고, 잘못된 JSON은 오류를 표시합니다. Safari와 Firefox에는 적용되지 않습니다.
+`extension_chrome/`을 직접 로드할 때 Git이 무시하는 `extension_chrome/private-defaults.json`을 `{"domains":["example.com"]}`처럼 만들고 확장 프로그램을 다시 로드하세요. 파일은 실행하지 않는 데이터이며 소스 내보내기와 Chrome, Safari, Firefox 패키지에서 제외됩니다. 저장된 설정이 우선합니다. 설정이 없으면 기존 동적 규칙을 우선하고 유지합니다. 둘 다 없을 때 파일이 없거나 읽을 수 없으면 빈 목록을 사용하고, 잘못된 JSON은 오류를 표시합니다. Safari와 Firefox에는 적용되지 않습니다.

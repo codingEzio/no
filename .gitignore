@@ -11,3 +11,4 @@ extension_safari/host/**/Bridge-Info.plist
 safari_identity.conf
 
 extension_chrome/private-defaults.json
+extension_safari/web-extension/private-defaults.json

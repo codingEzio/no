@@ -97,8 +97,8 @@ contributors. [License scope](LICENSE-SCOPE.md) preserves the earlier MIT grant
 as historical provenance. Bundled fonts and third-party assets retain their own
 terms; all existing licenses, notices and authorship remain in force. The owner authorizes this source selection for publication. Third-party terms and notices remain applicable. These commands do not publish or install software.
 
-Desktop Safari review: core/controller/background/navigation source matches
-Chrome; the classic worker parses. Popup CSS now follows Chrome's System sans
+Desktop Safari retains its own 0.99.0 source; Chrome private-default handling
+has not been synchronized or validated there. The previously reviewed classic worker parses. Popup CSS now follows Chrome's System sans
 fallback. The full owner checkout retains earlier typography-script/default
 metadata, so this narrow fix does not migrate stored typography or claim full
 Safari sync. Independent native host regeneration also needs icon inputs outside
@@ -119,4 +119,4 @@ Users can add domains; existing saved rules are retained by the storage migratio
 
 ### Optional private defaults
 
-A fresh public checkout has an empty block list. To use private defaults when loading `extension_chrome/` directly, create the ignored file `extension_chrome/private-defaults.json` with `{"domains":["example.com"]}` and reload the extension. The file is data, not executable code, and is excluded from source exports and packaged candidates. Existing saved settings always win. When settings are absent, existing dynamic rules are preserved and take precedence. Without either, a missing or unreadable file gives an empty default; invalid JSON is reported. A separate private candidate can still be made from `Local/private-defaults.json` using `deno task private:build`. Safari and Firefox do not use these Chrome defaults.
+A fresh public checkout has an empty block list. To use private defaults when loading `extension_chrome/` directly, create the ignored file `extension_chrome/private-defaults.json` with `{"domains":["example.com"]}` and reload the extension. The file is data, not executable code, and is excluded from source exports and Chrome, Safari and Firefox packages. Existing saved settings always win. When settings are absent, existing dynamic rules are preserved and take precedence. Without either, a missing or unreadable file gives an empty default; invalid JSON is reported. A separate private candidate can still be made from `Local/private-defaults.json` using `deno task private:build`. Safari and Firefox do not use these Chrome defaults.

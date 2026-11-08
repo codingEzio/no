@@ -39,8 +39,8 @@ Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作
 `Local/public-build/`，重跑讀回
 完整檔案與位元組；不會覆寫不符候選，也不會建置或啟用 Firefox。
 
-桌面 Safari 審查：核心、控制器、背景及導覽來源與 Chrome 相同，傳統 worker
-語法檢查通過。popup CSS 已對齊 Chrome 的系統無襯線後備字型。完整開發來源仍保留
+桌面 Safari 保留獨立的 0.99.0 原始碼；Chrome 私人預設值處理尚未同步或驗證。
+先前審查的傳統 worker 語法檢查通過。popup CSS 已對齊 Chrome 的系統無襯線後備字型。完整開發來源仍保留
 較早的字型腳本與預設中繼資料；此次不遷移已存字型選擇，也不聲稱完整 Safari 同步。
 獨立原生 host 生成還缺選定來源以外的圖示輸入。清單已宣告 DNR
 重新導向及主機權限； 實際網站授權、重新導向、網站 Service Worker
@@ -48,6 +48,6 @@ Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作
 
 ## 可選私人預設值
 
-公開原始碼的預設封鎖清單為空。直接載入 `extension_chrome/` 時，可建立 Git 忽略的 `extension_chrome/private-defaults.json`，例如 `{"domains":["example.com"]}`，再重新載入擴充功能。檔案僅作資料，不執行，也不會納入原始碼匯出或建置套件。既有設定優先；設定缺失時既有動態規則優先並保留。兩者皆無時，預設檔缺失或無法讀取會使用空清單，JSON 無效則報錯。Safari 與 Firefox 不使用這些 Chrome 預設值。
+公開原始碼的預設封鎖清單為空。直接載入 `extension_chrome/` 時，可建立 Git 忽略的 `extension_chrome/private-defaults.json`，例如 `{"domains":["example.com"]}`，再重新載入擴充功能。檔案僅作資料，不執行，也不會納入原始碼匯出或 Chrome、Safari 與 Firefox 建置套件。既有設定優先；設定缺失時既有動態規則優先並保留。兩者皆無時，預設檔缺失或無法讀取會使用空清單，JSON 無效則報錯。Safari 與 Firefox 不使用這些 Chrome 預設值。
 
 公開建置的預設封鎖清單為空。如需本機 Chrome 候選，建立 Git 忽略的 `Local/private-defaults.json`，內容例如 `{"domains":["example.com"]}`，再執行 `deno task private:build`。此命令驗證公開原始碼，並在 `Local/` 下產生獨立候選；設定檔與候選包含私人設定。預設值只在沒有已儲存設定時使用；既有清單（包括空清單）優先。命令不會安裝或重新載入擴充功能，也不適用於 Safari 或 Firefox。

@@ -77,6 +77,7 @@ for (const path of paths) {
   if (
     /^(?:Local|\.git|\.env|docs\/legacy)(?:\/|$)/.test(path) ||
     path === "extension_chrome/private-defaults.json" ||
+    path === "extension_safari/web-extension/private-defaults.json" ||
     /(?:^|\/)(?:AGENTS\.md|TASKS\.md|PLAN\.md|ERRORLOG\.txt|SOURCE-MANIFEST\.json)$/
       .test(path)
   ) throw Error(`Private source selection: ${path}`);

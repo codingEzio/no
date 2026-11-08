@@ -1,3 +1,4 @@
+// Product-maintained derivative of X-ExtShared scripts/sync_safari.ts.
 import { checkBrowserFontPackage } from "./calmly_package_guard.ts";
 
 const ROOT = new URL("../", import.meta.url);
@@ -31,17 +32,28 @@ function bytesEqual(left: Uint8Array, right: Uint8Array): boolean {
 async function collect(
   directory: URL,
   prefix = "",
+  excludePrivateDefaults = false,
 ): Promise<Map<string, Uint8Array>> {
   const files = new Map<string, Uint8Array>();
   for await (const entry of Deno.readDir(directory)) {
     if (entry.name === ".DS_Store" || entry.name === ".gitkeep") continue;
     const relative = prefix ? `${prefix}/${entry.name}` : entry.name;
     const url = new URL(entry.name + (entry.isDirectory ? "/" : ""), directory);
+    if (
+      excludePrivateDefaults && relative === "private-defaults.json" &&
+      entry.isFile
+    ) continue;
     if (entry.isSymlink) {
       throw new Error(`Safari sync refuses symlink: ${url.pathname}`);
     }
     if (entry.isDirectory) {
-      for (const [path, bytes] of await collect(url, relative)) {
+      for (
+        const [path, bytes] of await collect(
+          url,
+          relative,
+          excludePrivateDefaults,
+        )
+      ) {
         files.set(path, bytes);
       }
     } else if (entry.isFile) {
@@ -397,7 +409,7 @@ async function expectedFiles(
 ): Promise<Map<string, Uint8Array>> {
   const sourceRoot = pathOf(build.sourceRoot);
   await checkBrowserFontPackage(sourceRoot);
-  const files = await collect(sourceRoot);
+  const files = await collect(sourceRoot, "", true);
   const manifest = files.get("manifest.json");
   if (!manifest) throw new Error(`${build.id}: source manifest is missing`);
   const sourceManifest = JSON.parse(
@@ -525,6 +537,14 @@ function replaceManifestVersion(source: string, version: string): string {
 }
 
 async function syncVersion(build: SafariBuild, root: URL, check: boolean) {
+  // Prepared-source builds use this path without full source synchronization.
+  // Refuse stale private data rather than including it in a signed host.
+  try {
+    await Deno.lstat(new URL(`${build.webRoot}/private-defaults.json`, root));
+    throw new Error(`${build.id}: private defaults present in Safari source`);
+  } catch (error) {
+    if (!(error instanceof Deno.errors.NotFound)) throw error;
+  }
   const source = new URL(`${build.sourceRoot}/manifest.json`, root);
   const destination = new URL(`${build.webRoot}/manifest.json`, root);
   const version = manifestVersion(await Deno.readTextFile(source), build.id);

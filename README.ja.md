@@ -35,4 +35,4 @@ deno task build
 
 ## 任意の非公開デフォルト
 
-`extension_chrome/` を直接読み込む場合、Git 管理外の `extension_chrome/private-defaults.json` を `{"domains":["example.com"]}` のように作成し、拡張機能を再読み込みします。ファイルはデータであり実行されず、ソースの書き出しやパッケージにも含まれません。保存済み設定が優先されます。設定がない場合は既存の動的ルールを優先して保持します。どちらもない場合、ファイルがないか読めなければ空のリストを使い、不正な JSON はエラーになります。Safari と Firefox は使用しません。
+`extension_chrome/` を直接読み込む場合、Git 管理外の `extension_chrome/private-defaults.json` を `{"domains":["example.com"]}` のように作成し、拡張機能を再読み込みします。ファイルはデータであり実行されず、ソースの書き出しや Chrome、Safari、Firefox のパッケージにも含まれません。保存済み設定が優先されます。設定がない場合は既存の動的ルールを優先して保持します。どちらもない場合、ファイルがないか読めなければ空のリストを使い、不正な JSON はエラーになります。Safari と Firefox は使用しません。

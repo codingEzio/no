@@ -447,12 +447,6 @@
       "sha256": "22eecfa646b29f52353e425585977b1326d013c183a2b3ec6901c1278363328a"
     },
     {
-      "path": "extension_firefox/build_extensions.ts",
-      "owner": "X-ExtShared",
-      "source": "firefox_android/build_extensions.ts",
-      "sha256": "89915bf6820a121e50f69a5b468b1b0d8daf2b8c4f4112c110eb109e27ceef2e"
-    },
-    {
       "path": "extension_firefox/browser_fixture.ts",
       "owner": "X-ExtShared",
       "source": "firefox_android/browser_fixture.ts",
@@ -487,12 +481,6 @@
       "owner": "X-ExtShared",
       "source": "scripts/safari_status.sh",
       "sha256": "dfb30eb34991ed0b4164321a4642394bafeb4b4adf25ab29d5a873b84f4a02c4"
-    },
-    {
-      "path": "scripts/sync_safari.ts",
-      "owner": "X-ExtShared",
-      "source": "scripts/sync_safari.ts",
-      "sha256": "b897456d15bdf846c0747af7e88ad07bf8d60f2f3b55fbe1bb89aea0233d7ac7"
     },
     {
       "path": "scripts/open_safari_settings.sh",
