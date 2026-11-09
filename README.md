@@ -33,9 +33,9 @@ deno task build
 Checks use synthetic local fixtures. Build writes a Chrome candidate under
 ignored `Local/candidates/` and reads back its exact file hashes. It does not
 install an extension, open a browser, access personal settings or run a service.
-`extension_chrome/` is editable runtime source. `shared/`, `vendor/` and entries
-in `dependencies.lock.json` are pinned generated inputs. Normal checks/builds
-read these local copies, not sibling checkouts. See
+`extension_chrome/` is editable runtime source. `dependencies.lock.json`
+identifies pinned generated inputs and their owners. Normal checks/builds read
+local copies, not sibling checkouts. See
 [dependencies](DEPENDENCIES.md).
 
 Change a dependency at its recorded source owner, then explicitly sync reviewed
@@ -53,9 +53,9 @@ paused. No command above resumes either port.
 
 ## Build a copied source candidate
 
-A candidate exported below omits two pinned Firefox operational documents that
-contain private history. This independent candidate removes those two documentation entries from its
-local dependency lock. All remaining pins stay strict. In this candidate, run:
+A copied source candidate excludes private operational documents. The current
+lock does not require the private Firefox README or PLAN; all listed pins remain
+subject to verification. In a copied candidate, run:
 
 ```sh
 deno task check
@@ -67,8 +67,8 @@ font manifest pin, manifest resources and the pinned Chrome ID. When present,
 `SOURCE-RECEIPT.json` is checked against every selected file and its seal;
 the output reports whether the receipt was verified or absent. This detects
 copy changes but does not authenticate the source: compare its seal with the
-trusted review record. The private Firefox README and PLAN are excluded from this candidate and its
-lock; a missing or changed remaining runtime/build pin still fails. It writes an immutable Chrome
+trusted review record. A missing or changed runtime/build pin still fails. It
+writes an immutable Chrome
 candidate and relative-path receipt under `Local/public-build/`. Repeating it
 verifies the same output without overwriting mismatches. It needs neither Git
 history nor sibling checkouts and does not build or activate Firefox.
@@ -108,8 +108,9 @@ performance still need separate Safari acceptance.
 
 The isolated candidate uses new Firefox add-on IDs without personal naming. They
 are separate identities and cannot upgrade existing Firefox installations in place.
-The candidate derives its Firefox adapter/build files from the pinned shared
-source with only these ID substitutions; the owner sources remain unchanged.
+The Firefox adapter is pinned from shared source; the builder is a no-maintained
+derivative with private-file exclusion and fresh-target checks. Shared owner
+sources remain unchanged.
 
 This candidate also generalizes shared design review notes and updates its local
 lock; source assets and license notices remain unchanged.

@@ -31,11 +31,9 @@ Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作
 不代表散布授權。 原始碼已公開；後續發布仍須審查內容、資產權利與歷史。
 這些命令不會上傳、發布、安裝或改寫歷史。完整入口見 [README](README.md)。
 
-匯出的獨立來源候選排除兩個固定的 Firefox 私有操作文件。原 `check`／`build`
-仍嚴格 要求完整本機檢出；複製候選後執行 `deno task test` 與
-`deno task public:build`。
-獨立路徑只豁免這兩個文件，仍驗證全部選定相依、字型、資源與 Chrome 身分；缺少或
-變更的 runtime 輸入會失敗。輸出與相對路徑收據儲存於
+匯出的獨立來源候選不含 Firefox 私有操作文件；目前相依鎖不要求這些文件。
+複製候選後可執行 `deno task check` 與 `deno task public:build`。
+獨立路徑驗證全部選定相依、字型、資源與 Chrome 身分；缺少或變更的 runtime 輸入會失敗。輸出與相對路徑收據儲存於
 `Local/public-build/`，重跑讀回
 完整檔案與位元組；不會覆寫不符候選，也不會建置或啟用 Firefox。
 

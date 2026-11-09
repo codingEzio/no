@@ -38,10 +38,9 @@
 - Source review/export uses Git and Deno. `scripts/public_prepare.ts` and its
   boundary fixture start from Tab Merge N Sort commit `e380e75`; No adds
   rejection of control characters in source paths and its own explicit
-  selection. Its independent builder uses existing local file/hash helpers and
-  the font guard, preserves the original strict verifier and lock, and exempts
-  exactly the two excluded private Firefox documentation pins. No new runtime
-  dependency is introduced.
+  selection. Its independent builder uses local file/hash helpers and the font
+  guard. The current lock excludes the two private Firefox documents; listed pins
+  remain verified. No new runtime dependency is introduced.
 
 Project-owned code in this release uses [GPL-3.0-only](LICENSE).
 [License scope](LICENSE-SCOPE.md) retains the earlier MIT grant as historical

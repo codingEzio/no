@@ -30,11 +30,9 @@ Chrome「加载已解压的扩展程序」直接选择 `extension_chrome/`，无
 源码已公开；后续发布仍须审查内容、资产权利与历史。
 这些命令不会上传、发布、安装或重写历史。完整入口见 [README](README.md)。
 
-导出的独立来源候选排除两个固定的 Firefox 私有操作文档。原 `check`／`build`
-仍严格 要求完整本地检出；复制候选后运行 `deno task test` 与
-`deno task public:build`。
-独立路径只豁免这两个文档，仍验证全部选定依赖、字体、资源及 Chrome 身份；缺失或
-变更的运行时输入会失败。输出与相对路径回执保存在 `Local/public-build/`，重跑读回
+导出的独立来源候选不含 Firefox 私有操作文档；当前依赖锁不要求这些文档。
+复制候选后可运行 `deno task check` 与 `deno task public:build`。
+独立路径验证全部选定依赖、字体、资源及 Chrome 身份；缺失或变更的运行时输入会失败。输出与相对路径回执保存在 `Local/public-build/`，重跑读回
 完整文件与字节；不会覆盖不匹配候选，也不会构建或启用 Firefox。
 
 桌面 Safari 保留独立的 0.99.0 源码；Chrome 私人默认值处理尚未同步或验证。
