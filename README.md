@@ -32,7 +32,9 @@ deno task build
 
 Checks use synthetic local fixtures. Build writes a Chrome candidate under
 ignored `Local/candidates/` and reads back its exact file hashes. It does not
-install an extension, open a browser, access personal settings or run a service.
+install an extension, open a browser or run a service. Local verification may
+read the private defaults file; regular and public packages exclude it. Complete
+matching candidates are verified and reused; other candidates are preserved.
 `extension_chrome/` is editable runtime source. `dependencies.lock.json`
 identifies pinned generated inputs and their owners. Normal checks/builds read
 local copies, not sibling checkouts. See

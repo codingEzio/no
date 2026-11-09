@@ -12,7 +12,8 @@ no 是 Chrome 網域封鎖擴充，目前版本 0.99.1，以全視窗 NO ✋ 阻
 Chrome「載入未封裝項目」直接選擇 `extension_chrome/`，無需工作區或符號連結。
 在 macOS 上安裝 Deno 2.x 與 Git，執行
 `deno task check`、`deno task build`。檢查使用合成資料； 建置只產生並讀回驗證
-`Local/candidates/` 中的候選，不安裝或開啟瀏覽器。 共用輸入由
+`Local/candidates/` 中的候選，不安裝或開啟瀏覽器。本機校驗可能讀取私人預設值；
+一般及公開建置套件不包含該檔案。一致的完整候選會核驗後複用；其他候選會保留。 共用輸入由
 `dependencies.lock.json` 固定；日常建置不讀取相鄰專案。
 更新相依須先修改來源專案，再明確同步。工具與相依見
 [DEPENDENCIES](DEPENDENCIES.md)。 桌面 macOS Safari 來源版本也為

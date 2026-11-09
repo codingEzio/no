@@ -434,6 +434,7 @@
     "shared/safari-host/SafariWebExtensionHandler.swift",
     "tests/import_check_test.ts",
     "tests/no_test.ts",
+    "tests/package_local_test.ts",
     "tests/platform_private_test.ts",
     "tests/public_build_test.ts",
     "tests/public_prepare_test.ts",
